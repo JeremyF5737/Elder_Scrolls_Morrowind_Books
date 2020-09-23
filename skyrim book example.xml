@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Accounting_of_the_Scrolls>
+<Book form="tan_Thick" name="An Accounting of the Scrolls">An Accounting of the Scrolls</Book>
+
+<writer who="Quintus Nerevelus"></writer>
+
+<Game xmlid="Skyrim"> The Elder Scrolls V: Skyrim </Game>
+
+
+<Acquisition>Locations
+<location xmlid="college_Winter" visitable="yes">College of Winterhold</location>, it can only be bought from <NPC>Urag gro-Shub</NPC> as part of the quest, <quest>Elder Knowledge</quest>.
+</Acquisition>
+   <contents>
+    <line>After the supposed theft of an <plot_item>Elder Scroll </plot_item>from our <location visitable="no">Imperial Library</location>, I endeavored to find any sort of index or catalogue of the <plot_item what="E_Scroll">Scrolls</plot_item> in our possession so that such situations may be avoided (or at least properly verified) in the future. </line>
+
+    <line>To my dismay, I discovered that the <group who="monks">Moth Priests</group> are notoriously inexact when it comes to the actual physical manifestations of the <plot_item what="E_Scroll">Scrolls</plot_item>, and had no idea how many they held, or how they were organized. </line>   
+
+    <line>Merely asking the question evoked chuckles, as if a child was asking why dogs cannot talk.</line>
+
+    <line>I will confess, my jealousy of the ones who can read the <plot_item what="E_Scroll">Scrolls</plot_item> grows, but I am not yet willing to sacrifice my sight to alleged knowledge. The older <group who="monks">Moth Priests</group> I attempt to engage in conversation seem as batty as any other elder who has lost their mind, so I fail to see what wisdom is imparted from the reading.</line>
+
+    <line>In any case, I set out to create my own index of the <plot_item what="E_Scroll">Elder Scrolls</plot_item>, in cooperation with the <group who="monks">monks</group>. </line>
+        
+    <line>Day by day, we went through the <location visitable="no">tower halls</location>, with them telling me the general nature of each <plot_item>Elder Scroll</plot_item> so that I might record its location. Always careful never to glimpse the writings myself, I had only <group who="monks">their</group> word to go on. I meticulously drew out a map of the chambers, where <plot_item>Scrolls</plot_item> relating to various specific prophecies were located, where particular periods of history were housed. </line>       
+
+    <line>In all, it took nearly a year of plodding, but at last I had rough notes on the entirety of the <location visitable="no">library</location> to begin my collation.</line>
+
+    <line>It was here that things began to go amiss. In studying my notes, I found many areas of overlap and outright contradiction. In some cases different <group who="monks">monks</group> would claim the same <plot_device>scroll</plot_device> to be at opposite ends of the <location visitable="no"></location>tower.</line>
+    <line>I know they have no taste for jesting, or else I would suspect I was being made the fool in some game of theirs.</line>
+
+    <line>I spoke to one of the older <person who="old_Monk">monks</person> to relate my concerns, and he hung his head in sorrow for my wasted time. <narration who="old_Monk">"Did I not tell you," he coughed, "when you started this that all efforts would be futile? The <plot_item>Scrolls</plot_item> do not exist in countable form."</narration>
+<narration who="Quintus"> "I had thought you meant there were too many to be counted."</narration></line>
+
+    <line><narration who="old_Monk">"There are, but that is not the least of <plot_item what="E_scrolls">their</plot_item> complexities. Turn to the repository behind you, and tell me how many Scrolls are locked therein."</narration></line>
+
+    <line>I ran my fingers over the metal casings, tallying each rounded edge that they encountered. I turned back -- <narration who="Quintus">"Fourteen,"</narration> I said.</line>
+
+    <line><narration who="old_Monk">"Hand me the eighth one,"</narration> he said, reaching out his hand.</line>
+
+    <line>I guided the <object item="scroll">cylinder</object> into his palm, and he gave a slight nod to acknowledge it. <narration who="old_Monk">"Now, count again."</narration></line>
+
+    <line>Humoring him, I again passed my hands over the <object item="scroll">Scrolls</object>, but could not believe what I was feeling. <narration who="Quintus">"Now... now there are eighteen!"</narration> I gasped.</line>
+
+    <line>The old monk chuckled, his cheeks pushing up his blindfold until it folded over itself. <narration who="old_Monk">"And in fact," he said, "there always were."</narration></line>
+
+    <line>It was then that I enrolled as the <person who="Quintus">oldest novice</person> ever accepted into the <group who="monks">Cult of the Ancestor Moth.</group></line>
+</contents>
+
+<Appearances>Appearances
+The Elder Scrolls V: Skyrim
+The Elder Scrolls Online (As An Accounting of the Elder Scrolls. The books are distinguishable only by title)
+</Appearances>
+    <consoleID>000ED03A</consoleID>
+</Accounting_of_the_Scrolls>
