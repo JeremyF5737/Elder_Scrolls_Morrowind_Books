@@ -1,0 +1,30 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = Acct_Scrolls
+Acct_Scrolls = element Acct_Scrolls {Book, Acquisition, contents, Appearances, consoleID}
+# rename to Acct_Scrolls
+Book = element Book {mixed {form | name | writer | Game}}
+form = attribute form {xmlid}
+name = attribute name {xmlid}
+writer = attribute writer {xmlid}
+Game = attribute Game { "The Elder Scrolls III: Morrowind" | "The Elder Scrolls IV: Oblivion" | "The Elder Scrolls V: Skyrim" }
+
+Acquisition = element Acquisition {location}
+location = element location {xmlid, visitable, text}
+xmlid = attribute xmlid {text}
+visitable = attribute visitable {"yes" | "no" }
+
+contents = element contents {line*}
+line = element line {mixed{(plot_item, location, group, plot_device, narration, person, object)*}}
+plot_item = element plot_item {what?, text}
+what = attribute what {text}
+group = element group {who?, text}
+who = attribute who {text}
+narration = element narration {who?, text}
+person = element person {who?, text}
+object = element object {item?, text}
+item = attribute item {text}
+
+Appearances = element Appearances {text}
+
+consoleID = element consoleID {text}`
