@@ -1,24 +1,23 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = Book
-Book = element Book {book_title, writer, Game, Acquisition, contents, Appearances, consoleID, text}
+Book = element Book {mixed {book_title, writer, Game, Acquisition, contents, Appearances, consoleID}}
 # rename to Acct_Scrolls
-book_title = element book_title {mixed {form, name}}
+book_title = element book_title {xmlid, form, text}
 form = attribute form {xsd:ID}
-name = attribute name {xsd:ID}
+xmlid = attribute xml:id {xsd:ID}
 writer = element writer {who, listed, text}
 who = attribute who {text}
 listed = attribute listed {"yes" | "no"}
 #defined xsd:identifiers
-Game = attribute Game {"morrowind"}
-
-Acquisition = element Acquisition {location}
-xmlid = attribute xmlid {text}
-visitable = attribute visitable {"yes" | "no" }
-
-contents = element contents {line*}
-line = element line {mixed{(location, group, plot_device, narration, person, object)*}}
+Game = element Game {xmlid, text}
+Acquisition = element Acquisition {xmlid, mixed{(location, NPC, quest)*}}
 location = element location {xmlid, visitable, text}
+visitable = attribute visitable {"yes" | "no" }
+NPC = element NPC {text}
+quest = element quest {text}
+contents = element contents {line+}
+line = element line {(text, plot_device)*, (location, group, person, narration, object)?}
 plot_device = element plot_device {what?, text}
 what = attribute what {text}
 group = element group {who?, text}
