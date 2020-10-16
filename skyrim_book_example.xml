@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="RelaxNG_Joelpie_WIP.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
-    <book_title form="tan_Thick" name="An Accounting of the Scrolls"> An Accounting of the Scrolls </book_title>
+    <book_title form="tan_Thick" xml:id="AcctOScrolls"> An Accounting of the Scrolls </book_title>
 <writer who="Quintus Nerevelus" listed="yes"></writer>
 
-    <Game xmlid="morrowind"> The Elder Scrolls V: Skyrim </Game>
+    <Game xml:id="morrowind"> The Elder Scrolls V: Skyrim </Game>
 
 
 
