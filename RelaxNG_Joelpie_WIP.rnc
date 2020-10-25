@@ -1,32 +1,33 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = Book
-Book = element Book {mixed {book_title, writer, Game, Acquisition, contents, Appearances, consoleID}}
+Book = element Book {mixed {book_title, writer, Acquisition, contents, Appearances, consoleID}}
 # rename to Acct_Scrolls
-book_title = element book_title {xmlid, form, text}
-form = attribute form {xsd:ID}
+#removed Game element
+#removed form element
 xmlid = attribute xml:id {xsd:ID}
+book_title = element book_title {xmlid, text}
 writer = element writer {who, listed, text}
-who = attribute who {text}
+who = element who {xmlid, text}
 listed = attribute listed {"yes" | "no"}
 #defined xsd:identifiers
-Game = element Game {xmlid, text}
 Acquisition = element Acquisition {xmlid, mixed{(location, NPC, quest)*}}
 location = element location {xmlid, visitable, text}
 visitable = attribute visitable {"yes" | "no" }
-NPC = element NPC {text}
-quest = element quest {text}
+NPC = element NPC {who, text}
+quest = element quest {xmlid, text}
 contents = element contents {line+}
 line = element line {(text, plot_device)*, (location, group, person, narration, object)?}
 plot_device = element plot_device {what?, text}
-what = attribute what {text}
+what = element what {xmlid, text}
 group = element group {who?, text}
 
 narration = element narration {who?, text}
 person = element person {who?, text}
 object = element object {item?, text}
-item = attribute item {text}
+item = element item {xmlid, text}
 
 Appearances = element Appearances {text}
 
-consoleID = element consoleID {text}
+consoleID = element consoleID {xmlid, text}
+#Added a lot of xmlid's, changed a few attributes to elements, overall improvements
