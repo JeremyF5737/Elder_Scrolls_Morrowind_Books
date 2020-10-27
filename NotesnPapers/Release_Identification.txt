@@ -1,0 +1,7 @@
+For release, by Emperor Uriel Septim VII's decree, to the district of Vvardenfell in the province of Morrowind.
+
+Name: %PCName
+Race: %PCRace
+Class: %PCClass
+
+Signed, Socucius Ergalla Agent of the Seyda Neen Imperial Census and Excise. 16th of Last Seed 3E 427
