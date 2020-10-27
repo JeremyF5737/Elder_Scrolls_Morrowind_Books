@@ -58,6 +58,8 @@ h1 {
   margin-top: 8px;
   vertical-align: middle;
   width: fill;
+  border-color: #FABD4B;
+  border-width: thick;
   
 }
 /* Responsive layout */
