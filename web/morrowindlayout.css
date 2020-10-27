@@ -1,0 +1,103 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Console", Courier, monospace;
+}
+h1 {
+    text-align:center;
+}
+/* Style the header */
+.header {
+  background-color: #FABD4B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+/* Container for flexboxes */
+.row {
+  
+  display: flex;
+}
+
+/* Creates three unequal columns that sit next to each other */
+.column {
+  padding: 10px;
+  
+}
+
+/* Left and right column */
+.column.side {
+   
+
+   flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+ 
+  flex: 2;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url(images/books.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: fill;
+  
+}
+/* Responsive layout */
+@media (max-width: 600px) {
+  .row {
+
+    flex-direction: column;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float:inherit;
+  
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #E39439;
+}
+
