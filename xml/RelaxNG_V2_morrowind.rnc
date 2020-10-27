@@ -5,19 +5,20 @@ Book = element Book {mixed {book_title, writer, Acquisition, contents, Appearanc
 # rename to Acct_Scrolls
 #removed Game element
 #removed form element
-xmlid = attribute xml:id {xsd:ID}
-book_title = element book_title {xmlid, text}
+xmlid = attribute xmlid {xsd:ID}
+book_title = element book_title {xmlid, mixed{location}}
+#mixed book_title
 writer = element writer {who, listed, text}
 who = element who {xmlid, text}
 listed = attribute listed {"yes" | "no"}
 #defined xsd:identifiers
-Acquisition = element Acquisition {xmlid, mixed{(location, NPC, quest)*}}
+Acquisition = element Acquisition {xmlid, mixed{(location | NPC | quest)*}}
 location = element location {xmlid, visitable, text}
 visitable = attribute visitable {"yes" | "no" }
 NPC = element NPC {who, text}
 quest = element quest {xmlid, text}
-contents = element contents {line+}
-line = element line {(text, plot_device)*, (location, group, person, narration, object)?}
+contents = element contents {mixed{line*}}
+line = element line {(text, plot_device)*, (location | group | person | narration | object)?}
 plot_device = element plot_device {what?, text}
 what = element what {xmlid, text}
 group = element group {who?, text}

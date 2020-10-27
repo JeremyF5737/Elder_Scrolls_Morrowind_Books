@@ -1,75 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RelaxNG_V2_morrowind.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
-    <book_title>Guide to <location visitable="yes">Balmora</location></book_title>
-
-    <writer listed="no"> Anonymous </writer>
-
-    <Acquisition> 
-        <NPC who="Codus Callonus">Codus Callonus</NPC>
-        <NPC who="Dorisa Darvel">Dorisa Darvel</NPC> 
-        <NPC who="Falvel Arenim"> Falvel Arenim </NPC> 
-        <NPC who="Phane Rielle"> Phane Rielle </NPC> 
-        <NPC who="Segunivus Mantedius"> Segunivus Mantedius </NPC> 
-        <NPC who="Sovor Trandel"> Sovor Trandel </NPC> 
-        "random_book_imperial_dunmer" <item>(randomized item)</item>
+    <book_title xmlid="Guide to Balmora">Guide to <location xmlid="Balmora" visitable="yes"
+            >Balmora</location></book_title>
+    <writer listed="no">
+        <who xmlid="Anonymous">Anonymous</who>
+    </writer>
+    <Acquisition>
+        <NPC>
+            <who xmlid="Codus Callonus">Codus Callonus</who></NPC>
+        <NPC>
+            <who xmlid="Dorisa Darvel">Dorisa Darvel</who></NPC>
+        <NPC>
+            <who xmlid="Falvel Arenim"> Falvel Arenim </who></NPC>
+        <NPC>
+            <who xmlid="Phane Rielle"> Phane Rielle </who></NPC>
+        <NPC>
+            <who xmlid="Segunivus Mantedius"> Segunivus Mantedius </who></NPC>
+        <NPC>
+            <who xmlid="Sovor Trandel"> Sovor Trandel</who>
+        </NPC> "random_book_imperial_dunmer" <item>(randomized item)</item>
     </Acquisition>
-
     <contents>
-        <location visitable="yes"><location visitable="yes">Balmora</location></location> is the
-        district seat of House Hlaalu, and the largest settlement on <location visitable="yes"
-            >Vvardenfell</location> after <location visitable="yes">Vivec City</location>. <location
-            visitable="yes">Balmora</location>'s four districts are <location visitable="yes">High
-            Town</location>, the <location visitabe="yes">Commercial District</location>, <location
-            visitable="yes">Labor Town</location>, and <location visitable="yes">Fort
-            Moonmoth</location>. <location visitable="yes">High Town</location>, on the hill to the
-        west, has the <location visitable="yes">Tribunal Temple</location>, <location
-            visitable="yes">Hlaalu Council Hall</location>, rich manors, better shops, and the
-            <location visitable="yes">Morag Tong guildhall</location>. <location visitable="yes">The
-                <location visitabe="yes">Commercial District</location></location>, just west of the
-        river, is centered on the large plaza north of South Gate, with the <location
-            visitable="yes">strider port along the south wall</location>, east of South Gate. The
-        Fighters Guild and Mages Guild, and most of <location visitable="yes">Balmora</location>'s
-        shops and inns, are located along the streets of the <location visitabe="yes">Commercial
-            District</location>. <location visitable="yes">Labor Town</location>, east of the river,
-        where the commoners and poor live, has several modest cornerclubs and a few merchants.
-            <location visitable="yes">Fort Moonmoth</location>, a long walk southeast of town,
-        houses the Legion garrison and the Imperial cult. Services House Hlaalu services are
-        available at <location visitable="yes">Hlaalu Council Manor</location> in <location
-            visitable="yes">High Town</location>. Temple faithful seek solace and services at the
-            <location visitable="yes">Balmora Temple</location> in the southeast. Outlanders must
-        travel outside the town walls, through South Gate and east along well-marked roads to
-            <location visitable="yes">Fort Moonmoth</location> for Imperial Legion and the Imperial
-        cult services. The guildhalls of the Fighters Guild and Mages Guild are on the street north
-        from the plaza in the <location visitabe="yes">Commercial District</location>. Morag Tong
-        services are available at their guildhall in the extreme northwest of <location
-            visitable="yes"><location visitable="yes">High Town</location></location>. Better shops
-        are in <location visitable="yes">High Town</location> on the hill, with numerous merchants
-        in the <location visitable="yes">Commercial District</location>, west of the river, and a
-        few traders in <location visitable="yes">Labor Town</location>, east of the river. Notable
-        Figures None of the Hlaalu counselors live in <location visitable="yes">Balmora</location>.
-            <NPC who="Nileno Dorvayn>Nileno Dorvayn"/> at the Council Hall is the ranking Hlaalu
+        <line><location visitable="yes">Balmora</location> is the district seat of House Hlaalu, and the
+        largest settlement on <location xmlid="Vvwardenfell" visitable="yes">Vvardenfell</location> after <location
+            xmlid = "Vivec City" visitable="yes">Vivec City</location>. <location xmlid="Balmora" visitable="yes">Balmora</location>'s
+        four districts are <location xmlid="High Town" visitable="yes">High Town</location>, the</line> <location
+            xmlid="Commercial District" visitable="yes">Commercial District</location>, <location xmlid="Labor Town" visitable="yes">Labor
+            Town</location>, and <location xmlid="Fort Moonmoth" visitable="yes">Fort Moonmoth</location>. <location
+            xmlid="High Town" visitable="yes">High Town</location>, on the hill to the west, has the <location
+            xmlid="Tribunal Temple" visitable="yes">Tribunal Temple</location>, <location xmlid="Hlaalu Council" visitable="yes">Hlaalu Council
+                Hall</location>, rich manors, better shops, and the <location xmlid="Morag Tong guildhall" visitable="yes">Morag Tong
+            guildhall</location>. <location xmlid="Commercial District" visitable="yes">The Commercial
+                District, just west of the river, is centered on the large
+        plaza north of South Gate, with the <location xmlid="strider port" visitable="yes">strider port along the south
+            wall</location>, east of South Gate. The Fighters Guild and Mages Guild, and most of
+            <location xmlid="Balmora" visitable="yes">Balmora</location>'s shops and inns, are located along the
+        streets of the <location xmlid="Commercial District" visitable="yes">Commercial District</location>. <location xmlid="Labor Town"
+  visitable="yes">Labor Town</location>, east of the river, where the commoners and poor
+        live, has several modest cornerclubs and a few merchants. <location xmlid="Fort Moonmoth" visitable="yes">Fort
+            Moonmoth</location>, a long walk southeast of town, houses the Legion garrison and the
+        Imperial cult. Services House Hlaalu services are available at <location xmlid="Hlaalu Council Manor" visitable="yes">Hlaalu Council Manor</location> in <location visitable="yes">High Town</location>.
+        Temple faithful seek solace and services at the <location xmlid="Balmora" visitable="yes">Balmora
+            Temple</location> in the southeast. Outlanders must travel outside the town walls,
+        through South Gate and east along well-marked roads to <location xmlid="Fort Moonmoth" visitable="yes">Fort
+            Moonmoth</location> for Imperial Legion and the Imperial cult services. The guildhalls
+        of the Fighters Guild and Mages Guild are on the street north from the plaza in the
+            <location xmlid="Commercial District" visitable="yes">Commercial District</location>. Morag Tong services are
+        available at their guildhall in the extreme northwest of <location xmlid="High Town" visitable="yes">High Town</location>. Better shops are in <location xmlid="High Town" visitable="yes">High Town</location> on the hill, with numerous merchants in the
+            <location xmlid="Commercial District" visitable="yes">Commercial District</location>, west of the river, and a few
+        traders in <location xmlid="Labor Town" visitable="yes">Labor Town</location>, east of the river. Notable
+        Figures None of the Hlaalu counselors live in <location xmlid="Balmora" visitable="yes">Balmora</location>.
+            <NPC who="Nileno Dorvayn"/> at the Council Hall is the ranking Hlaalu
         local. At the Fighters Guild, Eydis Fire-Eye is the steward. <NPC who="Ranis Athrys">Ranis
             Athrys</NPC> is the Mages Guild steward. <NPC who="Ethasi Rilvayn">Ethasi Rilvayn</NPC>
         is the Morag Tong steward. <NPC who="Feldrelo Sadri">Feldrelo Sadri</NPC> is the ranking
-        cleric of the <location visitable="yes">Balmora Tribunal Temple</location>. The colorful
+                cleric of the <location xmlid="Balmora Tribunal Temple" visitable="yes">Balmora Tribunal Temple</location>. The colorful
             <NPC who="'Sugar Lips' Habasi">'Sugar Lips' Habasi</NPC>, a freelance facilitator of no
         fixed address, is often rumored to be the local boss of the Thieves Guild. Transportation A
-        good road leads south to <location visitable="yes">Pelagiad</location>, <location
+        good road leads south to <location xmlid="Pelagiad" visitable="yes">Pelagiad</location>, <location xmlid="Seyda Neen"
             visitable="yes">Seyda Neen</location>, <location visitable="yes">Ebonheart</location>,
-        and <location visitable="yes">Vivec</location>. A rugged wilderness track leads southwest
-        along the Odai River to the fishing village of <location visitable="yes">Hla Oad</location>.
-        Improved roads head north to Caldera and <location visitable="yes">Ald'ruhn</location>. The
+        and <location xmlid="Vivec" visitable="yes">Vivec</location>. A rugged wilderness track leads southwest
+        along the Odai River to the fishing village of <location xmlid="Hla Oad" visitable="yes">Hla Oad</location>.
+        Improved roads head north to Caldera and <location xmlid="Ald'ruhn" visitable="yes">Ald'ruhn</location>. The
         silt strider port is on the west side of the river near South Gate. Silt strider service
-        goes to <location visitable="yes">Ald'ruhn</location>, <location visitable="yes"
+        goes to <location xmlid="Ald'ruhn" visitable="yes">Ald'ruhn</location>, <location xmlid="Suran" visitable="yes"
             >Suran</location>, <location visitable="yes">Ald'ruhn</location>, and <location
             visitable="yes">Seyda Neen</location>. Guild guides at the Mages Guild can teleport you
-        to <location visitable="yes">Ald'ruhn</location>, <location visitable="yes"
-        >Vivec</location>, <location visitable="yes">Caldera</location>, and <location
-            visitable="yes">Sadrith Mora</location> for a fee. <location visitable="yes">Hla
+        to <location xmlid="Ald'ruhn" visitable="yes">Ald'ruhn</location>, <location xmlid="Vivec" visitable="yes"
+        >Vivec</location>, <location xmlid="Caldera" visitable="yes">Caldera</location>, and <location xmlid="Sadrith Mora"
+            visitable="yes">Sadrith Mora</location> for a fee. <location xmlid="Hla Oad" visitable="yes">Hla
             Oad</location> is southwest on the coast. An unimproved trail leads northeast up the
-        ravines of <location visitable="yes">Foyada Mamaea</location> to <location visitable="yes"
+        ravines of <location xmlid="Foyada Mamaea" visitable="yes">Foyada Mamaea</location> to <location xmlid="Ghostgate" visitable="yes"
             >Ghostgate</location>; the path is easy to follow, but dangerous beasts threaten
-        pilgrims who travel this route to <location visitable="yes">Ghostgate</location>
+        pilgrims who travel this route to <location xmlid="Ghostgate" visitable="yes">Ghostgate</location>
         shrine.</contents>
-
 </Book>
