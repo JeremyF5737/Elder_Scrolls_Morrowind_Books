@@ -9,11 +9,11 @@ xmlid = attribute xmlid {xsd:ID}
 ref = attribute ref {text}
 book_title = element book_title {ref, mixed{location*}}
 #mixed book_title
-writer = element writer {who, listed, text}
+writer = element writer {(who)*, listed, text}
 who = attribute who {text}
 listed = attribute listed {"yes" | "no"}
 #defined xsd:identifiers
-Acquisition = element Acquisition {(location | NPC | item | quest | text)*}
+Acquisition = element Acquisition {(location | person | item | quest | text)*}
 location = element location {ref?, visitable?, text}
 visitable = attribute visitable {"yes" | "no"}
 NPC = attribute NPC {text}
@@ -27,7 +27,7 @@ what = attribute what {text}
 group = element group {who?, text}
 
 narration = element narration {who?, text}
-person = element person {who?, text}
+person = element person {ref, text}
 object = element object {item?, text}
 item = element item {ref?, text}
 
