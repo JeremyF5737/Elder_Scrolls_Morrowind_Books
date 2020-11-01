@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Capn's_Guide_to_the_Fishy_Stick">Capn's Guide to the Fishy Stick</book_title>
+    <writer listed="no">Anonymous</writer>
+<Acquisition>
+    Upper level of the <location visitable = "yes" ref="Ancient Shipwreck">Ancient Shipwreck</location>
+</Acquisition>
+    
+<contents>    
+<p>This book is supposedly the definitive reference to <plot_device what="fishy stick">fishy sticks</plot_device> throughout <location visitable="yes" ref="Tamriel">Tamriel</location>, but the pages are so smeared with fishy stick sauce it is impossible to read any of them.</p>
+</contents>
+</Book>
