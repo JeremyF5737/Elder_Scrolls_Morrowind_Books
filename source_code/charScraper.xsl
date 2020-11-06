@@ -13,4 +13,19 @@
         </xd:desc>
     </xd:doc>
     <xsl:mode on-no-match="shallow-copy"/>
+
+<xsl:template match="tr">
+    <char xml:id="{(descendant::a/@href)[1]!tokenize(., '/')[last()]}" sex="{td[3]!normalize-space()}" race="" origin=""></char>
+
+</xsl:template>
+    
+
+
+
+
+
+
+
+
 </xsl:stylesheet>
+
