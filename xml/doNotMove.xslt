@@ -54,12 +54,6 @@
         
     </xsl:template>
     
-    <xsl:template match="lg">
-        <p><xsl:apply-templates/></p>
-    </xsl:template>
-    <!--    JJF: This changes the <lg></lg> into <p></p> elements. We dont't need to worry about matching the <p> elements because <lg> is captured in the html template above</lg></p>-->
-    <!--ebb Notice that we need a template rule just for <lg> because there are multiple <lg> elements in each poem, and we wish to wrap an HTML <p> element around each one. Since the only child of lg is l, that is what will fire next.-->
-    
     <xsl:template match="l" mode="toc">
         <q><xsl:apply-templates/></q>
     </xsl:template>

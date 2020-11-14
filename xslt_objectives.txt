@@ -1,0 +1,23 @@
+Objectives for XSLT converter
+
+1: Convert xml books to html
+
+2: Use CSS to highlight xmlids (separate colors for each category) EX: Characters = blue ; locations = green 
+
+3: OPTIONAL: make a xmlid count at the bottom of the contents, showing how many times that xmlid was used in the book
+
+4: Output html in fashon that makes it look like a standard wiki
+Book title
+Author
+Acquisiton
+Contents
+Xmlid count
+
+5: <h1> <strong>book title</strong>
+
+<h2> <em> author </em>
+<h2> Acquisition
+<h2> Contents
+<h2> xmlid count
+
+6: OPTIONAL Make abridged version at the end of contents for each book
