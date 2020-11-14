@@ -2,7 +2,7 @@
 <?xml-model href="morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
     <book_title ref="life_n_Service">The Book of Life and Service</book_title>
-    <writer listed="no"> Anonymous</writer>
+    <writer listed="no">Anonymous</writer>
 
 <Acquisition>
     
@@ -21,10 +21,6 @@
     <location ref="Teran Hall">Teran Hall</location> in <location ref="Old Mournhold">Old Mournhold</location>  
       
 </Acquisition>
-
-
-
-
 
 <contents>
 

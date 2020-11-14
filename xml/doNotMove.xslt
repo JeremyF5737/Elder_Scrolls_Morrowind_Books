@@ -20,8 +20,7 @@
 <!--            Takes the book title element and outputs it into the head as text-->
             <body>
                 
-                <h1>Emily Dickinson’s Fascicle 16</h1>
-                <h2>Table of Contents</h2>
+  
                 <ul><xsl:apply-templates select="$xmlColl//body" mode="toc"/></ul>
                 <hr/>
                 <!--ebb: This template rule sets up my "toc" mode for the table of contents, so that in the top part of the document we'll output a selection of the body elements specially formatted for my Table of Contents, and so that in another section of my document below, which I've put inside a <div> element, we can also output the full text of the poems with their titles again.  -->           
@@ -34,24 +33,18 @@
             
         </html>
     </xsl:template>
-<!--    End of the html converting template-->
+<!--End of the html converting template-->
     
     
-    <xsl:template match="body" mode="toc">
-        <li><strong><xsl:apply-templates select="descendant::title"/></strong>: 
-            <!--            This outputs bold text on the title of the poems in the collection-->
-            <xsl:apply-templates select="lg[1]/l[1]" mode="toc"/>
-            <!--ebb: In order to output the first line of each poem, I need to look in the first <lg> element, and then step down into the first <l> element.-->
-            <xsl:text> [Variants: </xsl:text><xsl:value-of select="count(descendant::rdg)"/><xsl:text>]</xsl:text>
-        </li>
-        <!--ebb: Here we have used <xsl:text>...</xsl:text> to introduce plain text in our mixed content, which is the recommended practice in writing XSLT. Notice how this helps us to control white space in our output: I have inserted a single controlled space in front of the first square bracket of [Variants: ...] this way.
-        We are outputing a count of the Variants in each poem by counting the number of times the <rdg> element appears. In the next exercise this count() will give us a way to sort the poems based on how many variants they contain.
-        -->
+    <xsl:template match="contents" mode="toc">
+       <strong><xsl:apply-templates select="preceding::book_title"/></strong>: 
+            <!--Takes the book title from the contents and makes -->
+           
     </xsl:template>
     
-    <xsl:template match="body">
-        <h2><xsl:apply-templates select="descendant::title"/>
-        </h2>
+    <xsl:template match="contents">
+        <xsl:apply-templates select="descendant::p"/>
+        
         <!--ebb: This rule outputs the titles once again, this time in another section of the document where you are reproducing the full text of each poem. 
             NOTE: You may have observed in your output that some of our titles are inconsistently formatted! Some poem numbers have a period after them, and some only white space before the parenthetical information that summarizes each poem's publication history. An Optional Challenge for the next assignment is to find a way to:
         a) output only the poem and its number in the part of the document where you reproduce the poems, and/or
