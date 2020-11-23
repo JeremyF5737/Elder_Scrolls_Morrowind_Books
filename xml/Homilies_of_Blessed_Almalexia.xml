@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Homilies of Blessed Almalexia">Homilies of Blessed Almalexia</book_title>
+    <writer who="Almalexia" listed="yes">Almalexia</writer>
+    
+    <Acquisition>
+        <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>
+        <location ref="Maar Gan" visitable="yes">Maar Gan</location>
+        <location ref="Tel Branora" visitable="yes">Tel Branora</location>
+        <location ref="Vivec City" visitable="yes">Vivec City</location>
+        
+    </Acquisition>
+    <contents>
+        <p><person ref="Sotha Sil">Sotha Sil</person> and the <person ref="Scribs">Scribs</person></p>
+    
+    
+   <p> Young <person ref="Sotha Sil">Sotha Sil</person>, while playing in the egg mines, saw a number of scribs in a deep shaft, and he began to cast stones upon them, snickering as they skittered and scattered, until one of the scribs, lifting its head up in agony, cried out to <person ref="Sotha Sil">Sotha Sil</person>: "Please, please, have mercy, little boy, for what is sport to you is suffering and death to us."
+    
+    And so <person ref="Sotha Sil">Sotha Sil</person> discovered that the idle of amusements of one may be the solemn tortures of another.
+    </p>
+    
+    <p>Lord <person ref="Vivec">Vivec</person> and the Contentious Beasts</p>
+    
+    
+   <p> A <person ref="Shalk">Shalk</person> and a <person ref="kagouti">kagouti</person> were strutting back and forth in a <location ref="foyada" visitable="yes">foyada</location>, casting aspersions of one another's looks. "You are the ugliest creature alive," the <person ref="Shalk">Shalk</person> told the <person ref="kagouti">kagouti</person>. "No, YOU are the ugliest creature alive," the <person ref="kagouti">kagouti</person> told the <person ref="Shalk">Shalk</person>. For each thought himself most handsome, and the other most ugly.
+    
+    Then Lord <person ref="Vivec">Vivec</person> chanced by, and settled their dispute. "No, you BOTH are the ugliest creatures alive, and I will not have my pleasant sojourn spoiled by your unseemly squabbling." So he dealt them both mighty blows, shattering their skulls, and silencing their argument, and went merrily upon his way.
+    
+    And thus Lord <person ref="Vivec">Vivec</person> proved that ugliness is as much in one's manner as in one's appearance.</p>
+    
+    
+   <p> The Boiled <person ref="kagouti">kagouti</person></p>
+    
+    
+   <p> It is said that if a <person ref="kagouti">kagouti</person> steps into a boiling pool, he will leap out immediately to avoid harm.
+    
+    But if the <person ref="kagouti">kagouti</person> is standing in a pool, and a wizard slowly raises the temperature, measure by measure, to boiling, the <person ref="kagouti">kagouti</person> will calmly stand in place until he is boiled.
+    
+    Thus we see that we must be alert not only to the obvious danger, but also to the subtle degrees by which change may result in danger.
+    </p>
+    
+   <p> The Dubious Healer</p>
+    
+    
+   <p> Once upon a time, a <group ref="House Telvanni">Telvanni</group> issued forth from his tower and proclaimed to all the world that he was a mighty and learned healer, master of all alchemy and potions, and able to cure all diseases.
+    
+    Lord <person ref="Vivec">Vivec</person> looked upon this wizard, and listened to his boasting, then asked him, "How can you pretend to prescribe for others the cure to all diseases, when you are unable to cure yourself of your own manifest arrogance and foolishness?"
+    </p>
+    
+    <p>The <person ref="Guar">Guar</person> and the <person ref="Mudcrabs">Mudcrabs</person></p>
+    
+    
+    <p>The <person ref="Guar">Guar</person> were so tormented by the other creatures they did not know where to go. As soon as they saw a single beast approach them, off they dashed in terror.
+    
+    One day they saw a pack of <person ref="Nix-hounds">Nix-hounds</person> ranging about, and in a desperate panic all the <person ref="Guar">Guar</person> scuttled off towards the sea, determined to drown themselves rather than live in such a continual state of fear. But just as they got near the shoreline, a colony of <person ref="Mudcrabs">Mudcrabs</person>, frightened in their turn by the approach of the <person ref="Guar">Guar</person>, scuttled off, and threw themselves into the water.
+    
+    'Truly,' said one of the <person ref="Guar">Guar</person>, “things are not so bad as they seem. For there is always someone worse off than you."
+    </p>
+    
+   <p> The Wounded <person ref="Netch">Netch</person></p>
+    
+    
+   <p> A wounded <person ref="Netch">Netch</person> lay himself down in a quiet corner of its feeding-ground. His healthy companions came in great numbers to inquire after his health, yet each one helped himself to a share of the fodder which had been placed there for his use; so that the poor <person ref="Netch">Netch</person> died, not from his wounds, but from the greed and carelessness of his erstwhile friends.
+    
+    And so it is clear that thoughtless companions may bring more harm than help.</p>   
+    </contents>
+    <consoleID xmlid="bk_HomiliesOfBlessedAlmalexia">bk_HomiliesOfBlessedAlmalexia</consoleID>
+</Book>
