@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="No-h's Picture Book of Wood">No-h's Picture Book of Wood</book_title>
+    <writer who="No-h" listed="yes">No-h</writer>
+    <Acquisition>
+        <location ref="Abandoned Shack" visitable="yes">Abandoned Shack</location>
+        <location ref="Falvillo's Endeavor" visitable="yes">Falvillo's Endeavor</location>
+    </Acquisition>
+    
+    
+    <contents>
+        <p>Wood is pretty</p>
+        <p>Wood is nice</p>
+        <p>If one looks good</p>
+        <p>I'll make it twice!</p>
+        
+        <p>[Upon reaching the last page of the book, the words 'Boat Ack', are seen scrawled about the margin in a vandalistic manner.]</p>
+    <!--Yeah this book did not have any real xml markup in it, but on the flip side "Boat Ack" is a refrence to Nirvana's singer
+    kurt Cobain, when he got arrested for vandalizing a boat writing the Boat Ack on it.-->
+    </contents>
+    <consoleID xmlid="bk_BriefHistoryofWood">bk_BriefHistoryofWood</consoleID>
+</Book>

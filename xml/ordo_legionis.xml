@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Ordo Legionis">Ordo Legionis</book_title>
+    <writer who="Anonymous" listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Ebonheart" visitable="yes">Ebonheart</location>
+        <location ref="Hawkmoth Legion Garrison" visitable="yes">Hawkmoth Legion Garrison</location>
+        <location ref="Gnisis" visitable="yes">Gnisis</location>
+        <location ref="Fort Darius" visitable="yes">Fort Darius</location>
+        <location ref="Moonmoth Legion Fort" visitable="yes">Moonmoth Legion Fort</location>
+        <location ref="Pelagiad" visitable="yes">Pelagiad</location>
+        <location ref="Fort Pelagiad" visitable="yes">Fort Pelagiad</location>
+    </Acquisition>
+
+
+    <contents> 
+        <p>The most disciplined and effective military force in history, the <group ref="Imperial Legions">Imperial Legions</group>
+            preserve the peace and rule of law in the <group ref="Empire">Empire</group>. At need, the <group ref="Imperial Legions">legion</group> garrisons can be
+            swiftly mobilized to protect against invasions or internal disorders, but in <location ref="Vvardenfell" visitable="yes">Vvardenfell</location>
+            District of <location ref="Morrowind" visitable="yes">Morrowind</location>, the local forts help to insure law and order, providing guards to
+            supplement the local guard units of the Temple and Great Houses <group ref="House Hlaalu">Hlaalu</group>, <group ref="House Redoran">Redoran</group>, and
+            <group ref="House Telvanni">Telvanni</group>.</p> 
+        
+        <p> There are five <group ref="Imperial Legions">legion</group> garrisons in <location ref="Vvardenfell" visitable="yes">Vvardenfell</location> District. The three town garrisons
+            -- <location ref="Moonmoth Legion Fort" visitable="yes">Moonmoth Legion Fort</location> in <location ref="Balmora" visitable="yes">Balmora</location>
+            , <location ref="Buckmoth Legion Fort" visitable="yes">Buckmoth Legion Fort</location> in <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>, and <location ref="Fort Pelagiad" visitable="yes">Fort Pelagiad</location> in
+            <location ref="Pelagiad" visitable="yes">Pelagiad</location> -- are at full complement. The <group ref="Imperial Legion">Hawkmoth Legion garrisoned</group> at <location ref="Castle Ebonheart" visitable="yes">Castle Ebonheart</location> is an
+            elite honor guard unit, and also at full complement. The frontier installation, <location ref="Fort Darius" visitable="yes">Fort Darius</location>
+            in <location ref="Gnisis village">Gnisis village</location>, is currently the only under-strength garrison on <location ref="Vvardenfell" visitable="yes">Vvardenfell</location>. Qualified
+            citizens seeking enlistment in the <group ref="Imperial Legion">Imperial Legion</group> should apply to the <person ref="General Darius">commander</person> of that
+            garrison, <person ref="General Darius">General Darius</person>.</p>
+        
+        <p>The <group ref="Imperial Legion">Legion</group> selects candidates on the basis of superior endurance,
+        the soldierly virtue, and trustworthy personality, the citizen's virtue, for service in the
+            <group ref="Imperial Legion">Legion</group> is the model for the duties of <group ref="Imperial's">Imperial</group> citizenship. <group ref="Imperial Legion">Troopers</group> are expected to
+            demonstrate mastery of the <object><item ref="long-Sword">long blade</item></object>, the <object><item ref="spear">spear</item></object> and <object><item ref="blunt weapons">blunt weapons</item></object>. <group ref="Imperial Legion">Legion troops</group> train with
+            <object><item ref="shield">shield</item></object> and <object><item ref="heavy armor">heavy armor</item></object>, and so must be skilled at blocking and moving in <object><item ref="heavy armor">heavy armor</item></object>.</p>
+        
+        <p>As a trooper or knight, you must master the <object><item ref="long-Sword">long blade</item></object>, <object><item ref="spear">spear</item></object>, and <object><item ref="blunt weapons">blunt weapons</item></object>. You must block
+            whatever blows you can, and take unblocked blows upon your <object><item ref="heavy armor">heavy armor</item></object>. Recruit must also be
+        proficient at athletics, both to march long distances with heavy packs, and to advance and
+        maneuver, charge and retreat on the field of battle.</p> 
+    </contents>
+    <consoleID xmlid="bk_ordolegionis">bk_ordolegionis</consoleID>
+</Book>
