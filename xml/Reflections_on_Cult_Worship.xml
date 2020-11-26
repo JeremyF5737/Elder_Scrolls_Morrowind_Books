@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Reflections on Cult Worship">Reflections on Cult Worship</book_title>
+    <writer who="Cuseius Plecia" listed="yes">Cuseius Plecia</writer>
+    <Acquisition>
+        <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>
+        <location ref="Balmora" visitable="yes">Balmora</location>
+        <location ref="Dagon Fel" visitable="yes">Dagon Fel</location>
+        <location ref="Dren Plantation" visitable="yes">Dren Plantation</location>
+        <location ref="Ebonheart" visitable="yes">Ebonheart</location>
+        <location ref="Ghostgate" visitable="yes">Ghostgate</location>
+        <location ref="Gnisis" visitable="yes">Gnisis</location>
+        <location ref="Hanud" visitable="yes">Hanud</location>
+        <location ref="Mababi" visitable="yes">Mababi</location>
+        <location ref="Mawia" visitable="yes">Mawia</location>
+        <location ref="Odirniran" visitable="yes">Odirniran</location>
+        <location ref="Rethan Manor" visitable="yes">Rethan Manor</location>
+        <location ref="Sanni" visitable="yes">Sanni</location>
+        <location ref="Shara" visitable="yes">Shara</location>
+        <location ref="Shishara" visitable="yes">Shishara</location>
+        <location ref="Shishi" visitable="yes">Shishi</location>
+        <location ref="Sulipund" visitable="yes">Sulipund</location>
+        <location ref="Tel Mora" visitable="yes">Tel Mora</location>
+        <location ref="Tel Vos" visitable="yes">Tel Vos</location>
+        <location ref="Tureynulal" visitable="yes">Tureynulal</location>
+        <location ref="Vas" visitable="yes">Vas</location>
+        <location ref="Vivec City" visitable="yes">Vivec City</location>
+        
+    </Acquisition>
+    
+    
+    <contents> 
+        <p>[from the correspondence of <person ref="Cuseius Plecia">Cuseius Plecia</person>, <group ref="Imperial's">Imperial</group> trader, writing from the <location ref="Vos" visitable="yes">Vos</location> Tradehouse in <location ref="Vvardenfell" visitable="yes">Vvardenfell</location> District, Province of <location ref="Morrowind">Morrowind</location>]</p>
+        
+        <p>"...I have noted that <group ref="Heartlanders" >Heartlanders</group> like myself, and assimilated <group ref="Imperial's" >Imperial</group> Citizens of other races, tend to impersonal and formal relationships with their gods and spirits. For us, cults are first and foremost social and economic organizations. We typically think of the Eight Divines in the most abstract terms -- as powerful but indifferent spirits to be propitiated, and do not think of their relationships as personal. Notable exceptions include minor charismatic sub-cults of <person ref="Akatosh">Akatosh</person> and <person ref="Dibella">Dibella</person>. The <group ref="Imperial Cult" >Imperial Cult</group> of <person ref="Tiber Septim">Tiber Septim</person> also has a significant charismatic sub-cult.</p>
+        
+        <p>With the exception of the <group ref="Alessian Order" >Alessian Order</group>, which <group ref="Heartlanders" >Heartlanders</group> regard as a dark age, religious cults have played only minor parts in <group ref="Heartlanders" >Heartlanders</group> and <group ref="Imperial's" >Imperial</group> history. The <group ref="Imperial's">Septim emperors</group> have made it a policy to limit the influence of cult authorities in aristocratic, military, and bureaucratic affairs. Cult worship is regarded as a private and practical matter, and public pronouncements by religious figures are not welcomed.</p>
+        
+        <p><group ref="Nord's">Nordic</group> hero-cults provide a strong counter-current to the dominant secularism of the <group ref="Empire">Empire</group>. The <group ref="Imperial Cult" >Imperial Cult</group> of <person ref="Tiber Septim">Tiber Septim</person> is just such a hero-cult, and among the military, provincial colonists, and recently assimilated foreigners, the cult is particularly strong and personal.</p>
+        
+        <p>The <group ref="Tribunal Temple">Tribunal Temple</group> in <location ref="Morrowind" visitable="yes">Morrowind</location>, and its predecessor, house ancestor cults, are, by contrast with <group ref="Imperial Cult" >Imperial cults</group>, extremely intimate and personal. In ancestor cults, the worshipper has a direct relationship with a blood family ancestor spirit, and the <group ref="Tribunal Temple">Temple cultist's</group> relationship with the <group ref="Tribunal Temple">Tribunal</group> is a relationship with a living, breathing god who walks the earth, speaks in person with priests and cultists, and whose daily actions are prescribed models for the daily actions of their followers.</p>
+        
+        <p>The differences in religious temperament between <group ref="Heartlanders" >Heartlanders</group> and <location ref="Morrowind" visitable="yes">Morrowind</location> <group ref="Dark Elves" >Dunmer</group> accounts in large part for consistent political and social misunderstanding between the two cultures. <group ref="Heartlanders" >Heartlanders</group> do not consider cult affairs as serious matters, where the <group ref="Dark Elves" >Dunmer</group> consider cult affairs, and in particular, ancestral spirit veneration, to be very serious matters indeed.</p>
+        
+        <p><group ref="Heartlanders" >Heartlanders</group> are casual and tolerant in religious matters; <group ref="Dark Elves" >Dunmer</group> are passionate and extremely intolerant. <group ref="Heartlanders" >Heartlanders</group> do not speak with their gods, and do not think of their actions as under constant review and judgement by their gods; the <group ref="Dark Elves" >Dunmer</group> feel that all they think and do is under the ever-watchful eye of the <group ref="Tribunal Temple">Tribunal</group> and family ancestor spirits...."</p>
+          </contents>
+    <consoleID xmlid="bk_redorancookingsecrets">bk_redorancookingsecrets</consoleID>
+</Book>
