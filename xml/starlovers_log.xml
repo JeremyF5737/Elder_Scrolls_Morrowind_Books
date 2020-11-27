@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Starlover's Log">Starlover's Log</book_title>
+    <writer who="Samar Starlover" listed="yes">Samar Starlover</writer>
+    <Acquisition>
+        Unknown                
+    </Acquisition>
+    
+    
+    <contents>
+        <p>[[Scrawled hastily on a page from a log journal]]</p>
+        
+        <p>6th moon ....... "Alas, the <location ref="Imperial Battlespire" visitable="no">Battlespire</location> appears to be falling into the hands of evil. Their many attempts in the past have failed, until now. <person ref="Mehrunes Dagon">Dagon</person> seems to have new minions at his side this time. These new horrors are not at all too powerful beyond our magicks and weaponry, but their numbers are feverishly great. We grow low on supplies and soldiers for this holdout. I fear the worst."</p>
+        
+        <p>8th moon ....... "I have presented to the few remaining <group ref="Battlemages">Battlemages</group> my last hope plan. I will fight my way to the bowells of the <location ref="Imperial Battlespire" visitable="no">Battlespire</location>, where I will mount <person ref="Dragonne Papré">Dragonne Papré</person>, my <person ref="Dragonne Papré">Dragon</person> companion. From his lair, we will take flight. Since the <location ref="Weir Gate" visitable="no">Weir Gate</location> has been taken, teleportation is not possible. Only <person ref="Dragonne Papré">Papré</person> can make such a journey to the <location ref="Imperial Palace" visitable="no">Imperial Palace</location>. There, we will report the evil infection and return with a regimental force of rescue. May the Powers be with me."</p>
+        
+        <p>9th moon........ "It is as I feared. A carcass is all I have come to find. They have sealed the main gate so <person ref="Dragonne Papré">Papré</person> could not escape. I am not sorrowful though, for I will be eternally reunited with <person ref="Dragonne Papré">Dragonne Papré</person>. Hope for the living is lost. My name is <person ref="Samar Starlover">Samar Starlover</person>. Tell my sister I am dead, and if all the seas were ink, I could not write enough how I shall miss her."</p>
+          </contents>
+    <consoleID xmlid="bk_SamarStarloversJournal">bk_SamarStarloversJournal</consoleID>
+</Book>

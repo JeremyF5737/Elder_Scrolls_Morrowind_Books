@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Smuggler's Island">Smuggler's Island</book_title>
+    <writer who="Quarde Anarion" listed="yes">Quarde Anarion</writer>
+    <Acquisition>
+        <location ref="Ashinabi" visitable="yes">Ashinabi</location> 
+        <location ref="Falasmaryon" visitable="yes">Falasmaryon</location>
+         </Acquisition>
+    
+    
+    <contents>
+        <p>It took a little over an hour for <person ref="Harithoel">Harithoel</person> to search the island from one end to the other. He turned back to <person ref="S'Riizh">S'Riizh</person> who was were he left him, half buried in the sand to pack his broken bones. One of the crates of <object><item ref="moon sugar">moon sugar</item></object> was open.</p>
+        
+        <p>"You're sampling the merchandise?" asked <person ref="Harithoel">Harithoel</person> angrily.</p>
+        
+        <p>"It takes away the pain," said <person ref="S'Riizh">S'Riizh</person>. "How far away are we?"</p>
+        
+        <p>"We didn't make it as far as the mainland," said <person ref="Harithoel">Harithoel</person>. "I can't see the coastline at all. But that's not all. I haven't found anything edible anywhere. Just weeds and a few scraggly trees."</p>
+        
+        <p>"And no other survivors?" asked <person ref="S'Riizh">S'Riizh</person>.</p>
+        
+        <p>"No, it looks like we're the only ones. I guess, the nice way to look at it is that if we're rescued, we can divide the profits between two rather than between twelve."</p>
+        
+        <p>"So we'll either be rich or dead," said <person ref="S'Riizh">S'Riizh</person>. "That's a comfort."</p>
+        
+        <p><person ref="S'Riizh">S'Riizh</person> was too battered to be of much help, but <person ref="Harithoel">Harithoel</person> was able to construct a crude shelter, weaving the sand weeds. As night fell on the small island, the two men discussed the smuggling operation and what went wrong. Their boat, laden with five crates of <object><item ref="moon sugar">moon sugar</item></object>, was supposed to meet another, the Sanchariot, off the coast of <location ref="Hla Oad" visitable="yes">Hla Oad</location>. Who could have predicted the storm? Who could have predicted that everyone would drown, from the bold captain to the mysterious figure with ties to one of the royal Houses, everyone except for <person ref="S'Riizh">S'Riizh</person> and <person ref="Harithoel">Harithoel</person>. They decided that it was all the whim of <person ref="Boethiah">Boethiah</person> or one of the other <group ref="daedra">daedra</group> with cruel senses of humor.</p>
+        
+        <p>Finding fresh water was their first goal, and it turned out to be a fruitless quest. <person ref="Harithoel">Harithoel</person> dug deeply, but there were no springs under the island, just sand and rock. <person ref="S'Riizh">S'Riizh</person> felt panic seizing his soul, until he saw the small, quick, golden fish swimming at the edges of the island. He had read somewhere that fish not only were food, but there was always a little fresh water within them. If he could catch one, the two men could be saved. With his broken legs, he was a pathetic predator and he was soon reduced to hurling rocks at the alert and nimble little fish.</p>
+        
+        <p><person ref="Harithoel">Harithoel</person> watched <person ref="S'Riizh">S'Riizh</person>'s futile endeavor for a little while before getting to work. He used his small knife to whittle a point on a long, straight tree branch until he had fashioned a spear. Again and again, he thrust the spear at the fish, but he had no more success than <person ref="S'Riizh">S'Riizh</person> and his stones.</p>
+        
+        <p>"Have you never used a spear before?" asked <person ref="S'Riizh">S'Riizh</person>.</p>
+        
+        <p>"It's not my weapon of choice," said <person ref="Harithoel">Harithoel</person>, quietly, watching his prey and missing another with a splash and a curse. "Nchow!"</p>
+        
+        <p><person ref="S'Riizh">S'Riizh</person> laughed: "Do you want a rock?"</p>
+        
+        <p><person ref="Harithoel">Harithoel</person> ignored <person ref="S'Riizh">S'Riizh</person>, murmuring, "The trick as I've heard it is to anticipate where your target's going to go and aim your spear there, not where they are now. I just have to observe them a little longer. Why can't the little fechers swim in straight lines?"</p>
+        
+        <p>After an hour of flailing about, <person ref="Harithoel">Harithoel</person>, by luck, managed to spear a fish. The men tore it apart and ate it raw. As the days and weeks went by, <person ref="Harithoel">Harithoel</person> got better and better until he was able to strike quickly and with great accuracy. He could hit a fish by throwing the spear or by plunging at one at his feet. <person ref="S'Riizh">S'Riizh</person> made fire, but being lame, he had to rely on <person ref="Harithoel">Harithoel</person> for all the food.</p>
+        
+        <p>It was nearly two months after washing ashore that the men saw a boat on the horizon. They set a large fire, and the crew saw them. As it approached, they saw that it was the Sanchariot, the very boat they were to have met on the night of the storm. The smugglers aboard would pay them good money for the <object><item ref="moon sugar">moon sugar</item></object>. Luckily, <person ref="S'Riizh">S'Riizh</person> had used only a little bit of it, and they still had five nearly full crates. They were not only going to be saved, they were going to be rich, just as <person ref="Harithoel">Harithoel</person> had said.</p>
+        
+        <p><person ref="Harithoel">Harithoel</person> excitedly started to help <person ref="S'Riizh">S'Riizh</person> to his feet, but the man rose on his own.</p>
+        
+        <p>"You can walk!" he said, laughing. "It's a miracle!"</p>
+        
+        <p>"<person ref="S'Riizh">S'Riizh</person> is not too steady, though," said <person ref="S'Riizh">S'Riizh</person>. "Would you gather up the crates?"</p>
+        
+        <p><person ref="Harithoel">Harithoel</person>, overjoyed at rescue at long last, began picking up the crates and stacking them. "I wish you had told me that you could walk though, mate. I could have used your help spearing dinner all these months."</p>
+        
+        <p>"<person ref="S'Riizh">S'Riizh</person> watches though," said <person ref="S'Riizh">S'Riizh</person>. "You'd be surprised how much you can learn just by watching. Don't forget the fifth crate over by the tree." <person ref="S'Riizh">S'Riizh</person> shuffled over to the shore and saw that the boat was only a few minutes from landing. "And <person ref="S'Riizh">S'Riizh</person> listens. When you said that a fortune divided by two was more profitable than a fortune divided by twelve, <person ref="S'Riizh">S'Riizh</person> listened to that too." <person ref="S'Riizh">S'Riizh</person> shuffled back to the crate by the tree. "And it occurred to <person ref="S'Riizh">S'Riizh</person> that a fortune divided by one was even better." <person ref="S'Riizh">S'Riizh</person> pulled the spear out of <person ref="Harithoel">Harithoel</person>'s skull. The trajectory had been perfect: it had fallen down from the branches as soon as the crate was removed, just as he had planned. "Like you said, the trick is to anticipate where your target's going to go and aim your spear there."</p>
+        
+        <p><person ref="S'Riizh">S'Riizh</person> pushed the crate to the shore and waved the boat in.</p>  
+    </contents>
+    <consoleID xmlid="bookskill_spear1">bookskill_spear1</consoleID>
+</Book>
