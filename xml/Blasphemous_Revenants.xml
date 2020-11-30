@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref ="Blasphemous Revenants">Blasphemous Revenants</book_title>
+    <writer listed = "no" >Anonymous</writer>
+    
+    <Acquisition>
+        <location ref = "Ald'ruhn" visitable = "yes" >Ald'ruhn</location>, <location ref = "Ald'ruhn, Guls Llervu's House" visitable = "yes" >Guls Llervu's House</location>
+        <location ref = "Ald'ruhn" visitable = "yes" >Ald'ruhn</location>, <location ref = "Ald'ruhn, Ald'ruhn Temple" visitable = "yes" >Ald'ruhn Temple</location>
+        <location ref = "Gnisis" visitable = "yes" >Gnisis</location>, <location ref = "Gnisis, Arvs-Drelen" visitable = "yes" >Arvs-Drelen</location>
+        <location ref = "Gnisis" visitable = "yes" >Gnisis</location>, <location ref = "Gnisis, Gnisis Temple" visitable = "yes" >Gnisis Temple</location>
+        <location ref = "Hanud" visitable = "yes" >Hanud</location>, <location ref = "Hanud Tower" visitable = "yes" >Tower</location>
+        <location ref = "Holamayan Monastery" visitable = "yes" >Holamayan Monastery</location>
+        <location ref = "Mababi" visitable = "yes" >Mababi</location>
+        <location ref = "Mawia" visitable = "yes" >Mawia</location>
+        <location ref = "Odirniran" visitable = "yes" >Odirniran</location>
+        <location ref = "Shara" visitable = "yes" >Shara</location>
+        <location ref = "Shishara" visitable = "yes" >Shishara</location>
+        <location ref = "Shishi" visitable = "yes" >Shishi</location>
+        <location ref = "Tel Mora" visitable = "yes" >Tel Mora</location>, <location ref = "Tel Mora, Tel Mora Tower Services" visitable = "yes" >Tel Mora Tower Services</location>
+        <location ref = "Tel Uvirith" visitable = "yes" >Tel Uvirith</location>, <location ref = "Tel Uvirith, Seleth's House" visitable = "yes" >Seleth's House</location>
+        <location ref = "Tureynulal" visitable = "yes" >Tureynulal</location>, <location ref = "Tureynulal, Kagrenac's Library" visitable ="yes">Kagrenac's Library</location>
+        <location ref = "Vas" visitable = "yes" >Vas</location>, <location ref = "Vas, Entry Level" visitable = "yes" >Entry Level</location>
+        <location ref = "Vivec City" visitable = "yes" >Vivec City</location>: <location ref = "Vivec City, High Fane" visitable = "yes" >High Fane</location>, <location ref = "" visitable = "yes" >Hlaalu Records</location>, <location ref = "" visitable = "yes" >Justice Offices</location>, <location ref = "" visitable = "yes" >Redoran Records</location>
+    </Acquisition>
+    
+    <contents>
+        <p>...not into the world, nor out of it, but between worlds they linger, held to the hearth and tomb by blood and loyalty. And if they 
+        come unbidden, from love of kin or faith to duty, it is not unholy. It is but the answering of the ancestors, the awakening of 
+        those who never sleep, the summoning to service of those bound through Hearth and House to the protection of the clan.</p>
+        
+        <p>But if sorcerers bring them forth, then such a summons is blasphemy, an abomination before the <group ref = "Ashlander">Tribes</group> and <location ref = "Tribunal Temple">Temple</location>, and a 
+        sin so great that ages of burning cannot cleanse the fault. Abide not the sorcerer among you, for he comes to steal the bones 
+        of your fathers and dust of your tombs. He seeks to bind by power what is yours by right, to drag forth the warm spirits from 
+        their world between and bind them to their service like slaves and beasts.</p>
+        
+        <p>Who can know the shame of the dead, the ceaseless weeping of the necromancer's thrall? Cruel enough is the ancestor's 
+        service given in love to Hearth and Kin. But <group ref = "Ancestor Ghost">ghost</group> or <group ref = "Ancestory Guardian">guardian</group>, <group ref = "Bonewalker">bonewalker</group> or <group ref = "Bonelord">bonelord</group>, summoned by profane ritual and 
+        bound by force to the corpse miner's will, how may such a spirit ever find rest? How may it ever find its way back to its blood 
+        and clan?</p>
+        
+        <p>Only a righteous <group ref = "Dunmer">Dunmer</group>, bound by blood to hearth and kin, bound by oath and service to the Temple, can call upon the 
+        spirits of the Dunmer dead. Those foreign sorcerers of other races that invade our shores, shall they be permitted to rob our 
+        tombs, to bind our kin-spirits into sorcerous slavery, to steal the lives of our dead as well as our land of the living? No, I say, 
+        no, and no, three times more. Such necromancers must die, and their profane magicks must die with them.</p>
+        
+        <p>And shall we tolerate the hidden hosts of the undead, the arrogant princes of necromancers, the ancient <group ref = "Vampire">vampire</group> demons 
+        who creep from their lairs in the West, seeking refuge in profane Daedric shrines, abandoned Dunmer Strongholds, 
+        and corrupted subterranean labyrinths of the detested <group ref = "Dwemer">Dwemer</group> race? For ages the Great Houses and the Temple have kept our 
+        land clean of the vampire's taint, but now these undead lords and their vile cattle have returned. These vampires die, and 
+        their corrupt cattle with them, and their blood taint must be forever erased by fire and stake.</p>
+    </contents>
+</Book>
+

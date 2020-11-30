@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Boethiah's Pillow Book">Boethiah's Pillow Book</book_title>
+    <writer  listed="no">Anonynous</writer>
+    <Acquisition>
+        
+        <location ref = "Ald'Ruh" visitable = "yes">Ald'Ruhn</location>, <location ref = "Arobar Manor Bedrooms" visitable = "yes" >Arobar Manor Bedrooms</location>
+
+    </Acquisition>
+    <contents>
+        <p>No words can describe what you see. Or what you think you see.</p>
+    </contents>
+</Book>

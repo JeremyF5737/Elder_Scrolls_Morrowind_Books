@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Book>
+    <book_title ref ="Book of Life and Service">Book of Life of Service</book_title>
+    <writer listed = "no">Anonymous</writer>
+    <Acquisition>
+        
+        <location ref = "Teran Hall" visitable = "yes">Teran Hall</location>
+        <location ref = "Orethi Ancestral Tomb" visitable = "yes">Orethi Ancestral Tomb</location>
+        <location ref = "Telvanni Council House" visitable = "yes">Telvanni Council House</location>
+        <location ref = "Sarano Ancestral Tomb" visitable = "yes">Sarano Ancestral Tomb</location>
+        <location ref = "Erna the Quiet's House" visitable = "yes">Erna the Quiet's House</location>
+        <location ref = "Hall of Fyr" visitable = "yes">Hall of Fyr</location>
+        <location ref = "Kagrenac's Library" visitable = "yes">Kagrenac's Library</location>
+        
+    </Acquisition>
+    
+    <contents>
+        <p>The Ranks of the Blessed</p>
+        <p>Blessed are the <group who = "Bonemen">Bonemen</group>, for they serve without self in spirit forever.</p>
+        
+        <p>Blessed are the Mistmen, for they blend in the glory of the transcendent spirit.</p>
+        
+        <p>Blessed are the Wrathmen, for they render their rage unto the ages.</p>
+        
+        <p>Blessed are the Masters, for they bridge the past and span the future.</p>
+        
+        
+        <p>The Litany of Service</p>
+        <p>The Boneman's Oath</p>
+        <p>We die.</p>
+        
+        <p>We pray.</p>
+        
+        <p>To live.</p>
+        
+        <p>We serve.</p>
+        
+        
+        <p>The Master's Voice</p>
+        <p>You swore.</p>
+        
+        <p>To Serve.</p>
+        
+        <p>Your <person who = "Bonelord">Lord</person>.</p>
+        
+        <p>Commands.</p>
+    </contents>
+</Book>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Book>
+    <book_title ref ="Capn's Guide to the Fishy Stick">Capn's Guide to the Fishy Stick</book_title>
+    <writer listed = "no">Anonymous</writer>
+    <Acquisition>
+        <location ref = "Ancienct Shipwreck" visitable = "yes">Ancient Shipwreck</location>
+    </Acquisition>
+    
+    <contents>
+        <p>This book is supposedly the definitive reference to <plot_device what = "Fishy Stick">fishy sticks</plot_device> throughout <location ref = "Tamriel" visitable = "yes">Tamriel</location>, but the pages are so smeared with <plot_device what = "Fishy Stick">fishy stick</plot_device> sauce it is impossible to read any of them.</p>
+    </contents>
+</Book>
+
