@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Silence">Silence</book_title>
+    <writer who="Ganpheril Kimeth" listed="yes">Ganpheril Kimeth</writer>
+    <Acquisition>
+        <location ref="Endusal" visitable="yes">Endusal</location>, <location ref="Kagrenac's Study"
+            visitable="yes">Kagrenac's Study</location>
+        <location ref="Urshilaku" visitable="yes">Urshilaku</location>, <location
+            ref="Laterus Burial" visitable="yes">Laterus Burial</location>
+    </Acquisition>
+
+
+    <contents>
+        <p>Silence</p>
+        <p>by <person ref="Ganpheril Kimeth">Ganpheril Kimeth</person></p>
+        <p>“I've heard of you,” said the old vagabond, very impressed. “Aren't you the adventurer
+            who slew all those ash vampires in <location ref="Ghostgate">Ghostgate</location> a
+            couple of months back?”</p>
+
+        <p>“That I am,” said <person ref="Oristian Silverthorn">Oristian Silverthorn</person> with a
+            weary smile for his admirer. He knew that his name was not yet legendary, and it was
+            best to be polite. “And you are?”</p>
+
+        <p>“My name would have no meaning to you, but I'm <person ref="Erer Darothil">Erer
+                Darothil</person>,” he said, raising a glass of <object><item ref="Greef"
+                    >greef</item></object>. “I hail from the region of <location ref="Ghostgate"
+                >Ghostgate</location> which is how I heard your name. Are you on an adventure as we
+            speak?”</p>
+
+        <p>“Yes,” said <person ref="Oristian Silverthorn">Silverthorn</person>, with a grim
+            expression. “I'm challenged to rid The <location ref="Grazelands" visitable="yes"
+                >Grazelands</location> of a rogue battlemage by the name of <person ref="Egroamaro"
+                >Egroamaro</person>.”</p>
+
+        <p>“I've heard of him as well,” said <person ref="Erer Darothil">Darothil</person>. “He is
+            said to be very powerful, an implacable foe.”</p>
+
+        <p>“That is why I'm drinking now,” sighed <person ref="Oristian Silverthorn"
+                >Silverthorn</person>. “So tell me, what is your profession?”</p>
+
+        <p>“I do nothing,” said <person ref="Erer Darothil">Darothil</person> with some measure of
+            pride. “But in my youth, I used to teach the skills of Illusion at the <location
+                ref="University of Gwylim" visitable="no">University of Gwylim</location>.”</p>
+
+        <p>“Perhaps you can help me then,” said <person ref="Oristian Silverthorn"
+                >Silverthorn</person>, suddenly excited. “Can you teach the spell Silence? I can
+            certainly pay you.”</p>
+
+        <p>“I know that spell,” said <person ref="Erer Darothil">Darothil</person>. “You might find
+            Invisibility very helpful as well, or perhaps Darkness which would allow you to sneak up
+            on old <person ref="Egroamaro">Egroamaro</person>.”</p>
+
+        <p>“No,” said <person ref="Oristian Silverthorn">Silverthorn</person> firmly. “I only have
+            time to learn one spell. I have to kill <person ref="Egroamaro">Egroamaro</person>,
+            collect the award, and be back in <location ref="Gnisis" visitable="yes"
+                >Gnisis</location> as quickly as possible. My wife worries when I'm away.”</p>
+
+        <p><person ref="Erer Darothil">Darothil</person> agreed and, as the two settled back in
+            their seats at the cornerclub and tossed back glasses of <object><item ref="Greef"
+                    >greef</item></object>, the old man shared his knowledge of the spell. He
+            explained what it truly meant to bend sound, creating a cone of silence as glass can
+            bend light. He had <person ref="Oristian Silverthorn">Silverthorn</person> close his
+            eyes while he tapped the side of his glass, making him picture the sound as the physical
+            entity it was, before it was extinguished.</p>
+
+        <p>The adventurer, after a few hours of instruction, paid the old teacher and set off on his
+            way. <location ref="Indoranyon" visitable="no">Indoranyon</location>, <person
+                ref="Egroamaro">Egroamaro</person>'s stronghold, was not far from <location
+                ref="Sadrith Mora" visitable="yes">Sadrith Mora</location>, and he soon saw the
+            blight and ruin that was the battlemage's calling card. Delving into the depths of the
+            ruins, <person ref="Oristian Silverthorn">Silverthorn</person> was set upon by the
+            servitors of <person ref="Egroamaro">Egroamaro</person>, living and undead. With his
+            enchanted ebony blade, he cut through legions before facing the master himself in the
+            desolate main hall.</p>
+
+        <p><person ref="Egroamaro">Egroamaro</person> bowed to his adversary sardonically, and then
+            prepared to unleash a fireball to incinerate him. Before he had uttered the first word
+            of the spell, he suddenly found that all the creaking and sighing of the ruins around
+            him had been stilled. He opened his voice to speak, but there was no sound. <person
+                ref="Oristian Silverthorn">Silverthorn</person> took his time, strolling across the
+            length of the hall, before dispatching the battlemage with one stroke of his blade.</p>
+
+        <p>The adventurer rushed back to the <location ref="Tribunal Temple" visitable="yes"
+                >Tribunal Temple</location> where he had received his quest, accepted the gold and
+            the thanks, and was back in his house in <location ref="Gnisis" visitable="yes"
+                >Gnisis</location> but a few days later. His wife <person ref="Liah">Liah</person>
+            was beside herself with worry.</p>
+
+        <p>“All I could do night after night is toss and turn. I kept imagining you burned to ashes
+            by that battlemage, and where would that leave me? Do we have enough gold that I could
+            support myself if you, <person ref="Saint Seryn">Saint Seryn</person> let it not be so,
+            were killed during one of these jaunts? I don't think so. Why couldn't you get a nice
+            position at the <group ref="Fighters Guild">Fighters Guild</group> right here in town? I
+            hear they're looking for a trainer for the <group ref="Imperial Guard">Imperial
+                Guard</group>. I know, I know, you want a life of adventure and danger and freedom,
+            but if you'd only take one moment to think of me, stuck here all by myself, worrying
+            about you. I suppose you'd like it if I took more of an interest in your work, but it's
+            like I was telling Ser <person ref="Calissiah Vignum">Calissiah Vignum</person> the
+            other day, I said <person ref="Calissiah Vignum">Calissah</person>, what good is a
+            husband--”</p>
+
+        <p><person ref="Liah">Liah</person> continued to talk, deaf to the fact that her words were
+            dead before they left her mouth. <person ref="Oristian Silverthorn">Silverthorn</person>
+            smiled and nodded his head, enjoying the silence. He could have killed <person
+                ref="Egroamaro">Egroamaro</person> without the spell, he considered, but he could
+            not have survived his wife.</p>
+    </contents>
+    <consoleID xmlid="bookskill_illusion2">bookskill_illusion2</consoleID>
+</Book>
