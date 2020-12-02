@@ -185,7 +185,7 @@
                        <h2><xsl:apply-templates select="writer"/></h2>
                       
                       <h3>Acquisitions</h3>
-                      <ul><xsl:apply-templates select="Acquisition"/></ul>
+                      <ul><xsl:apply-templates select="Acquisition/location"/></ul>
                       
                       <xsl:apply-templates select="contents"/>
                      
