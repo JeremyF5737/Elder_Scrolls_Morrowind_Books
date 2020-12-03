@@ -5,20 +5,20 @@
     <writer listed="no">Anonymous</writer>
     <Acquisition>
         <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>       
-        <location ref="Balmora">Balmora</location>
-        <location ref="Ebonheart">Ebonheart</location>
-        <location ref="Gnisis">Gnisis</location>
-        <location ref="Holamayan_Monastery">Holamayan Monastery</location>
-        <location ref="Indarys_Manor">Indarys Manor</location>
-        <location ref="Maar_Gan">Maar Gan</location>
-        <location ref="Molag_Mar">Molag Mar</location>
-        <location ref="Sadrith_Mora">Sadrith Mora</location>
-        <location ref="Suran">Suran</location>
-        <location ref="Tel_Branora">Tel Branora</location>
-        <location ref="Tower_of_Tel_Fyr">Tower of Tel Fyr</location>
-        <location ref="Tureynulal">Tureynulal</location>
-        <location ref="Vivec City">Vivec City</location>        
-        <location ref="Mournhold">Mournhold</location>
+        <location ref="Balmora" visitable="yes">Balmora</location>
+        <location ref="Ebonheart" visitable="yes">Ebonheart</location>
+        <location ref="Gnisis" visitable="yes">Gnisis</location>
+        <location ref="Holamayan_Monastery" visitable="yes">Holamayan Monastery</location>
+        <location ref="Indarys_Manor" visitable="yes">Indarys Manor</location>
+        <location ref="Maar_Gan" visitable="yes">Maar Gan</location>
+        <location ref="Molag_Mar" visitable="yes">Molag Mar</location>
+        <location ref="Sadrith_Mora" visitable="yes">Sadrith Mora</location>
+        <location ref="Suran" visitable="yes">Suran</location>
+        <location ref="Tel_Branora" visitable="yes">Tel Branora</location>
+        <location ref="Tower_of_Tel_Fyr" visitable="yes">Tower of Tel Fyr</location>
+        <location ref="Tureynulal" visitable="yes">Tureynulal</location>
+        <location ref="Vivec City" visitable="yes">Vivec City</location>        
+        <location ref="Mournhold" visitable="yes">Mournhold</location>
     </Acquisition>
     <contents>
 <p>        [The Cantatas of <person ref="Vivec">Vivec</person> are gospels written in the form of epic songs. They trace the evolution of <person ref="Vivec">Vivec</person> from a foolish mortal into an enlightened divine. <person ref="Vivec">Vivec</person> sought out experiences that tested him in every way possible, particularly in the defense and protection of his <group ref="Dark_Elves">Dunmer</group> people, and through his long life, his humility, and his unconquerable spirit, he attained the Wisdom of the Seven Graces. The Cantatas relate many stories of <person ref="Vivec">Vivec</person>'s experiments with challenge and risk, his failures and triumphs, his blessings of insight and good fortune, and his debt to his partners, <person ref="Almalexia">Almalexia</person> the Lover and <person ref="Sotha_Sil">Sotha Sil</person> the Teacher. The poetry is simple and dramatic, lyric and personal, composed to be sung or recited. The following is an excerpt from Lord <person ref="Vivec">Vivec</person>'s 'Brooding Beneath <location ref="Red_Mountain" visitable="yes">Red Mountain</location>'.]</p>

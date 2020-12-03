@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../../Repository/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="The_Consolations_of_Prayer">The Consolations of Prayer</book_title>
+    <writer listed="yes" who="Tribunal_Temple">Tribunal Temple</writer>
+    <Acquisition>
+        <person ref="Only-He-Stands-There">Only-He-Stands-There</person>
+        <location ref="Ald_Velothi" visitable="yes">Ald Velothi</location>
+        <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>
+        <location ref="Balmora" visitable="yes">Balmora</location>
+        <location ref="Ghostgate" visitable="yes">Ghostgate</location>
+        <location ref="Gnisis" visitable="yes">Gnisis</location>
+        <location ref="Holamayan_Monastery" visitable="yes">Holamayan Monastery</location> 
+        <location ref="Indarys_Manor" visitable="yes">Indarys Manor</location>
+        <location ref="Maar_Gan" visitable="yes">Maar Gan</location>
+        <location ref="Andus_Tradehouse" visitable="yes">Andus Tradehouse</location>
+        <location ref="Yeherradad's_Hut" visitable="yes">Yeherradad's Hut</location>
+        <location ref="Molag_Mar" visitable="yes">Molag Mar</location>
+        <location ref="Rethan_Manor" visitable="yes">Rethan Manor</location>
+        <location ref="Sadrith_Mora" visitable="yes">Sadrith Mora</location>
+        <location ref="Suran" visitable="yes">Suran</location>
+        <location ref="Tel_Branora" visitable="yes">Tel Branora</location>
+        <location ref="Tower_of_Tel_Fyr" visitable="yes">Tower of Tel Fyr</location>
+        <location ref="Tureynulal" visitable="yes">Tureynulal</location>
+        <location ref="Vivec_City" visitable="yes">Vivec City</location>
+        <location ref="Vos" visitable="yes">Vos</location>
+    </Acquisition>
+    <contents>
+        <p>Through the bounty of Blessed <person ref="Almsivi">Almsivi</person>, Triune Grace, and all the hosts of saints, the faithful who pray at the Temple's shrines may be granted blessings through the miraculous sacraments of prayer and devotion. The three-sided shrines betoken the three-faced benison of <person ref="Almsivi">Almsivi</person>, and may be found in Temples, or at sites of pilgrimage, or at pilgrim waysides, or in the tomb of the sanctified.</p>
+        
+        <p>What benefits may be gained shall be listed herein for the edification of the worshipper and pilgrim.</p>
+        
+        <p>All shrines grant cures of common diseases, of blight diseases, and of afflictions of poison.</p>
+        
+        <p>Those shrines bearing the images of <person ref="Vivec">Vivec</person>, <person ref="Almalexia">Almalexia</person>, and <person ref="Sotha_Sil">Sotha Sil</person> also may grant the blessing of <person ref="Almsivi">Almsivi</person> Restoration, which restores damaged attributes, and the three blessings of <person ref="Almsivi">Almsivi</person>: <person ref="Vivec">Vivec</person>'s Mystery, for good fortune; Soul of <person ref="Sotha_Sil">Sotha Sil</person>, for magical power, and Lady's Grace, for endurance of hardships.</p>
+        
+        <p>Those shrines bearing the images of the saints may also grant the particular blessings of the saints, which are listed for you here:</p>
+        
+        <p><person ref="St.Aralor">St. Aralor</person> grants Aralor's Intervention, for fortifying character.</p>
+        
+        <p><person ref="St.Delyn">St. Delyn</person> grants Shield of St. Delyn, for resistance to blight diseases.</p>
+        
+        <p><person ref="St.Felms">St. Felms</person> grants Felms' Glory, for greater skill in restoring magics.</p>
+        
+        <p><person ref="St.Llothis">St. Llothis</person> grants The Rock of Llothis, for fortifying the will.</p>
+        
+        <p><person ref="St.Meris">St. Meris</person> grants Meris' Warding, for resistance to corprus disease.</p>
+        
+        <p><person ref="St.Nerevar">St. Nerevar</person> grants Spirit of Nerevar, forfortifying the body's vigor.</p>
+        
+        <p><person ref="St.Olms">St. Olms</person> grants Olms' Benediction, for resistance to common disease.</p>
+        
+        <p><person ref="St.Rilms">St. Rilms</person> grants Rilm's Grace, for endurance of hardships.</p>
+        
+        <p><person ref="St.Roris">St. Roris</person> grants Roris' Bloom, for fortifying the body's health.</p>
+        
+        <p><person ref="St.Seryn">St. Seryn</person> grants Seryn's Shield, for resistance to poisons.</p>
+        
+        <p><person ref="St.Veloth">St. Veloth</person> grants Veloth's Indwelling, for magical power, and also grants the blessing of <person ref="Almsivi">Almsivi</person> Restoration, which restores damaged attributes.</p>
+        
+        <p>The Faithful are granted these blessings when they pray at the shrines and make a modest donation. The Blessed of the Initiate rank and higher of the Temple have already made their devotions in service and piety, and need only pray at the shrines to receive their benefits. And <person ref="Almsivi">Almsivi</person> is generous, so even the Unbeliever may receive a blessing if he prays, if he proves his respect with a generous donation.</p>
+    </contents>
+    <consoleID xmlid="bk_ConsolationsOfPrayer">bk_ConsolationsOfPrayer</consoleID>
+</Book>
