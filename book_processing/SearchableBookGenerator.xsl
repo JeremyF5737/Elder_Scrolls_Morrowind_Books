@@ -16,6 +16,8 @@
             <link rel="stylesheet" type="text/css" href="bookTable.css"/>
             </head>
             <body>
+                <section id="nav">
+                    <!--JJF: This makes a flexbox-->
                 <h1>Morrowind Book Information</h1>
                 <ul>
                     <xsl:for-each select="$morrowindColl//Book">
@@ -24,8 +26,15 @@
                     </xsl:for-each>
                     
                 </ul>
-                
-              <h2>Table of Items</h2> 
+                    
+                    <ul>
+                        <li><a href="#items">Table of Items</a></li>
+                        <li><a href="#loc">Table of Locations</a></li>
+                        <li><a href="#group">Table of Groups</a></li>
+                        <li><a href="#persons">Table of Persons</a></li>
+                    </ul>
+                </section>
+              <h2 id="items">Table of Items</h2> 
                 <table>
                     <tr>
                         <th>Items</th>
@@ -64,7 +73,7 @@
                     
                 </table>
              <hr/> <!-- horizontal rule line to separate sections-->
-                <h2>Table of locations</h2>
+                <h2 id="loc">Table of locations</h2>
                 <table>
                     <tr>
                         <th>Locations</th>
@@ -101,7 +110,7 @@
                 </table>
                 
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <h2>Table of Groups</h2>
+                <h2 id="group">Table of Groups</h2>
              <table>
                  <tr>
                      <th>Groups</th>
@@ -137,7 +146,7 @@
                 
              </table>
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <h2>Table of Persons</h2>
+                <h2 id="persons">Table of Persons</h2>
                 <table>
                     <tr>
                         <th>Persons</th>
