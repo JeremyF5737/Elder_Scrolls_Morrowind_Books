@@ -53,7 +53,7 @@
                       
                       <td> <ul>
                           <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.) ! normalize-space()  = $currentItem]">
-                              <li><a href="../web/librarium/{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.) ! normalize-space() =$currentItem][1]/@ref ! lower-case(.) ! normalize-space(), '[ '']', '')}">first mention</a></li>
+                              <li><a href="{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.) ! normalize-space() =$currentItem][1]/@ref ! lower-case(.) ! normalize-space(), '[ '']', '')}">first mention</a></li>
                               
                           </xsl:for-each> 
                       </ul></td>
