@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The_Black_Glove">The Black Glove</book_title>
+    <writer who="anonymous" listed ="no">anonymous</writer>
+    <Acquisition>
+        <location ref ="Ald'ruhn,_Morag_Tong_Guildhall" visitable ="yes">Ald'ruhn, Morag Tong Guildhall</location>
+        <location ref ="Balmora,_Morag_Tong_Guild" visitable ="yes">Balmora, Morag Tong Guild</location>
+        <location ref ="Sadrith_Mora,_Morag_Tong_Guild" visitable ="yes">Sadrith Mora, Morag Tong Guild</location>
+        <location ref ="Sadrith_Mora,_Tel_Naga_Great_Hall" visitable ="yes">Sadrith Mora, Tel Naga Great Hall</location>
+        <location ref ="Tel_Uvirith,_Tower_Lower" visitable ="yes">Tel Uvirith, Tower Lower</location>
+        <location ref ="Vivec,_Arena_Hidden_Area" visitable ="yes">Vivec, Arena Hidden Area</location>
+    </Acquisition>
+    <contents>
+        
+        <p>Swift and agile are the <group ref="Morag_Tong">Morag Tong</group>. Silent and unseen they move. Illusions they supply to misdirect their prey. Close and sure they strike with shortblade, or distant and secure they strike from afar with accurate missile fire. Light armor protects them from harm, and the acrobatic discipline finds for them the unseen and unlooked-for path. Have you these virtues? Then, perhaps, your oath and service may please the <group ref="Morag_Tong">Morag Tong</group>.</p>
+        <p>Do you have your friends and your finery, but no place to go? Do you laugh and cry, but no longer feel? Do you wear these masks? Then, perhaps, your oath and service may please the Black Glove.</p>
+        <p>The blood of the hunter and the blood of the hunted. The joy of the hidden and the joy of the seeker. The blood of the eye and the blood of the gate. The joy of the living and the joy of the dead. Are you one with these things? Then, perhaps, your oath and service may please <person ref="Mephala">Mephala</person>.</p>
+        <p>To make your oath and enter our service, the worthy must seek the <person ref="Grandmaster">Grandmaster</person>, who by tradition lives in the unseen and unlooked-for corners of <location ref ="Vivec_City" visitable ="no">Vivec City</location> between the blood of battle and the waters of life.</p>
+        
+    </contents>
+    <consoleID xmlid="bk_BlackGlove">bk_BlackGlove</consoleID>
+</Book>

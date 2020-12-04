@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The_Real_Nerevar">The Real Nerevar</book_title>
+    <writer who="anonymous" listed ="no">anonymous</writer>
+    <Acquisition>
+        <location ref ="Gilvas Barelo" visitable ="yes">Gilvas Barelo</location>
+        
+    </Acquisition>
+    <contents>
+        
+        <p>The Real  <person ref="Nerevar">Nerevar</person>: A <group ref="Telvanni">Telvanni</group> retainer's informal history of  <person ref="Nerevar">Nerevar</person></p>
+        <p>In that time, House <group ref="Dwemer">Dwemer</group> were great enchanters, so  <person ref="Nerevar">Nerevar</person> went in secret to a <group ref="Dwemer">Dwemer</group> smith and asked for an enchanted ring that would help him. The ring gave its wearer great powers of persuasion; for safety, it was enchanted to instantly kill anyone who wore it except  <person ref="Nerevar">Nerevar</person>. The ring was called <object><item ref="Moon-and-Star">Moon-and-Star</item></object>, and it helped  <person ref="Nerevar">Nerevar</person> unite the various clans into the <group ref="First_Council">First Council</group>.</p>
+        <p>Later, however, disputes over religion divided the Council, with House <group ref="Dwemer">Dwemer</group> and House <group ref="Dagoth">Dagoth</group> on one side and all the other Houses on the other. <group ref="Dwemer">Dwemer</group> and <group ref="Dagoth">Dagoth</group> invited <group ref="Orc">Orc</group> and <group ref="Nord">Nord</group> clans as allies, and held northwest Morrowind, while  <person ref="Nerevar">Nerevar</person> mustered the other Houses and <group ref="nomad_tribes">nomad tribes</group> and marched to meet the <group ref="Dwemer">Dwemer</group>-<group ref="Dagoth">Dagoth</group>-Westerner forces.</p>
+        <p>The armies met at <location ref ="Red_Mountain" visitable ="yes">Red Mountain</location>, a <group ref="Dwemer">Dwemer</group> stronghold. The <group ref="Dwemer">Dwemer</group> were defeated, with great slaughter, and terrible sorceries were used, resulting in the utter extermination of House <group ref="Dwemer">Dwemer</group>, House <group ref="Dagoth">Dagoth</group>, and their allies.  <person ref="Nerevar">Nerevar</person> was killed in the battle, and his ring lost, but  <person ref="Nerevar">Nerevar</person>'s alliance survives in Morrowind's ruling political institution, the <group ref="Grand_Council">Grand Council</group>.</p>
+        
+    </contents>
+    <consoleID xmlid="bk_RealNerevar">bk_RealNerevar</consoleID>
+
+</Book>

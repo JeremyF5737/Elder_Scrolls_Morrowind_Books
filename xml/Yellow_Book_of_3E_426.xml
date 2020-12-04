@@ -11,7 +11,7 @@
         <location ref ="Dren Plantation, Dren's Villa" visitable ="yes">Dren Plantation, Dren's Villa</location>
         <location ref ="Omani Manor" visitable ="yes">Omani Manor</location>
         <location ref ="Ules Manor" visitable ="yes">Ules Manor</location>
-        <location  ref ="Vivec, Curio Manor" visitable ="yes">Vivec, Curio Manor</location>
+        <location ref ="Vivec, Curio Manor" visitable ="yes">Vivec, Curio Manor</location>
         <location ref ="Vivec, St. Olms Yngling Manor" visitable ="yes">Vivec, St. Olms Yngling Manor</location>
     </Acquisition>
     <contents>

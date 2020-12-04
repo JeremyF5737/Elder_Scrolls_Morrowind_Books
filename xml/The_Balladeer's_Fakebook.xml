@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The_Balladeer's_Fakebook">The Balladeer's Fakebook</book_title>
+    <writer who="anonymous" listed ="yes">anonymous</writer>
+    <Acquisition>
+        <location ref ="Balmora,_South_Wall_Cornerclub" visitable ="yes">Balmora, South Wall Cornerclub</location>
+    </Acquisition>
+    <contents>
+        
+        <p>Bold <person ref="Admiral_Richton">Admiral Richton</person></p>
+        <p>The Golden Grove</p>
+        <p>The Twelve-Night Drunk</p>
+        <p>Island Lads Down from the Mountain</p>
+        <p>Beans, Bloody Beans</p>
+        <p>Olga's Smickett</p>
+        <p>Black Fredas</p>
+        <p>The <group ref="Imperial">Imperial</group> Volunteer</p>
+        <p>Down by the Ginger Garden</p>
+        <p>Roll, Bretonnia, Roll</p>
+        <p>The <location ref ="Isle_of_Summerset" visitable ="no">Isle of Summerset</location></p>
+        <p>Dark Blooded Foes</p>
+        <p>Dawn and Dusk</p>
+        <p>Farewell to <location ref ="Colovia" visitable ="no">Colovia</location></p>
+        <p>Wind and Rain</p>
+        <p>Green and Gracious Land</p>
+        <p>The Jolly Archer</p>
+        <p>Sorrow Waters</p>
+        <p>Inkkit Hinkit</p>
+        <p>Pilgrim on the Road</p>
+        <p>I'm Glad I'm Not No <group ref="Orc">Orc</group></p>
+    </contents>
+    <consoleID xmlid="bk_Balladeers_Fakebook">bk_Balladeers_Fakebook</consoleID>
+    
+</Book>
