@@ -13,7 +13,7 @@
          <html>
             <head>
                 <title>Morrowind Book Information</title>
-            <link rel="stylesheet" type="text/css" href="bookStyle.css"/>
+            <link rel="stylesheet" type="text/css" href="bookTable.css"/>
             </head>
             <body>
                 <h1>Morrowind Book Information</h1>
@@ -53,7 +53,7 @@
                       
                       <td> <ul>
                           <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.) ! normalize-space()  = $currentItem]">
-                              <li><a href="{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.) ! normalize-space() =$currentItem][1]/@ref ! lower-case(.) ! normalize-space(), '[ '']', '')}">first mention</a></li>
+                              <li><a href="../web/librarium/{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.) ! normalize-space() =$currentItem][1]/@ref ! lower-case(.) ! normalize-space(), '[ '']', '')}">first mention</a></li>
                               
                           </xsl:for-each> 
                       </ul></td>
@@ -183,7 +183,8 @@
               <html>
                   <head>
                       <title><xsl:apply-templates select="book_title"/></title>
-                      <link rel="stylesheet" type="text/css" href="bookStyle.css"/>
+                      <link rel="stylesheet" type="text/css" href="bookSpine.css"/>
+                      <!--JJF: Let Issac style using CSS and replace using his link.-->
                       <!--ebb: Replace with your project CSS to style the books -->
                   </head>
                   <body>

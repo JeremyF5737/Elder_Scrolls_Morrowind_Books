@@ -1,0 +1,38 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = Book
+Book = element Book {book_title, writer, Acquisition, contents, Appearances?, consoleID?}
+# rename to Acct_Scrolls
+#removed Game element
+#removed form element
+xmlid = attribute xmlid {xsd:ID}
+ref = attribute ref {text}
+book_title = element book_title {ref, mixed{location*}}
+#mixed book_title
+writer = element writer {(who)*, listed, text}
+who = attribute who {text}
+listed = attribute listed {"yes" | "no"}
+#defined xsd:identifiers
+Acquisition = element Acquisition {(location | person | item | quest | text)*}
+location = element location {ref?, visitable?, text}
+visitable = attribute visitable {"yes" | "no"}
+NPC = attribute NPC {text}
+quest = element quest {ref, mixed{(person, group, location)*}}
+contents = element contents {p+}
+p = element p {mixed{(plot_device | location | group | person | NPC | narration | object)*}}
+# ebb: I'm changing your element <line> to a <p> for paragraph since I am pretty sure that is what these are. You had only one <line> coded, 
+# but probably the whole lines you were seeing are each meant to be a body paragraph in the book.
+plot_device = element plot_device {(what)?, text}
+what = attribute what {text}
+group = element group {ref, text}
+
+narration = element narration {who?, text}
+person = element person {ref, text}
+object = element object {item?, text}
+item = element item {ref?, text}
+
+Appearances = element Appearances {text}
+
+consoleID = element consoleID {xmlid, text}
+#ebb: Should the consoleID hold an xml:id or a ref? 
+#Added a lot of xmlid's, changed a few attributes to elements, overall improvements
