@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Saryonis Sermons Manuscript">Saryonis Sermons Manuscript</book_title>
+    <writer who="Archcanon Tholer Saryoni" listed="yes">Archcanon Tholer Saryoni</writer>
+    <Acquisition>
+        <location ref="Llirala's Shack" visitable="yes">Llirala's Shack</location>
+        <location ref="Sheogorad" visitable="yes">Sheogorad</location>
+    </Acquisition>        
+    <contents>
+        <p>Blessed ALMSIVI, Mercy, Mastery, Mystery</p>
+        
+        
+        <p>Listen, faithful, to Vivec's words, for he says five times and five ways --</p>
+        <p>Forge a keen Faith in the crucible of suffering.</p>
+        <p>Engrave upon thy eye the image of injustice.</p>
+        <p>Death does not diminish; the ghost gilds with glory.</p>
+        <p>Faith conquers all. Let us yield to Faith.</p>
+        <p>Better to suffer a wrong than to do one.</p>
+        
+       <p> Hear the words of <person ref="Vivec">Lord Vivec</person>, and heed his sermons on the Seven Graces, for he names them seven times and seven ways --</p>
+        
+        <p>VALOR</p>
+        <p>DARING</p>
+        <p>JUSTICE</p>
+        <p>COURTESY</p>
+        <p>PRIDE</p>
+        <p>GENEROSITY</p>
+        <p>HUMILITY</p>
+        
+        <p>The Grace of Valor</p>
+        <p>Thank you for your valor, <person ref="Vivec">Lord Vivec</person>. I shall not quail, nor turn away, but face my enemies and my fear.</p>
+        
+        <p>The Grace of Daring</p>
+        <p>Thank you for your daring, <person ref="Vivec">Lord Vivec</person>. I shall not shun risk, nor hide behind the mask of cautious counsel, for fortune favors the bold.</p>
+        
+        <p>The Grace of Justice</p>
+        <p>Thank you for your justice, <person ref="Vivec">Lord Vivec</person>. I shall be neither cruel nor arbitrary, for fair dealing earns the love, trust, and respect of our people.</p>
+        
+        <p>The Grace of Courtesy</p>
+        <p>Thank you for your courtesy, <person ref="Vivec">Lord Vivec</person>. I shall speak neither hurtful nor harsh word, but shall speak respectfully, even of my enemies, for temperate words may turn aside anger.</p>
+        
+        <p>The Grace of Pride</p>
+        <p>Thank you for your pride, <person ref="Vivec">Lord Vivec</person>. I shall not doubt myself, or my people, or my gods, and shall insist upon them, and my ancient rights.</p>
+        
+        <p>The Grace of Generosity</p>
+        <p>Thank you for your generosity, <person ref="Vivec">Lord Vivec</person>. I shall neither hoard nor steal, nor encumber myself with profitless treasures, but shall share freely among house and hearth.</p>
+        
+        <p>The Grace of Humilty</p>
+        <p>Thank you for your humility, <person ref="Vivec">Lord Vivec</person>. I shall neither strut nor preen in vanity, but shall know and give thanks for my place in the greater world.</p>
+        </contents>
+    <consoleID xmlid="bk_saryonisermonsmanuscript">bk_saryonisermonsmanuscript</consoleID>
+</Book>

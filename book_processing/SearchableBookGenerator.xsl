@@ -8,7 +8,7 @@
     <xsl:variable name="morrowindColl" select="collection('morrowindColl/?select=*.xml')"/>   
     <!-- This is our root template establishing the structure of our HTML-output -->
     <xsl:template match="/">
-        <xsl:result-document href="morrowindTables.html" method="xhtml"> 
+        <xsl:result-document href="../web/librarium/morrowindTables.html" method="xhtml"> 
         <!--ebb: xsl:result-document outputs a file with a file name. We'll use it again later to output each of the morrowind books in the collection. -->
          <html>
             <head>
@@ -179,7 +179,7 @@
         <xsl:for-each select="$morrowindColl//Book">]
       <!--ebb: Set a variable to work out the new output filename for each book --><xsl:variable name="fileName" as="xs:string" select="tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')"/>
  
-          <xsl:result-document href="{$fileName}.html" method="xhtml">
+            <xsl:result-document href="../web/librarium/{$fileName}.html" method="xhtml">
               <html>
                   <head>
                       <title><xsl:apply-templates select="book_title"/></title>

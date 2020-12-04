@@ -1,0 +1,27 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 3px solid #000000;
+    border-width: thick;
+    border-style: solid;   
+    padding: 15px;
+    vertical-align: top;
+    background-color:#e6fff2;
+    }
+
+.item {
+        
+       color:red; 
+    }
+    
+.location {
+        
+       color:green; 
+    }
+    
+.group {
+    color:blue;
+}
+
+.person{
+color:purple;
+}
