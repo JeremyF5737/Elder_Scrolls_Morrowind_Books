@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Grasping Fortune">Grasping Fortune</book_title>
+    <writer listed="yes" who="Dram Bero">Dram Bero</writer>
+    <Acquisition>
+        <location ref="Ald'ruhn, Llether Vari: Enchanter" visitable="yes">Ald'ruhn, Llether Vari:
+            Enchanter</location>
+        <location ref="Caldera, Valvius Mevureius' House" visitable="yes">Caldera, Valvius
+            Mevureius' House</location>
+        <location ref="Dagon Fel, Heifnir: Trader" visitable="yes">Dagon Fel, Heifnir:
+            Trader</location>
+        <location ref="Indarys Manor, Manor Services" visitable="yes">Indarys Manor, Manor
+            Services</location>
+
+        <location ref="Mournhold, Mournhold Temple: Office of the Lord Archcanon TR" visitable="yes"
+            >Mournhold, Mournhold Temple: Office of the Lord Archcanon TR</location>
+        <location ref="Ravel Ancestral Tomb" visitable="yes">Ravel Ancestral Tomb</location>
+        <location ref="Rethan Manor, Gols' House" visitable="yes">Rethan Manor, Gols'
+            House</location>
+        <location ref="Suran, Oran Manor" visitable="yes">Suran, Oran Manor</location>
+        <location ref="Tel Vos, Tel Vos Central Tower" visitable="yes">Tel Vos, Tel Vos Central
+            Tower</location>
+        <location ref="Tower of Tel Fyr, Hall of Fyr" visitable="yes">Tower of Tel Fyr, Hall of
+            Fyr</location>
+        <location ref="Vivec City" visitable="yes">Vivec City</location>
+    </Acquisition>
+
+    <contents>
+        <p>I am a councilor of House <group ref = "Hlaalu">Hlaalu</group> and chose to write this short guide for those who seek
+            to understand us or join us. House <group ref = "Hlaalu">Hlaalu</group> is the most open and modern of the Great
+            Houses. We are the only Great House who has embraced the irresistible tides of Imperial
+            law and custom. And thus we have profited by the <group ref = "Empire">Empire</group>'s new policies, rising from
+            obscurity as the Greatest of the Houses.</p>
+
+        <p>In the great wind of progress, tradition cannot stand.</p>
+
+        <p>The <group ref = "Redoran">Redoran</group> may surpass us on the field of battle, but when the dust clears, they will
+            find themselves indebted to us. The House <group ref = "Telvanni">Telvanni</group> may know many arcane secrets, but
+            they fight among themselves more than against each other, and they cannot adapt to the
+            ways of the <group ref = "Empire">Empire</group>. Ancient and powerful though a <group ref = "Telvanni">Telvanni</group> wizard may be, no individual
+            can withstand the march of history. The <group ref = "Indoril">Indoril</group> are loved by the people for their gifts
+            and donations, but when the money runs dry, will the people remember? The <group ref = "Dres">Dres</group> know how
+            to make money, but they have not learned how not to make enemies.</p>
+
+        <p>Grasp fortune by the forelocks. When you see your chances, seize them.</p>
+
+        <p>When you see a chance to turn a profit, take it. But do not follow money blindly. There
+            is value in reputation, more than many young <group ref = "Hlaalu">Hlaalu</group> realize. This value must be
+            carefully balanced against the more tangible coins in any deal. Theft and murder are bad
+            for business. You can steal from someone, but will he trade with you after that? You
+            can't bargain with a dead man.</p>
+
+        <p>There are many ways to do business.</p>
+
+        <p>In House <group ref = "Hlaalu">Hlaalu</group> you must be fast and agile. You must be able to keep up with business and
+            with the times. You must be able to speak quickly and convincingly. You must be able to
+            trade with the best of merchants and make a profit. You must learn to protect your own
+            property by securing it with hidden chests, locks, and even traps. And when
+            confrontation is unavoidable, it is best to fight quickly in comfortable, light armors
+            with short blades, or to fight from a distance with a marksman's weapons.</p>
+
+        <p>Then, reader, would you seize this opportunity to join House <group ref = "Hlaalu">Hlaalu</group>? Would you have
+            yourself be counted among the victors in the race for success? Then submit yourself for
+            examination at the Balmora Council Manor. If you have the skills, you will be welcome.
+            And if you have the will, you may serve House <group ref = "Hlaalu">Hlaalu</group>, and advance in the ranks, for
+            above all things, House <group ref = "Hlaalu">Hlaalu</group> prizes initiative and ambition. </p>
+    </contents>
+</Book>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref=""/>
+    <writer listed="yes" who="Galur Rithari"> Galur Rithari</writer>
+    <Acquisition>
+        <location ref="Kagrenac's Library" visitable="yes">Kagrenac's Library</location>
+        <location ref="Hall of Justice" visitable="yes">Hall of Justice</location>
+        <location ref="Galom Daeus Observatory" visitable="yes">Galom Daeus Observatory</location>
+    </Acquisition>
+
+    <contents>
+        <p>"Outnumbered and isolated, I yielded to my foe. The creature dressed like a gentleman,
+            and I hoped for honorable treatment. Instead, I found myself a feast for a
+            blood-drinking monster.</p>
+
+        <p>"Shamed by my corruption, and despairing of my own welfare, I passively acquiesced in my
+            gradual integration into the affairs of <group ref = "Clan Aundae">Clan Aundae</group>. I made no human my prey, only
+            beasts, and kept myself apart from the other clankin; nonetheless, I abandoned hope and
+            lived like a beast.</p>
+
+        <p> "Drawn by intimations of my former life, I visited my former post at <location ref = "Bal Ur" visitable = "yes">Bal Ur</location>, hoping
+            perhaps to atone in some for my crimes by preying upon its monsters, or perishing under
+            their attacks. It is there that, by chance, I made petition to the Lord of Troubles,
+            <person ref = "Molag Bal">Molag Bal</person>, at an altar deep in the caverns beneath the pilgrim's shrine. I was
+            surprised, and thrilled, and terrified, when <person ref = "Molag Bal">Molag Bal</person>, or some aspect or agent of that
+            Daedra Lord, offered me a chance to cure myself of vampirism, in return for a favor.
+            However, with no hope for my soul or spirit unless I might be cured, I undertook his
+            quest.</p>
+
+        <p>[Rithari sought and obtained a cursed soul gem of mysterious nature from a deep cavern on
+            the northern slopes of <location ref = "Dagoth Ur" visitable = "yes">Dagoth Ur</location>, delivering it to <person ref = "Molag Bal">Molag Bal's</person> shrine in <location ref = "Bal Ur" visitable = "yes">Bal Ur</location>.]</p>
+
+        <p>"I placed the gem within the basin before the altar, and instantly experienced a blinding
+            of pain and terror that I cannot express in words, except that it seemed afterward that
+            I had been asleep and dreaming that I was being sliced by thousands of tiny knives from
+            my bowels inside out. I awoke before the altar, and gazed in the reflection of my own
+            sword blade at my own face - no longer a blood-seeking beast of teeth and empty
+            eyes."</p>
+    </contents>
+</Book>
