@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Hanin's Wake">Hanin's Wake</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Arrow" visitable="yes">Ald'ruhn</location>
+        <location ref="Milk" visitable="yes">Balmora</location>
+        <location ref="Palansour" visitable="yes">Balmora</location>
+    </Acquisition>
+
+    <contents>
+        <p> ...and upon that year of the Reign of <person ref="Wulfharth">Wulfharth</person> and his Son's, the Magnificence that
+            was Mordrin Hanin ended in this world. Representative of <location ref="Ashalmawia" visitable="yes">Ashalmawia</location>, <location ref="Maelkashishi" visitable="yes">Maelkashishi</location> and <location ref="Ald Sotha" visitable="yes">Ald Sotha</location> gathered in a great host at the vastness of <location ref="Assurnabitashpi" visitable="yes">Assurnabitashpi</location>. Even Hilbongard and
+            Dorach Gusal were lured from their Forge, and for a time the Fires of <location ref="Anudnabia" visitable="yes">Anudnabia</location> were silent.
+        </p>
+        
+       <p> And thus on the Ninth Day of Mourning, many slaves and enemies were sacrificed and the Cup
+        of Passage was mixed according to the direction of Hanin's Formulae:</p>
+        
+       <p> 2 Parts Blood of Traitors
+           1 Part <object><item ref="Daedra's Heart">Daedra's Heart</item></object> of <group ref="Daedra">Daedra</group>
+           1 Part mixed Bittergreen Petals, <object><item ref="Void Salts">Void Salts</item></object>, <object><item ref="Green
+               Lichens">Green
+           Lichens</item></object> and <object><item ref="Bonemeal">Bonemeal</item></object>
+           1 Part <object><item ref="Moonsugar">Moonsugar</item></object> 
+           5 Parts <object><item ref="Flin">Flin</item></object></p>
+        
+        <p> Combine Blood, <object><item ref="Daedra's Heart">Heart</item></object>, <object><item ref="Moonsugar">Moonsugar</item></object> in Large Ebony <object><item ref="Alembic">Alembic</item></object>. Heat fire fed by Bones of Traitors. Condense vapors into a large Ebony flask.
+            For a hot drink, strain contents through <object><item ref="Scamp Skin">Scamp Skin</item></object> and mix with <object><item ref="Flin">Flin</item></object> in large mug, slowly
+            stirring with a glass rod. For a chilled drink, mix in flask with pure <location ref="Skyrim" visitable="no">Skyrim</location> Ice and shake
+            vigorously. Strain through <person ref="Winged Twilight">Winged Twilight</person> membrane and served in gem encrusted goblet. 
+        </p>
+      
+       <p>The wake was considered a great success as the beverage killed a great many guests and thus
+        Mordrin Hanin was supplied with companions in the next world.</p> </contents>
+
+</Book>

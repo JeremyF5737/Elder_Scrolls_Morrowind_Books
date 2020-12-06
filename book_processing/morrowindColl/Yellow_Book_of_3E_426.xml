@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="Yellow Book of 3E 426">Yellow Book of 3E 426</book_title>
+    <writer who="House Hlaalu" listed ="yes">House Hlaalu</writer>
+    <Acquisition>
+        <location ref ="Balmora, Hlaalu Council Mano" visitable ="yes">Balmora, Hlaalu Council Manor</location>
+        <location ref ="Dren Plantation, Dren's Villa" visitable ="yes">Dren Plantation, Dren's Villa</location>
+        <location ref ="Omani Manor" visitable ="yes">Omani Manor</location>
+        <location ref ="Ules Manor" visitable ="yes">Ules Manor</location>
+        <location ref ="Vivec, Curio Manor" visitable ="yes">Vivec, Curio Manor</location>
+        <location ref ="Vivec, St. Olms Yngling Manor" visitable ="yes">Vivec, St. Olms Yngling Manor</location>
+    </Acquisition>
+    <contents>
+        
+        <p>Councilors of House Hlaalu, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Imperial Era 426</p>
+        
+<p>Mistress <person ref="Velanda Omani">Velanda Omani</person>, by Grace of Almsivi, Honored Councilor of <group ref="House Hlaalu">Hlaalu Council</group>, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Free Trader, Lord of Omani Plantation, Elmas Island, East Vivec, District of <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location>, Province of Morrowind</p>
+
+<p>Master <person ref="Dram Bero">Dram Bero</person>, by Grace of Almsivi, Honored Councilor of <group ref="House Hlaalu">Hlaalu Council</group>, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Free Trader, Gentleman of No Fixed Residence, Vivec, District of <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location>, Province of Morrowind</p>
+
+<p>Master <person ref="Crassius Curio">Crassius Curio</person>, by Grace of Almsivi, Honored Councilor of <group ref="House Hlaalu">Hlaalu Council</group>, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Free Trader, <location ref="Curio Manor" visitable ="yes">Curio Manor</location>, Hlaalu Compound, Vivec, District of <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location>, Province of Morrowind</p>
+
+<p>Master <person ref="Yngling Half-Troll">Yngling Half-Troll</person> , by Grace of Almsivi, Honored Councilor of <group ref="House Hlaalu">Hlaalu Council</group>, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Free Trader, <location ref="Yngling Manor" visitable ="yes">Yngling Manor</location>, <location ref="Canton of St. Olms" visitable ="yes">Canton of St. Olms</location>, Vivec, District of <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location>, Province of Morrowind</p>
+
+<p>Mistress <person ref="Nevena Ules">Nevena Ules</person>, by Grace of Almsivi, Honored Councilor of <group ref="House Hlaalu">Hlaalu Council</group>, <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location> District, Free Trader, <location ref="Ules Manor" visitable ="yes">Ules Manor</location>, <location ref="Suran" visitable ="yes">Suran</location>, <location ref="Ascadian Isles" visitable ="yes">Ascadian Isles</location>, <location ref="Bal Ur" visitable ="yes">Bal Ur</location>, District of <location ref="Vvardenfell" visitable ="yes">Vvardenfell</location>, Province of Morrowind</p>
+
+<p>Council Affairs of Note</p>
+
+<p>King Hlaalu <person ref="Athyn Llethan">Athyn Llethan</person>, High Councilor and Lord of Morrowind, grants relief to merchants complaining of high tariffs on imported alcoholic beverages.</p>
+        
+<p>The council is pleased to report a reduction in the incidence of theft and violent crime in the Hlaalu House Districts, thanks to the vigilance of the Legions and stern sentences by the magistrates. The council laments the unfortunate disturbances of the public peace resulting from the increasingly aggressive competition between the <group ref="Thieves Guild">Thieves Guild</group> and the <group ref="Camonna">Camonna Tong</group> for control of the black markets.</p>
+
+<p>A minor tax revolt in <location ref="Balmora" visitable ="yes">Balmora</location> was suppressed without undue harm to life and property. The council sent deputations to the Duke to express their concerns over the high tax rates and the injurious effect of high tariffs on trade.</p>
+    
+    </contents>
+    <consoleID xmlid="bk_yellowbook426">bk_yellowbook426</consoleID>
+</Book>

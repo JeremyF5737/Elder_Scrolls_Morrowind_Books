@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Guide to Vivec">Guide to Vivec</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Vivec City, Hlaalu Treasury" visitable="yes">Vivec City, Hlaalu
+            Treasury</location>
+        <person ref="Codus Callonus">Codus Callonus</person>
+        <person ref="Dorisa Darvel">Dorisa Darvel</person>
+        <person ref="Elms Llervu">Elms Llervu</person>
+        <person ref="Guldrise">Guldrise</person> Dralor <person ref="Iulus Truptor">Iulus
+            Truptor</person>
+        <person ref="Sevyni Saryon">Sevyni Saryon</person>
+    </Acquisition>
+
+    <contents>
+        <p> Vivec is the largest settlement on <location ref="Vvardenfell" visitable="yes"
+                >Vvardenfell</location>, and one of the largest cities in the East. Each of the
+            great cantons is the size of a complete town. The <location ref="High Fane"
+                visitable="yes">High Fane</location> and the <location ref="palace of Vivec"
+                visitable="yes">palace of Vivec</location> are visited by hundreds of tourists and
+            pilgrims daily. Citizens flock to the Arena for public entertainments like mock battles
+            and comic plays. Outlanders mostly confine themselves to the <location
+                ref="Foreign Canton" visitable="yes">Foreign Canton</location>, while natives live,
+            work, and shop in the Great House compounds and residential cantons. But most of all,
+            this is Lord Vivec's holy city. The <location ref="Ministry of Truth" visitable="yes"
+                >Ministry of Truth</location>, the Temple prison, hangs above the great temple of
+            the <location ref="High Fane" visitable="yes">High Fane</location>, the Halls of Wisdom
+            and Justice, and Lord Vivec's Palace.</p>
+
+        <p> Vivec is a city made up of eight cantons, each a little town in itself. On a map, it
+            looks like a cross, with the Foreign Quarter at the top, the Temple Compound, with
+            Vivec's Palace, the <location ref="High Fane" visitable="yes">High Fane</location>, the
+                <location ref="Ministry of Truth" visitable="yes">Ministry of Truth</location>, and
+            the <location ref="Hall of Wisdom" visitable="yes">Hall of Wisdom</location> and the
+                <location ref="Hall of Justice" visitable="yes">Hall of Justice</location> at the
+            bottom, the Hlaalu Compound to the west, the Telvanni Compound on the east, and four
+            cantons grouped together at the center of the cross -- Redoran Compound northwest, Arena
+            northeast, St. Delyn's Canton southwest, and St. Olms Canton southeast.</p>
+
+        <p> The Foreign Quarter</p>
+        <p> The Foreign Quarter is the large three-tiered canton to the north. Originally,
+            foreigners were not allowed to enter Vivec any further than the Foreign Quarter, but now
+            outlanders can travel throughout Vivec at will. The Imperial Guilds each have guildhalls
+            and complete services here, and an Imperial cult shrine serves the spiritual needs of
+            the Imperial faithful. Various independent tradesmen, craftsmen, and trainers also rent
+            space here. The <location ref="Black Shalk Cornerclub" visitable="yes">Black Shalk
+                Cornerclub</location> rents beds to non-guild visitors.</p>
+
+        <p> Temple Compound</p>
+        <p> The <location ref="High Fane" visitable="yes">High Fane</location> is the largest
+            Tribunal temple on <location ref="Vvardenfell" visitable="yes">Vvardenfell</location>.
+                <person ref="Archcanon Saryoni">Archcanon Saryoni</person> presides over the temple,
+            along with a large staff of priests, healers, and monks. Pilgrims travel from all over
+            Morrowind to view the <location ref="High Fane" visitable="yes">High Fane</location> and
+            the <location ref="Ministry of Truth" visitable="yes">Ministry of Truth</location>, and
+            to offer prayer and thanks before the <location ref="Palace of Vivec" visitable="yes"
+                >Palace of Vivec</location>. The <location ref="Ministry of Truth" visitable="yes"
+                >Ministry of Truth</location>, a celestial body suspended by <person ref="Vivec"
+                >Vivec</person>'s mighty power over the Temple Compound, is the headquarters of the
+            Temple Ordinators, and heretics are imprisoned and re-educated there. The <location
+                ref="Hall of Wisdom" visitable="yes">Hall of Wisdom</location> and <location
+                ref="Hall of Justice" visitable="yes">Hall of Justice</location> contain the
+            executive, administrative, judicial, and martial operations of the Tribunal Temple. The
+                <location ref="Palace of Vivec" visitable="yes">Palace of Vivec</location> is the
+            abode of the god-hero Lord Vivec, the Warrior-Poet of the three deities who comprise
+                <group ref="Almsivi">Almsivi</group>, the divine patrons of the Tribunal Temple.
+            Only the most devout are admitted to the presence of Lord <person ref="Vivec"
+                >Vivec</person>, and only at his initiation. Beneath the <location
+                ref="Palace of Vivec" visitable="yes">Palace of Vivec</location> is the <location
+                ref="Puzzle Canal" visitable="yes">Puzzle Canal</location>, a place of worship and
+            testing for questing heroes hoping to receive <person ref="Vivec">Vivec</person>'s
+            favor. Many choice treasures are guarded by Daedric servants in the <location
+                ref="Puzzle Canal" visitable="yes">Puzzle Canal</location>'s dark passages.</p>
+
+        <p> Hlaalu Compound</p>
+        <p> Hlaalu Compound is the westmost canton. The Hlaalu Councilor <person
+                ref="Crassius Curio">Crassius Curio</person> has a splendid tier-top mansion here.
+            The tiers below contain Hlaalu treasuries, records, holding cells, and various Great
+            House services. There are two public houses: the <group ref="Elven Nations">Elven
+                Nations</group> and the <group ref="No Name Club">No Name Club</group>. A variety of
+            craftsmen and tradesmen also have shops at Hlaalu Compound. Some House Hlaalu nobles and
+            retainers prefer to maintain their residences in the less-formal St. Delyn and St. Olms
+            cantons.</p>
+
+        <p> Telvanni Compound</p>
+        <p> Telvanni Compound is the eastmost canton. The mage-lord <person ref="Mavon Drenim">Mavon
+                Drenim</person> is the ranking Telvanni noble. The Telvanni rent the compound from
+            the Temple, and have to make do with a Velothi tower instead of their preferred mushroom
+            towers. The administrative center includes a treasury and a hall of records. Slaves are
+            housed in the lowest tiers, along with cells full of monsters. There are many tradesmen,
+            craftsmen, and trainers, and <location ref="the Lizard's Head" visitable="yes">the
+                Lizard's Head</location> cornerclub provides lodgings for Telvanni kin and
+            mercenaries.</p>
+
+        <p> Redoran Compound</p>
+        <p> Redoran Compound is the canton south of the Foreign Quarter, west of and next to the
+            Arena. The Redoran administrative center there includes the <location
+                ref="Redoran Treasury" visitable="yes">Redoran Treasury</location>, <location
+                ref="Hall of Records" visitable="yes">Hall of Records</location>, and <location
+                ref="Holding Cells" visitable="yes">Holding Cells</location>. On the lowest tier is
+            a Redoran shrine and ancestral vaults. Two noble families, the Savens and the Dralors,
+            have top-tier manors. There are many tradesmen, craftsmen, and trainers, and the
+                <location ref="Flowers of Gold" visitable="yes">Flowers of Gold</location>
+            cornerclub provides lodgings for Redoran kin and retainers.</p>
+
+        <p> Arena Compound</p>
+        <p> The Arena Compound lies between the Redoran compound on the west and the Telvanni
+            compound on the east. The Arena is the site of public entertainments and combat sports.
+            The comfortable domed Arena has seating for hundreds of spectators; beneath the Arena
+            are dressing and storage rooms for entertainers and training rooms and animal pens for
+            the combat competitors.</p>
+
+        <p> St. Delyn and St. Olms Residential Cantons</p>
+        <p> St. Delyn Canton and St. Olms Canton are residence cantons for commoners and paupers.
+            The Temple charges very reasonable rents for comfortable workshops, shops, and
+            apartments, and most of <location ref="Vvardenfell" visitable="yes"
+                >Vvardenfell</location>'s crafts and light industry are housed in these cantons.
+                <location ref="The Abbey of St. Delyn the Wise" visitable="yes">The Abbey of St.
+                Delyn the Wise</location> is on the top tier of St. Delyn, and Hlaalu Councilor
+                <person ref="Yngling Half-Troll">Yngling Half-Troll</person> has a top-tier manor on
+            St. Olms.</p>
+
+        <p> Transportation</p>
+        <p> Foot bridges connect with the mainland between the <location ref="Ebonheart"
+                visitable="yes">Ebonheart</location> region and Hlaalu Compound, between the north
+            bay region and the Foreign Quarter, and between the east bay region and Telvanni
+            Compound. Good roads lead from the Hlaalu Compound bridge south to <location
+                ref="Ebonheart" visitable="yes">Ebonheart</location> and north to <location
+                ref="Seyda Neen" visitable="yes">Seyda Neen</location> and points north. Good roads
+            lead from the Foreign Quarter bridge west towards <location ref="Seyda Neen"
+                visitable="yes">Seyda Neen</location>, north towards <location ref="Suran"
+                visitable="yes">Suran</location> and the <location ref="Ascadian Isles"
+                visitable="yes">Ascadian Isles</location>, and east towards <location
+                ref="Molag Mar" visitable="yes">Molag Mar</location>. Roads from the Telvanni
+            Compound bridge are useful mostly for travelers to <location ref="Molag Mar"
+                visitable="yes">Molag Mar</location>. Silt strider service is available at the north
+            end of the Foreign Quarter bridge, traveling from Vivec to <location ref="Suran"
+                visitable="yes">Suran</location>, <location ref="Seyda Neen" visitable="yes">Seyda
+                Neen</location>, <location ref="Balmora" visitable="yes">Balmora</location>, and
+                <location ref="Molag Mar" visitable="yes">Molag Mar</location>. Ships from the docks
+            at the Foreign Quarter travel to <location ref="Ebonheart" visitable="yes"
+                >Ebonheart</location>, <location ref="Hla Oad" visitable="yes">Hla Oad</location>,
+                <location ref="Molag Mar" visitable="yes">Molag Mar</location>, and <location
+                ref="Tel Branora" visitable="yes">Tel Branora</location>. Ships from nearby
+                <location ref="Ebonheart" visitable="yes">Ebonheart</location> sail to <location
+                ref="Hla Oad" visitable="yes">Hla Oad</location>, Sadrith Mora, <location
+                ref="Tel Branora" visitable="yes">Tel Branora</location>, and the Foreign Quarter of
+                <person ref="Vivec">Vivec</person>. Low-fare gondolas shuttle passengers from canton
+            to canton via Vivec's canals.</p>
+    </contents>
+</Book>

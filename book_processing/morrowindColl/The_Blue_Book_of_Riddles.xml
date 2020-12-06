@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The_Blue_Book_of_Riddles">The Blue Book of Riddles</book_title>
+    <writer who="anonymous" listed ="no">anonymous</writer>
+    <Acquisition>
+        <location ref ="Tel_Uvirith,_Tower_Upper" visitable ="yes">Tel Uvirith, Tower Upper</location>
+        <location ref ="Tel_Uvirith,_Seleth's_House" visitable ="yes">Tel Uvirith, Seleth's House</location>
+        <location ref ="Tel_Aruhn,_Tower_Entry" visitable ="yes">Tel Aruhn, Tower Entry</location>
+        <location ref ="Suran,_Ralds_Oril:_Trader" visitable ="yes">Suran, Ralds Oril: Trader</location>
+        <location ref ="Ghostgate,_Tower_of_Dawn_Lower_Level" visitable ="yes">Ghostgate, Tower of Dawn Lower Level</location>
+    </Acquisition>
+    <contents>
+        
+        <p>Herein are presented all manner of riddles, as collected by the scholars of St Rilms, to the greater glory of the <group ref="Tribunal,_Almsivi">Tribunal, Almsivi</group>!</p>
+    
+    </contents>
+    <consoleID xmlid="bk_BlueBookOfRiddles">bk_BlueBookOfRiddles</consoleID>
+    
+</Book>

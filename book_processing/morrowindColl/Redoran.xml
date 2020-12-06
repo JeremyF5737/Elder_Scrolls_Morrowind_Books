@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Book>
+    <book_title ref="Redoran Cooking Secrets">Redoran Cooking Secrets</book_title>
+    <writer who="Anonymous" listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Tel Uvirith" visitable="yes">Tel Uvirith</location>, Arelas' House
+        <location ref="Vivec">Vivec City</location>
+        <location ref="Mournhold" visitable="yes">Mournhold</location>
+    </Acquisition>
+    
+    
+    <contents> 
+        <p>EXCERPT: concerning the points of Temple doctrine challenged by the <group ref="Dissident Priests">Dissident priests</group>:</p>
+        
+        <p>1. the divinity of the <group ref="Tribunal Temple">Tribunal</group></p>
+        <p>Temple doctrine claims their apotheosis was miraculously achieved through questing, virtue, knowledge, testing, and battling with Evil; Temple doctrine claims their divine powers and immortality are ultimately conferred as a communal judgement by the <group ref="Dunmer">Dunmer</group> ancestors [ including, among others, the Good <group ref="Daedra">Daedra</group>, the prophet <person ref="Veloth">Veloth</person>, and Saint <person ref="Indoril Nerevar">Nerevar</person> ]. <group ref="Dissident Priests">Dissident priests</group> ask whether <person ref="Dagoth Ur">Dagoth Ur</person>'s powers and the <group ref="Tribunal Temple">Tribunal</group> powers might ultimately derive from the same source -- <location ref="Red Mountain">Red Mountain</location>. Sources in the Apographa suggest that the <group ref="Tribunal Temple">Tribunal</group> relied on profanely enchanted tools to achieve godhead, and that those unholy devices were the ones originally created by the ungodly Dwemer sorceror <person ref="Kagrenac">Kagrenac</person> to create the False Construct Numidium.</p>
+        
+        <p>2. the purity of the <group ref="Tribunal Temple">Tribunal</group></p>
+        <p>The <group ref="Dissident Priests">Dissident priests</group> say that the Temple has always maintained a public face [represented by the Heirographa -- the "priestly writings"] and a hidden face [ represented by the Apographa -- the "hidden writings"]. The public account portrays the actions of the <group ref="Tribunal Temple">Tribunal</group> in a heroic light, while the hidden writings reveal secrets, untruths, inconsistencies, conflicting accounts and varying interpretations which hint at darker and less heroic motives and actions of the Tribunes. In particular, conflicting accounts of the battle at <location ref="Red Mountain">Red Mountain</location> raise questions about the <group ref="Tribunal Temple">Tribunal</group>'s conduct, and about the source of their subsequent apotheosis. Also, there is good evidence that the <group ref="Tribunal Temple">Tribunal</group> have been concealing the true nature of the threat posed by <person ref="Dagoth Ur">Dagoth Ur</person> at <location ref="Red Mountain">Red Mountain</location>, misleading the people about the <group ref="Tribunal Temple">Tribunal</group>'s ability to protect <location ref="Morrowind">Morrowind</location> from <person ref="Dagoth Ur">Dagoth Ur</person>, and concealing a recent dramatic diminishing of the <group ref="Tribunal Temple">Tribunal</group>'s magical powers.</p>
+        
+        <p>3. Temple accounts of the Battle of <location ref="Red Mountain">Red Mountain</location></p>
+        <p><group ref="Ashlander">Ashlander</group> tradition does not place the <group ref="Tribunal Temple">Tribunal</group> at <location ref="Red Mountain">Red Mountain</location>, and holds that the <group ref="Dwemer">Dwemer</group> destroyed themselves, rather than that <person ref="Indoril Nerevar">Nerevar</person> destroyed them. <group ref="Ashlander">Ashlander</group> tradition further holds that <person ref="Indoril Nerevar">Nerevar</person> left <person ref="Dagoth Ur">Dagoth Ur</person> guarding the profane secrets of <location ref="Red Mountain">Red Mountain</location> while <person ref="Indoril Nerevar">Nerevar</person> went to confer with the Grand Council [i.e., the <group ref="Tribunal Temple">Tribunal</group>], that <person ref="Indoril Nerevar">Nerevar</person> died at the conference [not of his wounds, according to the <group ref="Ashlanders">Ashlanders</group>, but from treachery], and that subsequently the <group ref="Tribunal Temple">Tribunal</group> confronted a defiant <person ref="Dagoth Ur">Dagoth Ur</person> within <location ref="Red Mountain">Red Mountain</location>, then drove <person ref="Dagoth Ur">Dagoth Ur</person> beneath <location ref="Red Mountain">Red Mountain</location> when he would not yield to their will.</p>
+        
+        <p>4. veneration of the <group ref="Daedra">Daedra</group>, <group ref="Saints">Saints</group>, and <group ref="Ancestors">Ancestors</group></p>
+        <p>While challenging the divinity of the <group ref="Tribunal Temple">Tribunal</group>, the <group ref="Dissident Priests">Dissidents</group> do not challenge the sainthood or heroism of the <group ref="Tribunal Temple">Tribunal</group>. In fact, the <group ref="Dissident Priests">Dissident priests</group> advocate restoring many of the elements of Fundamentalist Ancestor Worship as practiced by the <group ref="Ashlanders">Ashlanders</group> and by Saint <person ref="Veloth">Veloth</person>. Exactly how this would work is debated inconclusively within the <group ref="Dissident Priests">Dissident priests</group>.</p>
+        
+        <p>5. denial of the prophecies of the Incarnate, and persecution of the <plot_device what="Nerevarine">Nerevarine</plot_device>s</p>
+        <p>Though no consensus exists among the <group ref="Dissident Priests">Dissidents</group> about whether the <plot_device what="Nerevarine">Nerevarine</plot_device> prophecies are genuine, all agree that the persecution of the <plot_device what="Nerevarine">Nerevarine</plot_device>s is unjust and politically motivated. The <group ref="Dissident Priests">Dissident priests</group> do not reject mysticism, revelation, or prophecy as part of the religious experience. The <group ref="Dissident Priests">Dissidents</group> have not resolved the issue of true or false insights. They have studied the mysticism of the <group ref="Ashlander">Ashlander</group> Ancestor Cults, in particular the rites of the <group ref="Ashlander">Ashlander</group> seers and wise women, and the prophecies of the Incarnate. Many among the <group ref="Dissident Priests">Dissident priests</group> have come to believe that the <plot_device what="Nerevarine">Nerevarine</plot_device> prophecies are genuine, and have made a systematic study of prophecies recorded in Temple archives.</p>
+        
+        <p>6. Authority of the <person ref="Archcanon">Archcanon</person> and the <group ref="Ordinators">Ordinators</group></p>
+        <p>The <group ref="Dissident Priests">Dissident priests</group> reject the authority of the <person ref="Archcanon">Archcanon</person> and the <group ref="Ordinators">Ordinators</group>. The temple hierarchy has been corrupted by self-interest and politics, and no longer acts in the best interests of the Temple or its worshippers. The <group ref="Dissident Priests">Dissident priests</group> believe the <person ref="Archcanon">Archcanon</person> and <group ref="Ordinators">Ordinators</group> speak for themselves, not for the <group ref="Tribunal Temple">Tribunal</group>.</p>
+        
+        <p>7. the Inquisition and the use of terror and torture by the <group ref="Ordinators">Ordinators</group></p>
+        <p>Within the Temple hierarchy it is an open secret that the <group ref="Ordinators">Ordinators</group> rely on abduction, terror, torture, and secret imprisonment to discourage heresy and dissent. The <group ref="Dissident Priests">Dissident priests</group> feel the <group ref="Ordinators">Ordinators</group> are either out of control, or tools used to maintain a corrupt priesthood in power.</p>
+        
+        <p>8. fundamentals of Temple doctrine - Charity for the Poor, Education for the Ignorant, Protection for the Weak</p>
+        <p>Though the <group ref="Dissident Priests">Dissident priests</group> acknowledge that most rank-and-file priests honor the best traditions of the Temple, they believe that many priests in higher ranks are interested more in love of authority and luxury than in the welfare of the poor, weak, and ignorant.</p>
+    </contents>
+    <consoleID xmlid="bk_redorancookingsecrets">bk_redorancookingsecrets</consoleID>
+</Book>
+
+

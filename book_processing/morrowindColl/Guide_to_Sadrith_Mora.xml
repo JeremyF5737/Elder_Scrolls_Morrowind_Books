@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Book>
+    <book_title ref="Guide to Sadrith Mora">Guide to Sadrith Mora</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <person ref="Dorisa Darvel">Dorisa Darvel</person>
+        <person ref="Llevas Fels">Llevas Fels</person>
+        <person ref="Rissinia">Rissinia</person>
+        <location ref="Skink-in-Tree's-Shade" visitable="yes">Skink-in-Tree's-Shade</location>
+    </Acquisition>
+
+    <contents>
+        <p>
+            <location ref="Sadrith Mora" visitable="yes">Sadrith Mora</location> is the district
+            seat of House Telvanni, and home of the Telvanni Council, though only one Telvanni
+            councilor actually lives in <location ref="Sadrith Mora" visitable="yes">Sadrith
+                Mora</location>. <location ref="Sadrith Mora" visitable="yes">Sadrith
+                Mora</location> is an island settlement, and accessible only by sea and
+            teleportation. The town is large, with many craftsmen, traders, and trainers, but it is
+            open only to Telvanni retainers; outsiders should confine themselves to the <location
+                ref="Gateway Inn" visitable="yes">Gateway Inn</location>, and to <location
+                ref="Wolverine Hall" visitable="yes">Wolverine Hall</location>, the Imperial
+            quarters of the <group ref="Legion">Legion</group> garrison and guilds. The docks are in
+            a sheltered bay on the western side of the island, and a trail leads up from the docks
+            to the <location ref="Gateway Inn" visitable="yes">Gateway Inn</location>. Beyond the
+                <location ref="Gateway Inn" visitable="yes">Gateway Inn</location> is the Great
+            Market, with numerous craftsmen and traders, and a small slave market. North of the
+            Great Market is the <location ref="Telvanni Council Hall" visitable="yes">Telvanni
+                Council Hall</location>, a large orb supported by giant mushroom stalks. To the east
+            of the Great Market is <location ref="Tel Naga" visitable="yes">Tel Naga</location>, the
+            towering wizard-tower residence of Telvanni Councilor Mage-Lord <person
+                ref="Master Neloth">Master Neloth</person>.</p>
+
+        <p> Services</p>
+        <p> Outlanders can find services for the <group ref="Fighters Guild">Fighters Guild</group>,
+                <group ref="Mages Guild">Mages Guild</group>, and <group ref="Imperial cult"
+                >Imperial cult</group> at <location ref="Wolverine Hall" visitable="yes">Wolverine
+                Hall</location>. Members of the Thieves Guild congregate at <location
+                ref="Dirty Muriel's" visitable="yes">Dirty Muriel's</location> Cornerclub. Telvanni
+            Great House and <location ref="Tribunal Temple" visitable="yes">Tribunal
+                Temple</location> services are all housed within the Council Hall; additional
+            Telvanni services are available in the Great Market district and in <location
+                ref="Tel Naga" visitable="yes">Tel Naga</location>. The Gateway merchant inn is the
+            only establishment with public beds. Members of the <group ref="Fighters Guild">Fighters
+                Guild</group>, <group ref="Mages Guild">Mages Guild</group>, and <group
+                ref="Imperial cult">Imperial cult</group>s look for hospitality at <location
+                ref="Wolverine Hall" visitable="yes">Wolverine Hall</location>. Telvanni kin and
+            retainers stay at the Gateway, at <location ref="Wolverine Hall" visitable="yes"
+                >Wolverine Hall</location>, at a local cornerclub, or at <location ref="Tel Naga"
+                visitable="yes">Tel Naga</location>. The Great Market has many services and
+            tradesmen, and many others are scattered through town. There are two cornerclubs:
+                <location ref="Dirty Muriel's" visitable="yes">Dirty Muriel's</location>, for
+            outlanders, and <location ref="Fara's Hole in the Wall" visitable="yes">Fara's Hole in
+                the Wall</location> for local <group ref="Dunmer">Dunmer</group>. <location
+                ref="Tel Naga" visitable="yes">Tel Naga</location> is <person ref="Master Neloth"
+                >Master Neloth</person>'s wizard tower.</p>
+
+        <p> Notable Figures</p>
+        <p> If you're not Telvanni or Telvanni retainers, you'll want to know <person
+                ref="Angaredhel">Angaredhel</person>, Prefect of Hospitality at the Gateway merchant
+            inn, and <person ref="Ery">Ery</person>, Gateway's publican. At <location
+                ref="Wolverine Hall" visitable="yes">Wolverine Hall</location>, <person ref="Hrundi"
+                >Hrundi</person> the Nord is the <group ref="Fighters Guild">Fighters Guild</group>
+            steward, Procyon Nigiliusis [sic] is <group ref="Mages Guild">Mages Guild</group>
+            steward, and Aunius Autrus is the <group ref="Imperial cult">Imperial cult</group>
+            priest. <person ref="Big Helende">Big Helende</person>, the Thieves Guild Boss, makes
+            frequent appearances at <location ref="Dirty Muriel's" visitable="yes">Dirty
+                Muriel's</location> Cornerclub. Telvanni wizards and retainers visit the Council
+            Hall to confer with the Telvanni Mouths (Telvanni Mouths are spokesmen for their
+            councilor mage-lords) <person ref="Felisa Ulessen">Felisa Ulessen</person>, <person
+                ref="Galos Mathendis">Galos Mathendis</person>, <person ref="Arara Uvulas">Arara
+                Uvulas</person>, <person ref="Mallam Ryon">Mallam Ryon</person>, Raven Omayn, and
+                <person ref="Dalyne Arvel">Dalyne Arvel</person>, Telvanni Council clerk. Councilor
+            Mage-Lord <person ref="Master Neloth">Master Neloth</person> lives in <location
+                ref="Tel Naga" visitable="yes">Tel Naga</location>, the wizard tower in the center
+            of town.</p>
+
+        <p> Transportation</p>
+        <p>
+            <location ref="Sadrith Mora" visitable="yes">Sadrith Mora</location> is an island;
+            there's no road or bridge to the mainland. To visit the mainland, you must either be
+            able to fly, swim, or water-walk, or you must rely on shipmasters at the docks or the
+            guild guide at the <group ref="Mages Guild">Mages Guild</group>. <person
+                ref="Gals Arethi">Gals Arethi</person> at the docks offers ship passage to <location
+                ref="Ebonheart" visitable="yes">Ebonheart</location>, <location ref="Tel Branora"
+                visitable="yes">Tel Branora</location>, <location ref="Tel Mora" visitable="yes">Tel
+                Mora</location>, or <location ref="Dagon Fel" visitable="yes">Dagon Fel</location>.
+            Iniel at the <location ref="Wolverine Hall" visitable="yes">Wolverine Hall</location>
+            <group ref="Mages Guild">Mages Guild</group> can teleport you to <location
+                ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>, <location ref="Vivec City"
+                visitable="yes">Vivec City</location>, <location ref="Caldera" visitable="yes"
+                >Caldera</location>, and <location ref="Balmora" visitable="yes">Balmora</location>
+            for a modest fee.</p>
+    </contents>
+</Book>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="I'm My Own Grandpa">I'm My Own Grandpa</book_title>
+    <writer who="Gaeldol" listed="yes">Gaeldol</writer>
+    <Acquisition>
+        <location ref="Ebonheart">Ebonheart</location>, carried by <person ref="Gaeldol">Gaeldol</person>
+        <location ref="Seyda Neen">Seyda Neen</location>, <location ref="Fargoth's House">Fargoth's House</location>
+        <location ref="Vivec">Vivec</location>, <location ref="Vivec, Foreign Quarter">Foreign Quarter</location>, <location ref="Jobasha's Rare Books">Jobasha's Rare Books</location>
+        
+    </Acquisition>
+    
+    
+    <contents>
+        <p>Why did the <group ref="Dark Elves">Dark Elf</group> cross the road?</p>
+        
+        <p> How many <group ref="Orcs">Orcs</group> does it take to light a torch?</p>
+       <p> Depends. Is an <group ref="Orcs">orc</group> is [sic] doing the counting?</p>
+        
+        <p>What is green and hops and sizzles on lava?</p>
+        <p>an <group ref="Orcs">Orc</group> Acrobat</p>
+        
+        <p>If a <group ref="Wood Elves">Wood Elf</group> mime falls in a forest, who cares?</p>
+        
+        <p>If you drop a <group ref="Khajiit">Khajiit</group> head-first from a great height, will it land on its feet?</p>
+        <p>Not if you cut off the feet first.</p>
+    </contents>
+    <consoleID xmlid="
+        bk_Im_My_Own_Grandpa">bk_Im_My_Own_Grandpa</consoleID>
+</Book>

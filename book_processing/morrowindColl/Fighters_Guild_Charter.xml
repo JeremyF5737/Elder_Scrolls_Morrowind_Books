@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Fighter's_Guild_Charter">Fighter's Guild Charter</book_title>
+    <writer listed="no">Anonymous</writer>
+    
+<Acquisition>
+    <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>, <location ref="Ald'ruhn Fighters Guild" visitable="yes">Ald'ruhn Fighters Guild</location>
+    <location ref="Balmora" visitable="yes">Balmora</location>, <location ref="Balmora Fighters Guild" visitable="yes">Balmora Fighters Guild</location>
+    <location ref="Sadright Mora" visitable="yes">Sadright Mora</location>, <location ref ="Wolverine Hall: Sadright Mora Fighters Guild" visitable="yes">Wolverine Hall: Sadrith Mora Fighters Guild</location>
+    <location ref="Vivec City" visitable="yes">Vivec City</location>, <location ref="Vivec Fighters Guild" visitable="yes">Vivec Fighters Guild</location>
+</Acquisition>
+<contents>
+<p>I. Purpose</p>
+<p>
+The <group ref="Guild of Fighters">Guild of Fighters</group> provides employment to free-swords and mercenaries and contracts to local citizens. Citizens may contract with the Guild for 
+the removal of creatures and pests, the delivery of goods on dangerous routes, the collection of beasts for the arenas, and other duties defined by the
+Guild Stewards.
+</p>
+
+<p>II. Authority</p>
+<p>
+The <group ref="Guild of Fighters">Guild of Fighters</group> was established under the section 4 of the "Guilds Act," and this charter was first confirmed under the Potentate <person ref="Versidue Shaie">Versidue Shaie</person>
+in the 321st year of the Second Era.
+</p>
+
+<p>III. Rules and Procedures</p>
+<p>
+Any member of the <group ref="Guild of Fighters">Guild of Fighters</group> who strikes or steals from another member shall be expelled from the Guild. Re-admittance is at the discretion 
+of the Guild Stewards.
+</p>
+
+<p>
+Citizens who contract with the <group ref="Guild of Fighters">Guild of Fighters</group> and have a dispute may appeal first to the Guild Steward who accepted the contract and second with 
+the authorities of each Province.
+</p>
+
+<p>IV. Membership Requirements</p>
+<p>
+The Guild selects candidates who are strong and healthy. A candidate must have some proficiency with long blades, axes, blunt weapons, 
+and shields. Guildsmen must be able to use and maintain Heavy Armor.
+</p>
+
+<p>V. Applications for Membership</p>
+<p>Candidates must present themselves to the <person ref="Steward of the Guild Hall">Steward of the Guild Hall</person> for examination and approval.
+</p>
+<p>ATTACHMENT A:</p>
+<p>Fighters Guild Chapters in <location ref="Vvardenfell" visitable="yes">Vvardenfell District</location>, Province of Morrowind</p>
+
+<p>Chapters are established in Guild-owned, free-standing guildhalls in the towns of <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location> and <location ref="Balmora" visitable="yes">Balmora</location>. The chapter in <location ref="Sadright Mora" visitable="yes">Sadright Mora</location> is established in 
+<location ref ="Wolverine Hall: Sadright Mora Fighters Guild" visitable="yes">Wolverine Hall: Sadrith Mora Fighters Guild</location> under lease from the <group ref="Telvanni Council">Telvanni Council</group>. The chapter in <location ref="Vivec City" visitable="yes">Vivec</location> is established in the Foreign Quarter under lease from the <location ref="yes" visitable="yes">Tribunal Temple</location>.</p>
+</contents>
+</Book>

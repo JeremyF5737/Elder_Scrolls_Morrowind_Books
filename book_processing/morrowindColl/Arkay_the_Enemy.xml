@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Arkay the Enemy">Arkay the Enemy</book_title>
+    <writer who = "Mannimarco" listed = "yes">Mannimarco</writer>
+    <Acquisition>
+        <location ref="Scourg Burrow" visitable="yes">Scourg Burrow</location>
+        
+
+    </Acquisition>
+
+    <contents>
+        
+    <p>Hear me, children. Once I was a lowly man such as yourselves. By my will I entered the ranks
+        of the <group ref = "gods">gods</group>. By your unquestioning devotion, you can share my glory.</p>
+
+    <p>Most <group ref = "necromancers" >Necromancers</group> are fools and weaklings. Fodder for the <group ref = "witchhunters">witchhunters</group>. But you, my servants,
+        you are among the chosen. In the days to come, few will dare to stand against your might.
+        But one obstacle remains. His name is <person ref = "Arkay">Arkay</person>.</p>
+
+    <p>He was also a man who entered the ranks of the <group ref = "gods">gods</group>. The similarities between his mortal life
+        and my own astonish even me. It is only proper that we should be enemies.</p>
+
+    <p><person ref = "Arkay">Arkay's</person> Blessing prevents the souls of men, <group ref = "beastmen">beastmen</group>, and <group ref = "elves">elves</group> from being used without
+        consent. <person ref = "Arkay">Arkay's</person> Law prevents those buried with the proper rituals from being raised to
+        serve my children's will. As you know, my children, <person ref = "Arkay">Arkay's</person> Blessing is flexible to those
+        with daring, but <person ref = "Arkay">Arkay's</person> Law is unwavering.</p>
+
+    <p>To the Scholars: Humiliate the priests of <person ref = "Arkay">Arkay</person>. Reveal the primitive burial customs to be
+        mere superstition. Befriend kings with honeyed words and bind them to your will. Look to my
+        children in <location ref = "Cyrodiil" visitable = "yes" >Cyrodiil</location> for guidance.</p>
+
+    <p>To the Priests: Use your servants sparingly, let none be seen by the living. Let the memories
+        of the undead waste away from the people. Send missionaries to the unbound dead, to the
+        Vampires and the Liches. Let all the nations of dead carry my banner and my banner
+        alone.</p>
+
+    <p>To the Hidden: Wait, as always, in the darkness.</p>
+
+    <p>For soon we shall strike. The Temples of <person ref = "Arkay">Arkay</person> will be torn stone from stone. The blood of
+        his priests will sate our thirst; their bones will rise as our servants. The name <person ref = "Arkay">Arkay</person> will
+        be stuck [sic] from the records. Only I shall hold sway over life and death. Only one name
+        shall be whispered in fear. The name of your lord and master.</p>
+
+    <p>KW</p>
+    
+    </contents>
+
+</Book>

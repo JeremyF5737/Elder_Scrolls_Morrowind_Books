@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The_Vagaries_of_Magicka">The Vagaries of Magicka</book_title>
+    <writer who="Anonymous" listed ="yes">Anonymous</writer>
+    <Acquisition>
+        <location ref ="Sadrith_Mora,_Gateway_Inn,_West_Wing" visitable ="yes">Sadrith Mora, Gateway Inn, West Wing</location>
+        <location ref ="Sadrith_Mora,_Telvanni_Council_House,_Entry" visitable ="yes">Sadrith Mora, Telvanni Council House, Entry</location>
+        <location ref ="Tel_Aruhn,_Maren_Uvaren:_Enchanter" visitable ="yes"></location>
+        <location ref ="Tel_Aruhn,_Maren_Uvaren:_Enchanter" visitable ="yes">Tel Aruhn, Maren Uvaren: Enchanter</location>
+        <location ref ="Tower_of_Tel_Fyr,_Hall_of_Fyr" visitable ="yes">Tower of Tel Fyr, Hall of Fyr</location>
+        <location ref ="Vivec,_Telvanni_Tower" visitable ="yes">Vivec, Telvanni Tower</location>
+    </Acquisition>
+    <contents>
+        
+        <p>"...but take care, lest power enfeeble the fundaments, and curtail the flow through the Congeries, except when functions be warranted. And safeguard that the Congeries shall not be abused by prideful wizards, confident in their skill and blinded by their ambitions. In this, hold the ordering of the Congeries among the oldest and most trusted of mages, and make secure this ordering through arcane codes and keys to confound even the most clever students.</p>
+        <p>"The Restorals must be most carefully guarded, for how often have even the wise lusted to overreach their bodies and souls with vitality and mana. And also must the Magicka Fountains be damped and banked, sanctioning their engendering only to the reconsecration of essential arcane engines and templates, and then only by common assent of the Council."</p>
+        
+        
+    </contents>
+    <consoleID xmlid="bk_VagariesOfMagica">bk_VagariesOfMagica</consoleID>
+   
+</Book>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref ="Book_of_Rest_and_Endings">Book of Rest and Endings</book_title>
+    <writer listed = "no">Anonymous</writer>
+    <Acquisition>
+        <location ref = "Hall of Justice Secret Library" visitable = "yes">Hall of Justice Secret Library</location>
+        <location ref = "Kagrenac's Library" visitable = "yes">Kagrenac's Library</location>
+        <location ref = "Hall of Fyr" visitable = "yes">Hall of Fyr</location>
+        <location ref = "Telvayn Ancestral Tomb" visitable = "yes">Telvayn Ancestral Tomb</location>
+        <location ref = "Sarys Ancestral Tomb" visitable = "yes">Sarys Ancestral Tomb</location>
+    </Acquisition>
+    
+    <contents>
+        <p>The Ritual for Ending of Wrathmen
+        From fifty Fathers
+        Frozen in slavepast
+        Rip from the wraithloom
+        Sunder the lifeweave
+        >Lock tight in earthgrip
+        Hold firm in gravefast</p>
+    </contents>
+</Book>
+

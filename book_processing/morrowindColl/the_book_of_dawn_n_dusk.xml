@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+<book_title ref="The_Book_of_Dawn_and_Dusk">The Book of Dawn and Dusk</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>        
+        <location ref="Balmora" visitable="yes">Balmora</location>       
+        <location ref="Caldera" visitable="yes">Caldera</location>
+        <location ref="Ebonheart" visitable="yes">Ebonheart</location>
+        <location ref="Ghostgate" visitable="yes">Ghostgate</location>
+        <location ref="Gnisis" visitable="yes">Gnisis</location>        
+        <location ref="Holamayan_Monastery" visitable="yes"> Holamayan Monastery</location> 
+        <location ref="Indalen_Ancestral_Tomb" visitable="yes">Indalen Ancestral Tomb</location>
+        <location ref="Indarys_Manor" visitable="yes">Indarys Manor</location>
+        <location ref="Maar_Gan" visitable="yes">Maar Gan</location>
+        <location ref="Mababi" visitable="yes">Mababi</location>
+        <location ref="Mawia" visitable="yes">Mawia</location>
+        <location ref="Odirniran" visitable="yes">Odirniran</location>
+        <location ref="Rethan_Manor" visitable="yes">Rethan Manor</location>       
+        <location ref="Sadrith_Mora" visitable="yes">Sadrith Mora</location>
+        <location ref="Sanni" visitable="yes">Sanni</location>
+        <location ref="Suran" visitable="yes">Suran</location>
+        <location ref="Tel_Branora" visitable="yes">Tel Branora</location>
+        <location ref="Tharys_Ancestral_Tomb" visitable="yes">Tharys Ancestral Tomb</location>      
+        <location ref="Ignatius_Flaccus'_House" visitable="yes">Ignatius Flaccus' House</location>
+        <location ref="Royal_Palace" visitable="yes">Royal Palace</location>
+    </Acquisition>
+<contents>
+<p>Speak none but good of the Gods.</p>
+
+<p>We can have no opinions about Truth.</p>
+
+<p>Rumors flow from the <group ref="Daedra">House of Troubles</group>.</p>
+
+<p>Count only the happy hours.</p>
+
+<p>No child has a sinner's heart.</p>
+
+<p>Let faith be your only law.</p>
+
+<p>Fear of the fool is the beginning of wisdom.</p>
+
+<p><group ref="Tribunal_Temple">Almsivi</group> in every hour.</p>
+
+<p>Walk always in the presence of your Lords.</p>
+
+<p>Comfort is given, justice is taken.</p>
+
+<p>Learn by serving.</p>
+
+<p>From the heart, the light; from the head, the law.</p>
+
+<p>Blessed <group ref="Tribunal_Temple">Almsivi</group>, Mercy, Mastery, Mystery.</p>
+
+<p>Forge a keen Faith in the crucible of suffering.</p>
+
+<p>Engrave upon thy eye the image of injustice.</p>
+
+<p>Death does not diminish; the ghost gilds with glory.</p>
+
+<p>Faith conquers all. Let us yield to Faith.</p>
+
+<p>Better to suffer a wrong than to do one.</p>
+
+<p>The heavens are in their glory, applaud!</p>
+
+<p>Folly secures its power to harm.</p>
+
+<p>Though forbidden to some, not to you.</p>
+
+<p>Oh, how rarely wisdom rules our hearts!</p>
+
+<p>Blessed are we who serve <group ref="Tribunal_Temple">Almsivi</group>.</p>
+
+<p>Three mouths sing Mercy, Mastery, Mystery.</p>
+
+<p>Gather no seed in the fields of Hell.</p>
+
+<p>The Thrice-Sealed House withstands the Storm.</p>
+
+<p>By Breath and Blood protect us all!</p>
+
+<p>Can ghosts or justice change with time?</p>
+
+<p>Consider your end, mortal!</p>
+
+<p>Accept grace without limits.</p>
+
+<p>Enter the rhapsody of the God-Poet.</p>
+
+<p>Kneel before the Teacher's chair.</p>
+
+<p>Three Hands, three Hearts, three Eyes.</p>
+
+<p>Keep no secret from your Judge's scale.</p>
+
+<p>Forge Darkness into Light.</p>
+
+<p>Refuse neither brother nor ghost.</p>
+
+<p>Blessed <group ref="Tribunal_Temple">Almsivi</group>, through birth, life, ghost.</p>
+
+<p>From glowing ashes the Poet's wrath shall shine.</p>
+
+    <p>If <person ref="Vivec">Vivec</person> is for us, who can stand against us?</p>
+
+<p>Fate, monstrous and empty, the whirling wheel of evil.</p>
+
+<p>How black my heart, roasting fiercely?</p>
+</contents>
+    <consoleID xmlid="bk_BookDawnAndDusk">bk_BookDawnAndDusk</consoleID>
+</Book>

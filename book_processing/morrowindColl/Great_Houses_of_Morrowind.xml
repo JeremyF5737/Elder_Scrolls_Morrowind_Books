@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Great Houses of Morrowind">Great Houses of Morrowind</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <person ref="Dorisa Darvel">Dorisa Darvel</person>
+    </Acquisition>
+
+    <contents>
+        <p>In modern times <location ref="Morrowind" visitable="yes">Morrowind</location> is ruled
+            by five Great Houses: House <group ref="Hlaalu">Hlaalu</group>, House <group
+                ref="Redoran">Redoran</group>, House <group ref="Telvanni">Telvanni</group>, House
+                <group ref="Indoril">Indoril</group>, and House <group ref="Dres">Dres</group>. Only
+            three of these Houses have interests in <location ref="Vvardenfell" visitable="yes"
+                >Vvardenfell</location>. The three Great Houses on <location ref="Vvardenfell"
+                visitable="yes">Vvardenfell</location> identify themselves by their traditional
+            colors: red for <group ref="Redoran">Redoran</group>, yellow for <group ref="Hlaalu"
+                >Hlaalu</group>, and brown for <group ref="Telvanni">Telvanni</group>. Thus, members
+            of House <group ref="Hlaalu">Hlaalu</group> may be referred to collectively as
+            Yellows.</p>
+
+        <p>The Great Houses traditions derive from ancient <group ref="Dunmer">Dunmer</group> clan
+            and tribes, but now function as political parties. <group ref="Dunmer">Dunmer</group>
+            Great House membership is largely a matter of birth and marriage, but <group
+                ref="Imperial">Imperial</group> colonists may also become retainers of a Great
+            House, or may be adopted into a Great House. Initially an outlander may gain status in a
+            house as an oath-bonded hireling, pledging exclusive loyalty to a single house and
+            forsaking ambitions with all other houses. Later, after faithful service and advancement
+            in lower ranks, an outlander may seek adoption into a Great House. Adoption and
+            advancement to higher ranks in a Great House requires that a Great House councilor stand
+            as sponsor for the candidate's character and loyalty. Finding a councilor to sponsor an
+            outlander often involves performing a great service for the prospective sponsor.</p>
+
+        <p>House <group ref="Redoran">Redoran</group> is one of the three <group ref="Dunmer"
+                >Dunmer</group> Great Houses with holdings on <location ref="Vvardenfell"
+                visitable="yes">Vvardenfell</location>. The <group ref="Redoran">Redoran</group>
+            prize the virtues of duty, gravity, and piety. Duty is to one's own honor, and to one's
+            family and clan. Gravity is the essential seriousness of life. Life is hard, and events
+            must be judged, endured, and reflected upon with due care and earnestness. Piety is
+            respect for the gods, and the virtues they represent. A light, careless life is not
+            worth living. <group ref="Redoran">Redoran</group> settlements are designed in the
+                <group ref="Dunmer">Dunmer</group> village style, built of local materials, with
+            organic curves and undecorated exteriors inspired by the landscape and by the shells of
+            giant native insects. <group ref="Redoran">Redoran</group> villages are typically
+            centered on Temple compounds and their courtyards, with huts and tradehouses gathered
+            around a central plaza, as in the West Gash village of <location ref="Gnisis"
+                visitable="yes">Gnisis</location>. Ald'ruhn, the <group ref="Redoran"
+                >Redoran</group> district seat, is exceptional, with its distinctive feature being
+            the colossal prehistoric bug shell that has been adapted as the house's council
+            house.</p>
+
+        <p>As a result of its close relationship with the <group ref="Imperial">Imperial</group>
+            administration, House <group ref="Hlaalu">Hlaalu</group> has emerged as politically and
+            economically dominant among the Great Houses of <location ref="Vvardenfell"
+                visitable="yes">Vvardenfell</location> and <location ref="Morrowind" visitable="yes"
+                >Morrowind</location>. <group ref="Hlaalu">Hlaalu</group> welcomes <group
+                ref="Imperial">Imperial</group> culture and law, <group ref="Imperial"
+                >Imperial</group> Legions and bureaucracy, and <group ref="Imperial"
+                >Imperial</group> freedom of trade and religion. <group ref="Hlaalu">Hlaalu</group>
+            still honors the old <group ref="Dunmer">Dunmer</group> ways—the ancestors, the Temple,
+            and the noble houses—but has readily adapted to the rapid pace of change and progress in
+            the <group ref="Imperial">Imperial</group> provinces. Unlike the other Great Houses,
+            which are largely hostile to non-<group ref="Dunmer">Dunmer</group>, House <group
+                ref="Hlaalu">Hlaalu</group> aspires to live in peace and harmony with the other
+            races, and to share in the growth and prosperity of the Empire. <group ref="Hlaalu"
+                >Hlaalu</group> public buildings—tradehouses and craft guilds, manors and council
+            halls—are designed as simple multi-storied buildings roughly rectangular in plan,
+            featuring arched entranceways and modest decorated exteriors. More modest one-story
+            private dwellings follow the same plan, except with less decoration. <group ref="Hlaalu"
+                >Hlaalu</group> plantation estates resemble Temple compounds, with walled precincts
+            enclosing outbuildings for craftsmen and servants, dominated by a grand manor residence
+            in place of a Temple shrine.</p>
+
+        <p>The wizard-lords of House <group ref="Telvanni">Telvanni</group> have traditionally
+            isolated themselves, pursuing wisdom and mastery in solitude. But certain ambitious
+            wizards-lords, their retainers, and clients have entered whole-heartedly into the
+            competition to control and exploit <location ref="Vvardenfell" visitable="yes"
+                >Vvardenfell</location>'s land and resources, building towers and bases all along
+            the eastern coast. According to <group ref="Telvanni">Telvanni</group> principles, the
+            powerful define the standards of virtue, and the <group ref="Telvanni">Telvanni</group>
+            are unwilling to allow the ambitious <group ref="Hlaalu">Hlaalu</group> to dominate
+                <location ref="Vvardenfell" visitable="yes">Vvardenfell</location>'s untapped
+            resources by default. <group ref="Telvanni">Telvanni</group> architecture is dominated
+            by the wizards' tower, a fantastic organic form grown and sculpted from stems, caps, and
+            root-like holdfasts of the giant native mushrooms. <group ref="Telvanni"
+                >Telvanni</group> villages are comprised of smaller mushroom pods hollowed out for
+            craftsmen and commoners. Open-air markets often include the giant cages displaying the
+            wares of the slave masters.</p>
+
+        <p>House <group ref="Indoril">Indoril</group> and House <group ref="Dres">Dres</group> are
+            the two Great Houses without holdings or interest in <location ref="Vvardenfell"
+                visitable="yes">Vvardenfell</location>. <location ref="Indoril" visitable="yes"
+                >Indoril</location> District occupies the heartland of <location ref="Morrowind"
+                visitable="yes">Morrowind</location>, comprising the lands south of the Inner Sea
+            and the eastern coast. The city of <location ref="Almalexia" visitable="yes"
+                >Almalexia</location> is located in <location ref="Indoril" visitable="yes"
+                >Indoril</location> District, and the <group ref="Indoril">Indoril</group> are
+            orthodox and conservative supporters of the Temple and Temple authority. House <group
+                ref="Indoril">Indoril</group> is openly hostile to <group ref="Imperial"
+                >Imperial</group> culture and religion, and preserves many traditional <group
+                ref="Dunmer">Dunmer</group> customs and practices in defiance of <group
+                ref="Imperial">Imperial</group> law. <group ref="Dres">Dres</group> District is in
+            the south of <location ref="Morrowind" visitable="yes">Morrowind</location>, bordering
+            the swamps and marshes of Black Marsh. House <group ref="Dres">Dres</group> is an
+            agrarian agricultural society, and its large saltrice plantations rely completely on
+            slave labor for their economic viability. Always firm Temple supporters, House <group
+                ref="Dres">Dres</group> is hostile to <group ref="Imperial">Imperial</group> law and
+            culture, and in particular opposed to any attempts to limit the institution of
+            slavery.</p>
+    </contents>
+</Book>

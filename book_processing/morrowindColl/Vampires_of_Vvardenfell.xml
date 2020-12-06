@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="Vampires_of_Vvardenfell">Vampires of Vvardenfell</book_title>
+    <writer who="Anonymous" listed ="yes">Anonymous</writer>
+    <Acquisition>
+        <location ref ="Ald'ruhn,_Codus_Callonus:_Bookseller" visitable ="yes">Ald'ruhn, Codus Callonus: Bookseller</location>
+        <location ref ="Balmora,_Dorisa Darvel:_Bookseller" visitable ="yes">Balmora, Dorisa Darvel: Bookseller</location>
+        <location ref ="Dren_Plantation,_Helvi's_Shack" visitable ="yes">Dren Plantation, Helvi's Shack</location>
+        <location ref ="Ebonheart,_Imperial_Commission" visitable ="yes">Ebonheart, Imperial Commission</location>
+        <location ref ="Gnisis,_Arvs-Drelen" visitable ="yes">Gnisis, Arvs-Drelen</location>
+        <location ref ="Gnisis,_Gnisis Temple" visitable ="yes">Gnisis, Gnisis Temple</location>
+        <location ref ="Hanud" visitable ="yes">Hanud</location>
+        <location ref ="Mababi" visitable ="yes">Mababi</location>
+        <location ref ="Mawia" visitable ="yes">Mawia</location>
+        <location ref ="Odirniran" visitable ="yes">Odirniran</location>
+        <location ref ="Sadrith Mora,_Tel_Naga_General_Quarters" visitable ="yes">Sadrith Mora, Tel Naga General Quarters</location>
+        <location ref ="Sanni" visitable ="yes">Sanni</location>
+        <location ref ="Shara" visitable ="yes">Shara</location>
+        <location ref ="Shishara" visitable ="yes">Shishara</location>
+        <location ref ="Sulipund" visitable ="yes">Sulipund</location>
+        <location ref ="Tureynulal,_Kagrenac's_Library" visitable ="yes">Tureynulal, Kagrenac's Library</location>
+        <location ref ="Vivec,_Hall_of_Justice_Secret_Library" visitable ="yes">Vivec, Hall of Justice Secret Library</location>
+        <location ref ="Vivec,_Hlaalu_Records" visitable ="yes">Vivec, Hlaalu Records</location>
+        
+    </Acquisition>
+    <contents>
+        
+        
+        <p>...The violent antipathy of <location ref ="Morrowind " visitable ="yes">Morrowind </location>culture toward necromancy ensures that <group ref="vampire">vampire</group>s are virtually unknown in <location ref ="Morrowind" visitable ="yes">Morrowind</location>...</p>
+        <p>...The <group ref="Temple">Temple</group> does not acknowledge the existence of Western <group ref="vampire">vampire</group> hunting orders. Nonetheless, interviews with <group ref="Temple">Temple</group> officials persuade me that the <group ref="Dunmer">Dunmer</group> of <location ref ="Morrowind" visitable ="yes">Morrowind</location> are experienced and knowledgeable in the handling of these menaces. On the other hand, they freely admit that even a large community of <group ref="vampire">vampire</group>s might easily escape detection in the remote wastelands, or in the subterranean labyrinths of abandoned strongholds and wizard towers....</p>
+        <p>...The "ash <group ref="vampire">vampire</group>" of <group ref="Ashlander">Ashlander</group>legend is not undead. Sorceries and blessings affecting the undead reportedly have no effect on these creatures. No specimen has ever been examined, and no references have ever linked these legends with the known clans of <group ref="Tamrielic">Tamrielic</group> <group ref="vampire">vampire</group>s....</p>
+        <p>...<location ref ="Vvardenfell" visitable ="yes">Vvardenfell</location>'s three known bloodlines differ greatly in their approach to prey. The <group ref="Quarra">Quarra</group> bloodline features exceptional strength and endurance, and attacks in a state of ecstatic frenzy. <group ref="Aundae">Aundae</group> <group ref="vampire">vampire</group>s are potent spellcasters, seeking to hypnotize victims before feeding, while the swift and agile <group ref="Berne">Berne</group> clan <group ref="vampire">vampire</group>s prefer stealth and ambush, first poisoning the victim with a bite, then withdrawing to a safe distance, returning to feed only when the prey has weakened...</p>
+        <p>...It is supposed that vampirism is contracted from wounds received from a <group ref="vampire">vampire</group>. Since few victims survive vampiric attacks or feedings, the process of contracting the disease is little understood. Some have suggested that victims may willingly submit themselves to the will of a <group ref="vampire">vampire</group>, but no real evidence of this exists....</p>
+        <p>...During the incubation phase, lasting up to 72 hours, the vampirism disease exhibits no symptoms, and may be cured by general spellcraft or cult blessings. However, during incubation, some victims have reported sleep disturbances and troubling dreams. After symptoms are exhibited, however, the disease is incurable and irreversible....</p>
+        <p>... In the West, a shadowy fraternity of <group ref="vampire">vampire</group> hunters is believed to be primarily composed of formerly afflicted <group ref="vampire">vampire</group>s who have been cured of the disease. According to legend, the <group ref="vampire">vampire</group> Hunters refuse to reveal the cure to the disease for fear that it may encourage depraved thrill seekers from deliberately infecting themselves.</p>
+        <p>In the East, the Western tradition of <group ref="vampire">vampire</group> Hunters is unknown. Vampirism is known to be incurable, and even if it were curable, a cured <group ref="vampire">vampire</group> would be an abomination to be destroyed. Since the disease is infallibly cured if treated within three days, failure to treat oneself after an encounter with a <group ref="vampire">vampire</group> would be considered a deliberate attempt to contract the disease, and a mark of monstrous depravity....</p>
+        <p>... In <group ref="Temple">Temple</group> doctrine, one ancient tradition holds that, among his many other crimes, Molag Bal, the Father of Monsters, spawned the first <group ref="vampire">vampire</group> upon the corpse of a defeated foe. Several different versions of this story exist, with the foe variously identified as a Daedra Lord, a <group ref="Temple">Temple</group> Saint, or a powerful beast creature. This account of the origin of vampirism is peculiar to <location ref ="Morrowind" visitable ="yes">Morrowind</location>, appearing nowhere else in <group ref="Imperial">Imperial</group> lore. Unfortunately, scholarly inquiry upon this topic is discouraged by the <group ref="Temple">Temple</group>, which controls access to the only substantial collection of historical and cultural records in <location ref ="Morrowind" visitable ="yes">Morrowind</location>....</p>
+        <p>... Though the <group ref="Dunmer">Dunmer</group> believe the disease is incurable, a <group ref="Buoyant_Armiger">Buoyant Armiger</group> of former years named <person ref="Galur Rithari">Galur Rithari</person> insisted that he was cured of vampirism. Initially imprisoned by the <group ref="Temple">Temple</group> for heresy, he later recanted, was released, and served his final years as a librarian in the Hall of Wisdom in <location ref ="Vivec" visitable ="yes">Vivec</location>. It is interesting that previous to his imprisonment for heresy, Rithari had been posted to the <group ref="Buoyant_Armiger">Buoyant Armiger</group> garrison at <location ref ="Bal_Ur" visitable ="yes">Bal Ur</location>, a pilgrimage site known as the "birthplace of Molag Bal."</p>
+        
+        
+    </contents>
+    <consoleID xmlid="bk_vampiresofvvardenfell">bk_vampiresofvvardenfell</consoleID>
+  
+</Book>

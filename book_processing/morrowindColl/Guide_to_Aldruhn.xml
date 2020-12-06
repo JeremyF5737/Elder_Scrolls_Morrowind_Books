@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Guide to Ald'ruhn">Guide to Ald'ruhn</book_title>
+    <writer listed="no">Anonymous</writer>
+    <Acquisition>
+        <location ref="Ald'ruhn Fighters Guild" visitable="yes">Ald'ruhn Fighters Guild</location>
+        <location ref="Ald'ruhn Mages Guild" visitable="yes">Ald'ruhn Mages Guild</location>
+        <location ref="Ald'ruhn, Redoran Council Entrance" visitable="yes">Ald'ruhn, Redoran Council
+            Entrance</location>
+    </Acquisition>
+
+    <contents>
+        <p> Principle Districts of <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location></p>
+        <p>
+            <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location> is the district seat of
+            House Redoran, and one of the largest settlements on <location ref="Vvardenfell"
+                visitable="yes">Vvardenfell</location>. The three principal districts are <location
+                ref="Ald'ruhn" visitable="yes">Ald'ruhn</location> town, <location ref="Ald'ruhn"
+                visitable="yes">Ald'ruhn</location>-under-Skar, and <location ref="Buckmoth Fort"
+                visitable="yes">Buckmoth Fort</location>.</p>
+
+        <p>
+            <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location> town is a large settlement
+            in the Redoran village style, built of local materials, with organic curves and
+            undecorated exteriors inspired by the landscape and by the shells of giant native
+            insects. Most guildhalls, cornerclubs, and merchants are sited in the southwest corner
+            of town, convenient to West Gate and the strider port, while the <location ref="Temple"
+                visitable="yes">Temple</location> is located on high ground to the east, and
+            surrounded by a residential section.</p>
+
+        <p>
+            <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>-under-Skar is the most
+            distinctive architectural feature of <location ref="Ald'ruhn" visitable="yes"
+                >Ald'ruhn</location> -- a manor and council district sheltered beneath the shell of
+            an ancient extinct giant crab. The large carapace encloses a central dome, from which
+            radiate the entrances to the Redoran Council chambers, the manors of the Redoran
+            councilors, and shops of a few upscale merchants.</p>
+
+        <p>
+            <location ref="Buckmoth Fort" visitable="yes">Buckmoth Fort</location> is the Imperial
+            legion garrison for the district. The strong walls and towers of this Western fortress
+            lies a short distance to the south of <location ref="Ald'ruhn" visitable="yes"
+                >Ald'ruhn</location> town, through South Gate behind the Mages Guild.</p>
+
+        <p> Services</p>
+        <p> House Redoran services are in the Council House and Councilor's Manors of <location
+                ref="Ald'ruhn-Under-Skar" visitable="yes">Ald'ruhn-Under-Skar</location>. The
+                <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>
+            <location ref="Temple" visitable="yes">Temple</location> on the east side of town
+            provides service for <location ref="Temple" visitable="yes">Temple</location>
+            worshipers. <location ref="Buckmoth Fort" visitable="yes">Buckmoth Fort</location>
+            offers services to the Imperial Legion and devotees of the Imperial cult, including an
+            Imperial cult altar. The guildhalls of the Fighters Guild and Mages Guild are near the
+            South Gate. Pricy but high-quality clothier, alchemist, and enchanter shops are under
+            Skar as well. Commodities at reasonable prices, but with smaller selections, are
+            available from the smith, clothier, trader, pawnbroker, and bookseller near the entrance
+            to <location ref="Ald'ruhn-Under-Skar" visitable="yes">Ald'ruhn-Under-Skar</location>.
+            The <location ref="Ald Skar Inn" visitable="yes">Ald Skar Inn</location> and the
+                <location ref="Council Club cornerclub" visitable="yes">Council Club
+                cornerclub</location> are found to the west, near West Gate and the silt strider
+            port. <location ref="The Rat in the Pot" visitable="yes">The Rat in the Pot</location>
+            cornerclub is in south <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>,
+            near the guildhalls.</p>
+
+        <p> Notable figures</p>
+        <p> All six Redoran councilors, <person ref="Brara Morvayn">Brara Morvayn</person>, <person
+                ref="Hlaren Ramoran">Hlaren Ramoran</person>, <person ref="Athyn Sarethi">Athyn
+                Sarethi</person>, <person ref="Garisa Llethri">Garisa Llethri</person>, <person
+                ref="Miner Arobar">Miner Arobar</person>, and <person ref="Bolvyn Venim">Bolvyn
+                Venim</person>, have manor residences in <location ref="Ald'ruhn-Under-Skar"
+                visitable="yes">Ald'ruhn-Under_skar</location>. <person ref="Edwinna Elbert">Edwinna
+                Elbert</person> is the Mages Guild steward, and <person ref="Percius Mercius"
+                >Percius Mercius</person> has recently become the Fighters Guild steward. Old
+                <person ref="Methal Seran">Methal Seran</person> is an eminent <location
+                ref="Temple" visitable="yes">Temple</location> priest and scholar. <person
+                ref="Raesa Pullia">Raesa Pullia</person> is commandant of <location
+                ref="Buckmoth Fort" visitable="yes">Buckmoth Fort</location>, but <person
+                ref="Imsin the Dreamer">Imsin the Dreamer</person> is the chapter steward. The
+            Redguard <person ref="Hean">Hean</person> is priest of the Imperial cult. <person
+                ref="Goren Andarys">Goren Andarys</person> is the guild steward of the <person
+                ref="Morag Tong">Morag Tong</person>, whose guildhall is found in <location
+                ref="Ald'ruhn-Under-Skar" visitable="yes">Ald'ruhn-Under-Skar</location>.</p>
+
+        <p> Travel and Transportation</p>
+        <p> Roads lead northwest to <location ref="Maar Gan" visitable="yes">Maar Gan</location> and
+                <location ref="Gnisis" visitable="yes">Gnisis</location> villages and by a
+            circuitous western route to <location ref="Caldera" visitable="yes">Caldera</location>,
+                <location ref="Balmora" visitable="yes">Balmora</location>, and points south. The
+            road to <location ref="Balmora" visitable="yes">Balmora</location> swings northwest to
+            avoid the barren wastes, and curves around towards the west until it heads south again
+            to <location ref="Caldera" visitable="yes">Caldera</location>. Between <location
+                ref="Ald'ruhn" visitable="yes">Ald'ruhn</location> and <location ref="Caldera"
+                visitable="yes">Caldera</location> are many sidepaths; watch for signposts, or
+            you'll get lost. The silt strider port is along the western town wall, north of West
+            Gate. Silt strider service goes from <location ref="Ald'ruhn" visitable="yes"
+                >Ald'ruhn</location> to <location ref="Balmora" visitable="yes">Balmora</location>,
+                <location ref="Gnisis" visitable="yes">Gnisis</location>, <location ref="Khuul"
+                visitable="yes">Khuul</location>, or <location ref="Maar Gan" visitable="yes">Maar
+                Gan</location>.. Guild guides at the Mages Guild teleport you to <location
+                ref="Balmora" visitable="yes">Balmora</location>, <location ref="Vivec City"
+                visitable="yes">Vivec City</location>, <location ref="Caldera" visitable="yes"
+                >Caldera</location>, and <location ref="Sadrith Mora" visitable="yes">Sadrith
+                Mora</location> for a modest fee. Gnaar Mok is a LONG and exceptionally unpleasant
+            walk west to the coast and then south; there are no trails or marked routes. Casual
+            travelers ill-equipped for the attacks of wild beasts and brigands should keep to the
+            roads and travel services.</p>
+    </contents>
+</Book>

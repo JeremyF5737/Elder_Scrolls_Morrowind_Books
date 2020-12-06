@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Sottilde's Code Book">Sottilde's Code Book</book_title>
+    <writer who="Sottilde" listed="yes">Sottilde</writer>
+    <Acquisition>
+        <person ref="Sottilde">Sottilde</person>
+        <location ref="South Wall Cornerclub">South Wall Cornerclub</location> in <location ref="Balmora">Balmora</location>.
+        <quest ref="Code Book">Code Book</quest>
+        
+        
+    </Acquisition>
+    
+    
+    <contents>
+        <p>SSF ZAFL</p>
+        <p>DVWDTQDVFQE TYLSE</p>
+        <p>BSQ FOF</p>
+        <p>TZSFHK TOY PCJEK NSZUVWBSR</p>
+        
+        <p>EAL DVFQE GX</p>
+        <p>SWSHL LCLQS</p>
+        
+        <p>XKH ZQG</p>
+        <p>LGSBFY GXS PAXWC RSXINOFSP</p>
+        
+        <p>IDV AWD</p>
+        <p>FGEF PAXWC</p>
+        
+        <p>BOK DWKB</p>
+        <p>SUGZD PCJEK</p>
+          </contents>
+    <consoleID xmlid="bk_sottildescodebook">bk_sottildescodebook</consoleID>
+</Book>

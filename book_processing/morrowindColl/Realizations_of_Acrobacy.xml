@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    <book_title ref="Realizations of Acrobacy">Realizations of Acrobacy</book_title>
+    <writer who="Rhunen Zebavi" listed="yes">Rhunen Zebavi</writer>
+    
+    <Acquisition>
+        <location ref="Ald'ruhn" visitable="yes">Ald'ruhn</location>
+        <location ref="Aryni Orethi's House" visitable="yes">Aryni Orethi's House</location>
+        <location ref="Beshara" visitable="yes">Beshara</location>
+        <location ref="Marandus" visitable="yes">Marandus</location> 
+    </Acquisition>
+    
+    
+    <contents> 
+        <p>Realizations of Acrobacy</p>
+        <p>by Master <person ref="Rhunen Zebavi">Rhunen Zebavi</person></p>
+        
+        <p>Master <person ref="Archmagister Gothren">Gothren</person> agreed to see the acrobats because he needed entertaining. For months now, he had been struggling with his fellow <group ref="House Telvanni">Telvanni</group> Councilor, Master <person ref="Master Neloth">Neloth</person>. Recently he always found himself on the defensive. It was intolerable - Master <person ref="Archmagister Gothren">Gothren</person> losing a battle with the contemptible <person ref="Master Neloth">Neloth</person>. Inspired by their master's weapon,<object><item ref=" Mehrunes' Razor"> Mehrunes' Razor></item></object>, <person ref="Master Neloth">Neloth</person>'s normally cowardly troops had been nigh invincible. <person ref="Archmagister Gothren">Gothren</person>'s own troops had no hope, except to pray that <person ref="Mehrunes Dagon">Mehrunes Dagon</person> would reclaim his artifact. Considering how much havoc it was causing, it seemed likely that the <person ref="Mehrunes Dagon">daedra prince</person> would allow Master <person ref="Master Neloth">Neloth</person> its use for some time to come.</p>
+        
+        <p>An acrobatic distraction would be a welcome relief.</p>
+        
+        <p>"What tricks can your troupe perform?" asked the wizard to the lead acrobat, <person ref="Rhunen">Rhunen Zebavi</person>.</p>
+        
+        <p>"Mighty <person ref="Archmagister Gothren">Gothren</person>, alas, we know no tricks. All the realizations of acrobacy we perform are real with no illusions. We wish we knew tricks, for it's far too time-consuming to have to master actual feats."</p>
+        
+        <p>"Very well, what realizations of acrobacy can you perform?" asked <person ref="Archmagister Gothren">Gothren</person> with what almost looked like a smile.</p>
+        
+        <p>"Master <person ref="Master Jereth">Jereth</person> will dazzle you as he juggles fifteen flaming globes while hopping across broken glass. Master <person ref="Master Tulkiande">Tulkiande</person> will astound you as she supports her body with one finger while rotating hoops in ornate patterns with her legs. Master <person ref="Master Mearvis">Mearvis</person> will take a simple ebony blade --"</p>
+        
+        <p>"And the <group ref="outlanders">outlander</group> female?" asked the Ashkhan with some disapprobation and a dismissive gesture toward the <group ref="Redguard">Redguard</group> woman in the troupe.</p>
+        
+        <p>"Master <person ref="Master Senyndie">Senyndie</person>? Ah, Mighty <person ref="Archmagister Gothren">Gothren</person>, she hails from the <location ref="Alik'r Desert" visitable="no">Alik'r Desert</location> of <location ref="Hammerfell" visitable="no">Hammerfell</location> where she won renown for her skill at climbing sheer surfaces. You must see her at work to believe it. She moves vertically like you and I move horizontally."</p>
+        
+        <p>"That is all very well, but I do not like <group ref="outlanders">outlander</group>s in my court," said the Ashkhan. "Many are spies."</p>
+        
+        <p>"Oh, well, Master <person ref="Master Neloth">Neloth</person> felt similiarly [sic] that --"</p>
+        
+        <p>"<person ref="Master Neloth">Neloth</person>?!" roared <person ref="Archmagister Gothren">Gothren</person>. "You entertained that whoreson?!"</p>
+        
+       <p> "Two days ago, yes. I remember that he said there have been strained relations between you two. He also had some concerns about the <group ref="outlanders">outlander</group>s in our troupe, though it was our <group ref="Khajiit">Khajiit</group> tumbler Master <person ref="Master S'Rabba">S'Rabba</person> who he was particularly suspicious of. In fact, the irony is that he thought <person ref="Master S'Rabba">S'Rabba</person> was a spy for you. Well, you know <group ref="Khajiit">Khajiit</group>. Actually, maybe you don't."</p>
+        
+        <p>"They are a slave race who hold little interest to me," growled <person ref="Archmagister Gothren">Gothren</person>.</p>
+        
+        <p> "You're like Master <person ref="Master Neloth">Neloth</person> then," said <person ref="Rhunen">Rhunen Zebavi</person> quickly, fully aware of <person ref="Archmagister Gothren">Gothren</person>'s growing rage, which that particular comment had only enflamed. "He wasn't used to <group ref="Khajiit">Khajiit</group> either. Or their dark sense of humor. He took some sarcastic comments from Master <person ref="Master S'Rabba">S'Rabba</person> literally, and we all ended up being tortured for information about you and your troops. You probably haven't had the experience of being tortured for information you don't have, have you? I wouldn't recommend it. Eventually, we were let go on the understanding that we would never set foot in <location ref="Sadrith Mora" visitable="yes">Sadrith Mora</location> again. Actually, not all of us were let go. Master <person ref="Master S'Rabba">S'Rabba</person> had apparently died under torture. You have probably had experience torturing the slave races and know how easily they break."
+        </p>
+       <p> "No, I haven't," replied Master <person ref="Archmagister Gothren">Gothren</person>. The fury was dead.</p>
+        
+        <p>"We should have probably left then, but we decided that he still owed us for the entertainment we provided under torture. We weren't sure how to collect, but he mentioned during the course of his ravings that he had a very valuable bauble. A <object><item ref="Mehrunes' Razor">razor</item></object> of some kind."</p>
+        
+        <p> <object><item ref="Mehrunes' Razor">"Mehrunes' Razor,"</item></object> he gasped. "What -- what did you do?"</p>
+        
+        <p>"Masters<person ref="Master Harakostil"> Harakostil</person> and <person ref="Thelegorm">Thelegorm</person> compressed themselves low enough to squirm under the gates so they could lower the bridge into the main courtyard of the stronghold. Masters <person ref="Master Tulkiande">Tulkiande</person>, <person ref="Master Mearvis">Mearvis</person>, <person ref="Master Jereth">Jereth</person>, and I formed a pyramid to give Master <person ref="Master Senyndie">Senyndie</person> a boost up to the tower of <location ref="Tel Naga" visitable="yes">Tel Naga</location>. She scaled it to the top --"</p>
+        
+        <p>"She scaled it?" asked <person ref="Archmagister Gothren">Gothren</person>, who was familiar with the tower.</p>
+        
+        <p>"It was high, but the surface of these <group ref="House Telvanni">Telvanni</group> mushrooms is practically a ladder to someone of Master <person ref="Master Senyndie">Senyndie</person>'s skills. In a few minutes' time, she was in the room with the razor in hand. In a few more minutes, she was back down the tower and we were running for the <location ref="Gateway Inn" visitable="yes">Gateway Inn</location>. Now, with all humility, I would say that no one is faster on their feet than our troupe, but Master <person ref="Master Neloth">Neloth</person>'s guards were surprisingly quick. I sent the troupe through the gate to the docks while I distracted the guards."</p>
+        
+       <p> "I confess, I never associated brave actions with traveling acrobats," said <person ref="Archmagister Gothren">Gothren</person>.</p>
+        
+        <p>"It wasn't bravery, it was economics," smiled <person ref="Rhunen">Rhunen Zebavi</person>. "I considered the amount of gold and time it takes to train a good troupe, and it seemed smarter to try to save everyone. In any case, I lured the guards around to the back of the <location ref="Gateway Inn" visitable="yes">Gateway Inn</location>, far from the others, and when I was sure they were safe, I jumped off the wall and into the water."</p>
+        
+       <p> "You jumped off the wall?"</p>
+        
+        <p>"Well, yes, as a matter of fact, I did. It's pretty tall. It was a simple matter, especially since I could land in the water. Still, it's only a matter of rolling and twisting the body like so. I'll demonstrate it if you want."</p>
+        
+        <p>"Later, if you please," said the Ashkhan. "What happened then?"</p>
+        
+        <p>"We arrived here at court," said <person ref="Rhunen">Rhunen Zebavi</person> simply.</p>
+        
+        <p>"And when did Master <person ref="Master Neloth">Neloth</person> get<object><item ref=" Mehrunes' Razor"> Mehrunes' Razor></item></object> back from you?"</p>
+        
+        <p>"Mighty <person ref="Archmagister Gothren">Gothren</person>, that part of the story hasn't happened yet," said <person ref="Rhunen">Rhunen Zebavi</person>. "Are you ready for us to perform for you now? I hadn't told you yet about our latest realization of acrobacy when Master <person ref="Master Mearvis">Mearvis</person> takes a simple ebony blade and juggles it in one hand and a handful of marshmerrow reeds in the other. I don't want to give the whole effect away, but at the end of the act, you have some very fine sheets of papyrus."</p>
+        
+        <p>"It sounds delightful, Master <person ref="Rhunen">Rhunen Zebavi</person>," said <person ref="Archmagister Gothren">Gothren</person>. "I look forward to seeing it in a few days time, but I must leave now to meet Master <person ref="Master Neloth">Neloth</person> on the field. I will soon return for a victory celebration, and I want to see all your realizations of acrobacy. In the meantime, you will be honored guests with every luxury the Archmagister of House <group ref="House Telvanni">Telvanni</group> can afford."</p>
+        
+        <p>"So the room and board will be almost as nice as a third rate show in <location ref="Rihad" visitable="yes">Rihad</location>," said <person ref="Master Senyndie">Senyndie</person> as they took their rooms a few hours later. "Why do we bother with these backwoods performances?"</p>
+        
+        <p>"There are already so many jugglers in <location ref="Rihad" visitable="yes">Rihad</location>," said <person ref="Rhunen">Rhunen Zebavi</person> with a shrug.</p>
+         </contents>
+    <consoleID xmlid="bookskill_acrobatics1">bookskill_acrobatics1</consoleID>
+</Book>

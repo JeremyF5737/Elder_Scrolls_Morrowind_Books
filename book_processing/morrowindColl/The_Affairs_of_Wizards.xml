@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-model href="GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book>
+    
+    <book_title ref ="The Affairs of Wizards">The Affairs of Wizards</book_title>
+    <writer who="Turedus Talanian" listed ="yes">Turedus Talanian</writer>
+    <Acquisition>
+        <location ref ="Balmora, Meldor: Armorer" visitable ="yes">Balmora, Meldor: Armorer</location>
+        <location ref ="Caldera, Surane Leoriane's house" visitable ="yes">Caldera, Surane Leoriane's house</location>
+        <location ref ="Ghostgate, Tower of Dawn Lower Level" visitable ="yes">Ghostgate, Tower of Dawn Lower Level</location>
+        <location ref ="Sadrith Mora, Tel Naga Great Hall" visitable ="yes">Sadrith Mora, Tel Naga Great Hall</location>
+        <location ref ="Holamayan Monastery" visitable ="yes">Holamayan Monastery</location>
+        <location ref ="Sadrith Mora, Telvanni Council House, Entry" visitable ="yes">Sadrith Mora, Telvanni Council House, Entry</location>
+        <location ref ="Tel Branora, Upper Tower" visitable ="yes">Tel Branora, Upper Tower</location>
+        <location ref ="Tel Branora, Therana's Chamber" visitable ="yes">Tel Branora, Therana's Chamber</location>
+        <location ref ="Tel Mora, Berwen: Trader" visitable ="yes">Tel Mora, Berwen: Trader</location>
+        <location ref ="Tel Mora, Lower Tower" visitable ="yes">Tel Mora, Lower Tower</location>
+        <location ref ="Tel Mora, Tower Services" visitable ="yes">Tel Mora, Tower Services</location>
+        <location ref ="Tel Uvirith, Omavel's House" visitable ="yes">Tel Uvirith, Omavel's House</location>
+        <location ref ="Tel Uvirith, Seleth's House" visitable ="yes">Tel Uvirith, Seleth's House</location>
+        <location ref ="Tel Uvirith, Tower Lower" visitable ="yes">Tel Uvirith, Tower Lower</location>
+        <location ref ="Tel Vos, Central Tower" visitable ="yes">Tel Vos, Central Tower</location>
+        <location ref ="Tel Fyr, Hall of Fyr" visitable ="yes">Tel Fyr, Hall of Fyr</location>
+        <location ref ="Tureynulal, Kagrenac's Library" visitable ="yes">Tureynulal, Kagrenac's Library</location>
+        <location ref ="Vivec, Hall of Justice Secret Library" visitable ="yes">Vivec, Hall of Justice Secret Library</location>
+        <location ref ="Vivec, Hlaalu Records" visitable ="yes">Vivec, Hlaalu Records</location>
+        <location ref ="Vivec, Library of Vivec" visitable ="yes">Vivec, Library of Vivec</location>
+        <location ref ="Vivec, Redoran Records" visitable ="yes">Vivec, Redoran Records</location>
+        <location ref ="Vivec, Redoran Treasury" visitable ="yes">Vivec, Redoran Treasury</location>
+        <location ref ="Vivec, Simine Fralinie: Bookseller" visitable ="yes">Vivec, Simine Fralinie: Bookseller</location>
+        <location ref ="Vivec, Telvanni Mage" visitable ="yes">Vivec, Telvanni Mage</location>
+        <location ref ="Vivec, Telvanni Tower" visitable ="yes">Vivec, Telvanni Tower</location>
+        <location ref ="Vos, Dreynos Ulvul's Farmhouse" visitable ="yes">Vos, Dreynos Ulvul's Farmhouse</location>
+        <location ref ="Yesamsi" visitable ="yes">Yesamsi</location>
+        
+    </Acquisition>
+    <contents>
+        
+        <p>Want to Become Part of<group ref=" House Telvanni"> House Telvanni</group>?</p>
+        <p>Outsiders learning of the rabid isolationist and outlander-hating temperament of<group ref=" House Telvanni"> House Telvanni</group> wizards often assume it would be impossible to obtain positions in service to<group ref=" House Telvanni"> House Telvanni</group>.</p>
+        <p>Nothing could be further from the truth.</p>
+        <p>For example, since the Telvanni vigorously defend the right to own slaves, and since they keep many<group ref=" Argonian"> Argonian</group> and <group ref=" Khajiit"> Khajiit</group> as slaves, many<group ref=" Argonian"> Argonian</group>s and <group ref=" Khajiit"> Khajiit</group> assume they would not be accepted for service with<group ref=" House Telvanni"> House Telvanni</group>.</p>
+        <p>Not true. Telvanni accept all races as candidates for membership.</p>
+        <p>And, since the Telvanni are ruled by wizard-lord nobles, many assume they accept only candidates of the highest intelligence and willpower.</p>
+        <p>Not true. Telvanni accept candidates of modest intelligence and willpower.</p>
+        <p>It is true that advancement in Telvanni ranks depends on high intelligence and willpower, and that candidates proficient in the arts of magic -- especially Mysticism, Conjuration, Illusion, Alteration, Destruction and Enchanting - can expect to advance faster and higher in the ranks.</p>
+        <p>But adventurers of all races and abilities who apply to Telvanni Mouths at the <location ref ="Telvanni Council Hall" visitable ="yes">Telvanni Council Hall</location> in <location ref ="Sadrith Mora" visitable ="yes">Sadrith Mora</location> for acceptance in<group ref=" House Telvanni"> House Telvanni</group> can expect a cordial welcome.</p>
+        <p>(Telvanni Councilors do not serve on their house councils in person. Instead, they are represented by a 'Mouth', a trusted subordinate in residence at the Council Hall, acting on his patron's behalf, receiving messengers from their patrons and casting their patron's votes in Council affairs.)</p>
+        <p>The truth is that<group ref=" House Telvanni"> House Telvanni</group> wizard-lords depend on loyal, well-paid, skilled retainers for most services. Though<group ref=" House Telvanni"> House Telvanni</group> does recruit from their own lower classes, they must go outside their house to hire the craftsmen and specialists they need. And since for political reasons<group ref=" House Telvanni"> House Telvanni</group> has chosen to reduce its reliance on <group ref="Redoran">Redoran</group> mercenaries for protection and security, it has been forced to turn to Western mercenaries for guards and agents.</p>
+        <p>Promotion in the ranks of<group ref=" House Telvanni"> House Telvanni</group>, however, is very difficult for outsiders. Most disconcerting for some potential candidates is<group ref=" House Telvanni"> House Telvanni</group>'s casual acceptance of murder and assassination of rivals as a means to advancement. Those reluctant to prove their worthiness by killing off the competition, and those uncomfortable about competing in such a ruthless atmosphere, might better employ their time and efforts in the <group ref="Mages Guild">Mages Guild</group>.</p>
+        
+        
+    </contents>
+    <consoleID xmlid="bk_AffairsOfWizards">bk_AffairsOfWizards</consoleID>
+    
+</Book>

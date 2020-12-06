@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/C:/Users/jerbe/OneDrive/Desktop/identityTransform/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<Book> 
+    <book_title ref="msg_Dagoth">Message from Dagoth Ur</book_title>
+    <writer who="Dagoth Ur" listed="yes"></writer>
+    
+    <Acquisition NPC="Dagoth Gares"> Dagoth Gares</Acquisition>
+    
+ 
+    <contents>
+       <p> Lord <person who="Nerevar Indoril">Nerevar Indoril</person>, Hail <location ref="Resdaynia">Resdaynia</location> My Lord, Friend, and Companion
+    </p>
+  
+  <p>  Once we were friends and
+    brothers, Lord <person who="Nerevar Indoril">Nerevar</person>, in peace and in war. No houseman ever served you better, or more
+    faithfully. Much that I did was at your command, at great cost to myself, and my honor. Yet
+    beneath <location ref="Red Mountain">Red Mountain</location>, you struck me down as I guarded the <plot_device what="treasure">treasure</plot_device> you bound me by oath to
+    defend. It was a cruel blow, a bitter betrayal, to be felled by your hand.</p>
+    
+  <p>  But, remembering our old friendship, I would forgive you, and raise you high in my service. The <group who="Sixth House">Sixth House</group> was not
+    dead, but only sleeping. Now we wake from our long dream, coming forth to free <location ref="Morrowind">Morrowind</location> of
+    foreign rulers and divine pretenders. When the land is swept clean of false friends and greedy
+    thieves, the children of <person who="Veloth">Veloth</person> will build anew a garden of plenty in this <location ref="Morrowind">blighted wasteland</location>.
+    Come to <location ref="Red Mountain">Red Mountain</location>, old friend. For the fellowship and honor that once we shared, I would
+    grant you counsel and power, if only you would pledge that friendship anew. The path to <location ref="Red Mountain">Red
+    Mountain</location> is long, and filled with danger, but if you are worthy, you will find there wisdom, a
+    firm friend, and all the power you need to set the world aright. </p>
+    
+   <p> As ever, your respectful servant and loyal friend, 
+    Lord <person who="Voryn Dagoth">Voryn Dagoth</person>, <person who="Dagoth Ur">Dagoth Ur</person> 
+</p>
+    </contents>
+
+</Book>
