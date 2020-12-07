@@ -35,7 +35,7 @@
                     </ul>
                 </section>
               <h2 id="items">Table of Items</h2> 
-                <table>
+                <table id="item">
                     <tr>
                         <th>Items</th>
                         <th>Books with Counts</th>
@@ -74,7 +74,7 @@
                 </table>
              <hr/> <!-- horizontal rule line to separate sections-->
                 <h2 id="loc">Table of locations</h2>
-                <table>
+                <table id="loco">
                     <tr>
                         <th>Locations</th>
                         <th>Books with Counts</th>
@@ -111,7 +111,7 @@
                 
                 <hr/> <!-- horizontal rule line to separate sections-->
                 <h2 id="group">Table of Groups</h2>
-             <table>
+             <table id="factions">
                  <tr>
                      <th>Groups</th>
                      <th>Books with Counts</th>
@@ -147,7 +147,7 @@
              </table>
                 <hr/> <!-- horizontal rule line to separate sections-->
                 <h2 id="persons">Table of Persons</h2>
-                <table>
+                <table id="people">
                     <tr>
                         <th>Persons</th>
                         <th>Books with Counts</th>
