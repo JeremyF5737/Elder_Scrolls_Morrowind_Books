@@ -5,8 +5,24 @@
    
     <xsl:output indent="yes" method="xhtml" omit-xml-declaration="yes" doctype-system="about:legacy-compat"/>
     
-    <xsl:variable name="morrowindColl" select="collection('morrowindColl/?select=*.xml')"/>   
+    <xsl:variable name="morrowindColl" select="collection('morrowindColl/?select=*.xml')"/>
+    
+    <!--JJF: Takes the collection folder of all of the kpop albums-->
+    <xsl:variable name="X-Spacer" select="100"/>
+    <xsl:variable name="Y-Stretcher" select="-5"/>
+    <xsl:variable name="barWidth" select="30"/>
+    <xsl:variable name="maxPersonCount" select="$morrowindColl//contents/count(.//person[@ref]) => max()"/>
+    <xsl:variable name="maxLocationCount" select="$morrowindColl//contents/count(.//location[@ref]) => max()"/>
+    <xsl:variable name="maxGroupCount" select="$morrowindColl//contents/count(.//group[@ref]) => max()"/>
+    <xsl:variable name="maxItemCount" select="$morrowindColl//contents/count(.//item[@ref]) => max()"/>
+    
+    <!--jjf: we need to make a variable that gets the maximum of one of the variables and 
+    for it to choose the maximum of all the variables.
+    -->
+    <xsl:variable name="YMax" select="($maxPersonCount, $maxLocationCount, $maxGroupCount, $maxItemCount) => max()"/>
     <!-- This is our root template establishing the structure of our HTML-output -->
+    
+    
     <xsl:template match="/">
         <xsl:result-document href="../web/librarium/morrowindTables.html" method="xhtml"> 
         <!--ebb: xsl:result-document outputs a file with a file name. We'll use it again later to output each of the morrowind books in the collection. -->
@@ -204,7 +220,71 @@
                       <ul><xsl:apply-templates select="Acquisition/location"/></ul>
                       
                       <xsl:apply-templates select="contents"/>
-                     
+                    <section id="svg">
+                        <xsl:variable name="locs" select="count(descendant::contents//location)"/>
+                        <xsl:variable name="groups" select="count(descendant::contents//group)"/>
+                        <xsl:variable name="peeps" select="count(descendant::contents//person)"/>
+                        <xsl:variable name="items" select="count(descendant::contents//item)"/>
+                        <xsl:if test="sum(($locs, $groups,$peeps,$items)) gt 0">                                                                                            
+                                <svg viewBox="0 0 550 1000" preserveAspectRatio="xMinYMin meet">>
+                                    <xsl:comment>maxPersonCount <xsl:value-of select="$maxPersonCount"/></xsl:comment>
+                                    <xsl:comment>max of all the Y-values <xsl:value-of select="$YMax"/></xsl:comment>
+                                    <xsl:comment>maxGroupCount <xsl:value-of select="$maxGroupCount"/></xsl:comment>
+                                    <xsl:comment>maxLocationCount <xsl:value-of select="$maxLocationCount"/></xsl:comment>
+                                    <xsl:comment>maxItemCount <xsl:value-of select="$maxItemCount"/></xsl:comment>
+                                    <g transform="translate(80, 900)">
+                                        <!--X axis --> 
+                                        <line x1="0" y1="0" x2="{10 * $X-Spacer}" y2="0" stroke="indigo"/>
+                                        <!--Y axis -->
+                                        <line x1="0" y1="0" x2="0" y2="{$YMax * $Y-Stretcher}" stroke="indigo"/>
+                                        
+                                        
+                                        <!--            <xsl:variable name="YPos" select="count($maxElementCount) * $Y-Stretcher"/>-->
+                                        <!--JJF: This needs to be finding another y-element for something to be max, so it needs to 
+                    count person,group,item, and location and attempt to take the max-->
+                                        <xsl:variable name="personCount" select="count(.//person[@ref])"/>
+                                        <xsl:variable name="itemCount" select="count(.//item[@ref])"/>
+                                        <xsl:variable name="locationCount" select="count(.//location[@ref])"/>
+                                        <xsl:variable name="groupCount" select="count(.//group[@ref])"/>
+                                    
+                                        <xsl:variable name="barValues" select="tokenize('person group item location', ' ')"/>    
+                                        
+                                        
+                                        <xsl:for-each select="$barValues">
+                                            <xsl:variable name="XPos" select="position() * $X-Spacer"/>
+                                            <xsl:if test="position() = 1"><line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$maxPersonCount * $Y-Stretcher}" stroke="WhiteSmoke" stroke-width="50"/>
+                                                <line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$personCount * $Y-Stretcher}" stroke="pink" stroke-width="50"/>
+                                                <text x="{$XPos}"  y="30" style="writing-mode: tb; glyph-orientation-vertical: 90;"> People </text>
+                                            </xsl:if>
+                                            <xsl:if test="position() = 2"><line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$maxGroupCount * $Y-Stretcher}" stroke="WhiteSmoke" stroke-width="50"/>
+                                                <line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$groupCount * $Y-Stretcher}" stroke="blue" stroke-width="50"/>
+                                                <text x="{$XPos}"  y="30" style="writing-mode: tb; glyph-orientation-vertical: 90;"> Groups </text>
+                                            </xsl:if>
+                                            <xsl:if test="position() = 3"><line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$maxItemCount * $Y-Stretcher}" stroke="WhiteSmoke" stroke-width="50"/>
+                                                <line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$itemCount * $Y-Stretcher}" stroke="yellow" stroke-width="50"/>
+                                                <text x="{$XPos}"  y="30" style="writing-mode: tb; glyph-orientation-vertical: 90;"> Items </text>
+                                            </xsl:if>
+                                            
+                                            <xsl:if test="position() = 4">
+                                                
+                                                <line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$maxLocationCount * $Y-Stretcher}" stroke="WhiteSmoke" stroke-width="50"/>
+                                                <line x1="{$XPos}" y1="0" x2="{$XPos}" y2="{$locationCount * $Y-Stretcher}" stroke="orange" stroke-width="50"/>
+                                                <text x="{$XPos}"  y="30" style="writing-mode: tb; glyph-orientation-vertical: 90;"> Locations </text>
+                                            </xsl:if>                                                                                                
+                                        </xsl:for-each>
+                                        
+                                        <text x="-20" y="-200" style="writing-mode: tb; glyph-orientation-vertical: 90;"> Quantity of ID used</text>
+                                        <!--Y-Axis title-->
+                               
+                                        <text x="125"  y="-800">Count of Morrowind References</text>
+                                        <!--Graph title-->
+                                        
+                                        
+                                    </g>
+                                </svg>
+                            </xsl:if>
+                       
+                    </section> 
                   </body>
               </html>
           </xsl:result-document>
