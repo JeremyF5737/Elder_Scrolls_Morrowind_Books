@@ -6,6 +6,7 @@
 
 body {
   font-family: "Lucida Console", Courier, monospace;
+  background-color:#F9DB9C;
 }
 img {
    
@@ -43,7 +44,7 @@ h2 {
 /* Creates three unequal columns that sit next to each other */
 .column {
   padding: 10px;
-  
+  column-rule-color:#F9DB9C;
 }
 
 /* Left and right column */
@@ -73,7 +74,7 @@ h2 {
 }
 .footer img {
   margin-top: 8px;
-  top: 772px;
+  top: 795px;
   right: 160px;
   width: 128px;
   height: 100px;

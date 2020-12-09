@@ -1,20 +1,24 @@
-
+body {
+    background-color:#F9DB9C;
+}
 table, th, td {
-    border-collapse: collapse;
-    border: 3px solid #000000;
-    border-width: thick;
-    border-style: solid;   
-    padding: 15px;
-    vertical-align: top;
-    background-color:#e6fff2;
-    align-content: center;
+  border-collapse: collapse;
+  border: 7px solid #000000;
+  
+  padding: 15px;
+  vertical-align: top;
+  background-color:#FABD4B;
+  align-content: center;
+  font-family: "Lucida Console", Courier, monospace;
+  margin-left: auto;
+  margin-right: auto;
     }
     
     
       @media (max-width: 600px) {
   .row {
 
-    flex-direction: column;
+  flex-direction: column;
   }
 }  
     
@@ -26,15 +30,24 @@ table, th, td {
   font-size: 35px;
   font-family: "Lucida Console", Courier, monospace;
   }
-  
+  .nav  ul{
+      
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Lucida Console", Courier, monospace;
+  position: sticky;
+  top: 0;
+
+  }
   .nav li {
-  
-      float:inherit;
-  
+  float:inherit;
   border-right: 1px solid #bbb;
   }
   .nav li a{
-      display: block;
+  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -42,7 +55,7 @@ table, th, td {
   }
   
   .nav li a:hover{
-      background-color: #111;
+  background-color: #111;
   }
   
  
@@ -54,16 +67,10 @@ table, th, td {
 .flex-container {
   /* parent for books container */
   display: flex;
-  
-  
-   flex-direction: column;
-   flex-wrap: wrap;
-  
+  flex-direction: column;
+  flex-wrap: wrap;
   flex-flow: row wrap;
-  
-
   justify-content: space-around;
-  
   padding: 0;
   margin: 0;
   list-style: none;
@@ -99,3 +106,44 @@ button {
   width: 200px;
   height: 100px;
   }
+  
+  .footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-image: url(../images/books.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+    
+}
+.footer img {
+  margin-top: 8px;
+  top: 72635px;
+  right: 160px;
+  width: 128px;
+  height: 100px;
+  border-color: #FABD4B;
+  border-width: thick;
+  position: absolute;
+  
+}
+
+.showhide{
+  background-color: #e39339;
+  border: 2px;
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin:0 auto;
+  display:block;
+  cursor: pointer;
+  width: 50%;
+  height: 100px;
+    
+    
+}
