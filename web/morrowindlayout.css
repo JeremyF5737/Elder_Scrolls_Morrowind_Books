@@ -68,13 +68,18 @@ h2 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    
 }
 .footer img {
   margin-top: 8px;
-  vertical-align: middle;
-  width: fill;
+  top: 772px;
+  right: 160px;
+  width: 128px;
+  height: 100px;
   border-color: #FABD4B;
   border-width: thick;
+  position: absolute;
   
 }
 /* Responsive layout */

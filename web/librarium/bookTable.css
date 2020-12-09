@@ -1,3 +1,4 @@
+
 table, th, td {
     border-collapse: collapse;
     border: 3px solid #000000;
@@ -6,4 +7,95 @@ table, th, td {
     padding: 15px;
     vertical-align: top;
     background-color:#e6fff2;
+    align-content: center;
     }
+    
+    
+      @media (max-width: 600px) {
+  .row {
+
+    flex-direction: column;
+  }
+}  
+    
+    
+    .header {
+  background-color: #FABD4B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  .nav li {
+  
+      float:inherit;
+  
+  border-right: 1px solid #bbb;
+  }
+  .nav li a{
+      display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  .nav li a:hover{
+      background-color: #111;
+  }
+  
+ 
+  .active {
+  background-color: #E39439;
+}
+
+
+.flex-container {
+  /* parent for books container */
+  display: flex;
+  
+  
+   flex-direction: column;
+   flex-wrap: wrap;
+  
+  flex-flow: row wrap;
+  
+
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: #fabd4b;
+  align-items: center;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 55px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+button {
+  background-color: #e39339;
+  border: none;
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   
+  
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+  }
