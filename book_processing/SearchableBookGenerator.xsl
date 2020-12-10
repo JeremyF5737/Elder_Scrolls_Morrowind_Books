@@ -72,28 +72,28 @@
                         <th>Books with Counts</th>
                         <th>Link to First Mention in Each Book</th>
                     </tr>
-                  <xsl:for-each select="$morrowindColl//item/@ref ! lower-case(.) ! normalize-space() => distinct-values()">
+                  <xsl:for-each select="$morrowindColl//item/@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() => distinct-values()">
                       <!--ebb: We have to use xsl:for-each instead of xsl:apply-templates to process this because distinct-values converts XML nodes into strings of text. -->          
                       <xsl:sort/>
                     <xsl:variable name="currentItem" as="xs:string" select="current()"/>
                   <tr>
-                      <td><xsl:value-of select="current()"/></td>
+                      <td><xsl:value-of select="current()!translate(.,'_',' ')"/></td>
                       
                       <td><ul>
-                          <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.) ! normalize-space() = current()]">
+                          <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = current()]">
                               
-                          <xsl:sort select="count(current()/descendant::item[@ref ! lower-case(.) !  normalize-space() = $currentItem])" order="descending"/>  
+                              <xsl:sort select="count(current()/descendant::item[@ref ! lower-case(.) ! replace(.,'[-_]',' ') !  normalize-space() = $currentItem])" order="descending"/>  
                            <!--ebb: I repaired this sort() so it is working. Here I needed to sort on a count of item elements, not item/@ref attributes (there would always be just one @ref, so that's why the sort() didn't work before.) -->   
                               
-                          <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::item[@ref ! lower-case(.) ! normalize-space() = $currentItem])"/></li>              
+                              <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::item[@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = $currentItem])"/></li>              
                       </xsl:for-each>
                       </ul>
                       </td>
                       
                       
                       <td> <ul>
-                          <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.) ! normalize-space()  = $currentItem]">
-                              <li><a href="{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.) ! normalize-space() =$currentItem][1]/@ref ! lower-case(.) ! normalize-space(), '[ '']', '')}">first mention</a></li>
+                          <xsl:for-each select="$morrowindColl//Book[descendant::item/@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentItem]">
+                              <li><a href="{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::item[@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() =$currentItem][1]/@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space(), '[ '']', '')}">first mention</a></li>
                               
                           </xsl:for-each> 
                       </ul></td>
@@ -112,24 +112,24 @@
                         <th>Books with Counts</th>
                         <th>Link to First Mention in Each Book</th>
                     </tr>
-                    <xsl:for-each select="distinct-values($morrowindColl//location/@ref ! normalize-space())">
+                    <xsl:for-each select="distinct-values($morrowindColl//location/@ref ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space())">
                         <!--ebb: We have to use xsl:for-each instead of xsl:apply-templates to process this because distinct-values converts XML nodes into strings of text. -->
                         <xsl:sort/>
                         <!--ebb: This sorts the nodes in alphabetical order by the last name if there's space separator. -->
                         <xsl:variable name="currentLoc" as="xs:string" select="current()"/>
                         
-                        <tr> <td><xsl:value-of select="current()"/></td>
+                        <tr> <td><xsl:value-of select="current()!replace(.,'[-_]',' ')"/></td>
                             <td>
-                                <ul><xsl:for-each select="$morrowindColl//Book[descendant::location/@ref ! normalize-space() = current()]">
-                                    <xsl:sort select="count(descendant::location[@ref ! normalize-space() = $currentLoc])" order="descending"/>                 
-                                    <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::location[@ref ! normalize-space() = $currentLoc])"/></li>              
+                                <ul><xsl:for-each select="$morrowindColl//Book[descendant::location/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = current()]">
+                                    <xsl:sort select="count(descendant::location[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = $currentLoc])" order="descending"/>                 
+                                    <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::location[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = $currentLoc])"/></li>              
                                 </xsl:for-each>
                                     
                                 </ul>
                             </td>
                             <td>
                                 <ul>
-                                    <xsl:for-each select="$morrowindColl//Book[descendant::location/@ref ! normalize-space()  = $currentLoc]">
+                                    <xsl:for-each select="$morrowindColl//Book[descendant::location/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentLoc]">
                                         <li><a href="{tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')}.html#{replace(descendant::location[@ref ! normalize-space() =$currentLoc][1]/@ref, '[ '']', '')}">first mention</a></li>
                                         
                                     </xsl:for-each> 
@@ -150,24 +150,24 @@
                      <th>Books with Counts</th>
                      <th>Link to First Mention in Each Book</th>
                  </tr>
-                 <xsl:for-each select="distinct-values($morrowindColl//group/@ref ! normalize-space() )">
+                 <xsl:for-each select="distinct-values($morrowindColl//group/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() )">
                      <!--ebb: We have to use xsl:for-each instead of xsl:apply-templates to process this because distinct-values converts XML nodes into strings of text. -->
                      <xsl:sort select="tokenize(., ' ')[last()]"/>
                      <!--ebb: This sorts the nodes in alphabetical order  y the last name if there's space separator. -->
                      <xsl:variable name="currentGroup" as="xs:string" select="current()"/>
                      
-                     <tr> <td><xsl:value-of select="current()"/></td>
+                     <tr> <td><xsl:value-of select="current()!replace(.,'[-_]',' ')"/></td>
                          <td>
-                             <ul><xsl:for-each select="$morrowindColl//Book[descendant::group/@ref ! normalize-space() = current()]">
-                                 <xsl:sort select="count(descendant::group[@ref ! normalize-space()  = $currentGroup])" order="descending"/>                 
-                                 <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::group[@ref ! normalize-space()  = $currentGroup])"/></li>              
+                             <ul><xsl:for-each select="$morrowindColl//Book[descendant::group/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = current()]">
+                                 <xsl:sort select="count(descendant::group[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentGroup])" order="descending"/>                 
+                                 <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::group[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentGroup])"/></li>              
                              </xsl:for-each>
                                  
                              </ul>
                          </td>
                          <td>
                              <ul>
-                                 <xsl:for-each select="$morrowindColl//Book[descendant::group[@ref ! normalize-space()  = $currentGroup]]">
+                                 <xsl:for-each select="$morrowindColl//Book[descendant::group[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentGroup]]">
                                      <li><a href="{tokenize(current()/base-uri(), '/')[last()]! substring-before(., '.')}.html#{replace(descendant::group[@ref ! normalize-space()=$currentGroup][1]/@ref, '[ '']', '')}">first mention</a></li>
                                      
                                  </xsl:for-each> 
@@ -187,24 +187,24 @@
                         <th>Books with Counts</th>
                         <th>Link to First Mention in Each Book</th>
                     </tr>
-                    <xsl:for-each select="distinct-values($morrowindColl//person/@ref ! normalize-space() )">
+                    <xsl:for-each select="distinct-values($morrowindColl//person/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() )">
                         <!--ebb: We have to use xsl:for-each instead of xsl:apply-templates to process this because distinct-values converts XML nodes into strings of text. -->
                         <xsl:sort select="tokenize(., ' ')[last()]"/>
                         <!--ebb: This sorts the nodes in alphabetical order  y the last name if there's space separator. -->
                         <xsl:variable name="currentPerson" as="xs:string" select="current()"/>
                         
-                        <tr> <td><xsl:value-of select="current()"/></td>
+                        <tr> <td><xsl:value-of select="current()!replace(.,'[_-]',' ')"/></td>
                             <td>
-                                <ul><xsl:for-each select="$morrowindColl//Book[descendant::person/@ref ! normalize-space() = current()]">
-                                    <xsl:sort select="count(descendant::person/@ref ! normalize-space()  = $currentPerson)" order="descending"/>                 
-                                    <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::person[@ref ! normalize-space()  = $currentPerson])"/></li>              
+                                <ul><xsl:for-each select="$morrowindColl//Book[descendant::person/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space() = current()]">
+                                    <xsl:sort select="count(descendant::person/@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentPerson)" order="descending"/>                 
+                                    <li><xsl:apply-templates select="book_title"/>, count: <xsl:value-of select="count(descendant::person[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentPerson])"/></li>              
                                 </xsl:for-each>
                                     
                                 </ul>
                             </td>
                             <td>
                                 <ul>
-                                    <xsl:for-each select="$morrowindColl//Book[descendant::person[@ref ! normalize-space()  = $currentPerson]]">
+                                    <xsl:for-each select="$morrowindColl//Book[descendant::person[@ref! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()  = $currentPerson]]">
                                         <li><a href="{tokenize(current()/base-uri(), '/')[last()]! substring-before(., '.')}.html#{replace(descendant::person[@ref ! normalize-space()=$currentPerson][1]/@ref, '[ '']', '')}">first mention</a></li>
                                         
                                     </xsl:for-each> 
@@ -332,7 +332,7 @@
     <xsl:template match="item">
         <xsl:choose>
             <xsl:when test="count(preceding::item) = 0">
-                <span class="{name()}" id="{replace(@ref, '[ '']', '') ! lower-case(.) ! normalize-space()}"><xsl:apply-templates/></span>
+                <span class="{name()}" id="{replace(@ref, '[ '']', '') ! lower-case(.)! replace(.,'[-_]',' ') ! normalize-space()}"><xsl:apply-templates/></span>
             </xsl:when>
             <xsl:otherwise>
                 <span class="{name()}"><xsl:apply-templates/></span>
