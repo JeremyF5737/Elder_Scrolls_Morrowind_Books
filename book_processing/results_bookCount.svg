@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"><!--maxPersonCount 58-->
+   <g transform="translate(80, 500)">
+      <line x1="0" y1="0" x2="500" y2="0" stroke="indigo"/>
+      <g class="graphOutput">
+         <line x1="2900" y1="0" x2="2900" y2="58" stroke="purple"/>
+         <line x1="2900"
+               y1="0"
+               x2="2900"
+               y2="0"
+               stroke="red"
+               width="20"/>
+         <line x1="2900"
+               y1="0"
+               x2="2900"
+               y2="0"
+               stroke="blue"
+               width="20"/>
+         <line x1="2900"
+               y1="0"
+               x2="2900"
+               y2="0"
+               stroke="yellow"
+               width="20"/>
+         <line x1="2900"
+               y1="0"
+               x2="2900"
+               y2="0"
+               stroke="orange"
+               width="20"/>
+      </g>
+      <text x="-20"
+            y="-200"
+            style="writing-mode: tb; glyph-orientation-vertical: 90;"> Number of Albums</text>
+      <text x="150" y="30"> Kpop Groups </text>
+      <text x="100" y="-400">Number of Albums under each Kpop Group</text>
+      <text x="50"
+            y="50"
+            style="writing-mode: tb; glyph-orientation-vertical: 90;"/>
+   </g>
+</svg>

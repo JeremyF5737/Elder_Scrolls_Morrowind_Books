@@ -5,8 +5,15 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <title>Morrowind Book Information</title>
       <link rel="stylesheet" type="text/css" href="bookTable.css" />
+      <script src="jeremy_12-8_javaEX2.js"></script>
+      <!--JJF: this scrip matches the javascript file-->
    </head>
    <body>
+     <!--JJF: for this coding assignment, if you regex id=, then you will notice that additional
+     onmouseover and onmouseout attributes have been applied, so that they can run the 
+     function that is listed in the javascript, which will run from the script
+     within the head of the html document.-->
+     
       <section id="nav">
          <h1>Morrowind Book Information</h1>
          <ul>
@@ -82,7 +89,7 @@
             <li><a href="#persons">Table of Persons</a></li>
          </ul>
       </section>
-      <h2 id="items">Table of Items</h2>
+      <h2 id="items" onmouseover="changeBackground()" onmouseout="backToNormal()">>Table of Items</h2>
       <table>
          <tr>
             <th>Items</th>
@@ -1143,7 +1150,7 @@
          </tr>
       </table>
       <hr />
-      <h2 id="loc">Table of locations</h2>
+      <h2 id="loc" onmouseover="changeBackground()" onmouseout="backToNormal()">>Table of locations</h2>
       <table>
          <tr>
             <th>Locations</th>
@@ -6267,7 +6274,7 @@
          </tr>
       </table>
       <hr />
-      <h2 id="group">Table of Groups</h2>
+      <h2 id="group" onmouseover="changeBackground()" onmouseout="backToNormal()">>Table of Groups</h2>
       <table>
          <tr>
             <th>Groups</th>
@@ -8122,7 +8129,7 @@
          </tr>
       </table>
       <hr />
-      <h2 id="persons">Table of Persons</h2>
+      <h2 id="persons" onmouseover="changeBackground()" onmouseout="backToNormal()">>Table of Persons</h2>
       <table>
          <tr>
             <th>Persons</th>
