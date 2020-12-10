@@ -4,10 +4,16 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="3.0">
    
     <xsl:output indent="yes" method="xhtml" omit-xml-declaration="yes" doctype-system="about:legacy-compat"/>
-    
+    <!--JJF: This makes a variable for our collection folded, so we can call upon it later to
+    capture all of the xml files and translate them into html pages.-->
     <xsl:variable name="morrowindColl" select="collection('morrowindColl/?select=*.xml')"/>
     
-    <!--JJF: Takes the collection folder of all of the kpop albums-->
+    
+    
+    
+    <!--JJF: This is where all the variables are refrenced from the BarGraphElements.xsl in order for 
+    the bookGenerator to go through all of the xml files and count -> create an svg bargraph
+    for every one of the books.-->
     <xsl:variable name="X-Spacer" select="100"/>
     <xsl:variable name="Y-Stretcher" select="-5"/>
     <xsl:variable name="barWidth" select="30"/>
@@ -23,6 +29,7 @@
     <!-- This is our root template establishing the structure of our HTML-output -->
     
     
+    <!--JJF: Start of the html conversion-->
     <xsl:template match="/">
         <xsl:result-document href="../web/librarium/morrowindTables.html" method="xhtml"> 
         <!--ebb: xsl:result-document outputs a file with a file name. We'll use it again later to output each of the morrowind books in the collection. -->
@@ -31,12 +38,18 @@
                 <title>Morrowind Book Information</title>
             <link rel="stylesheet" type="text/css" href="bookTable.css"/>
             <script type="text/javascript" src="showHideTables.js"></script>
+                <!--JJF: This takes the link from two separate files in our repository
+                and uses the code from them in order to style the html pages with CSS
+                and to use the javascript files to show/hide the giant tables that
+                are outputed onto the website.-->
             </head>
             <body>
                 <div class="header">
                     <h2>Morrowind Librarium</h2>
                     
                 </div>
+                <!--JJF: This is where the menu pages are on the website, and gives the option to go
+                through all of our pages-->
                 <div class="nav"><ul>
                     <li><a class="active" href="../index.html">Home</a></li>
                     <li><a class="active" href="morrowindTables.html">The Librarium</a></li>
@@ -45,7 +58,9 @@
                 </ul></div>
                 
                 <section id="bookTables"><div class="header"><h1>Morrowind Book Tables</h1></div>
-               
+               <!--JJF: This section is using going through morrowindTables.html, and is using
+               the flex-container command the tkae the tokenized names of the specific tables and
+               place them within equally sized boxes that 4 containers on the same height.-->
                 <ul class="flex-container">
                     <li class="flex-item"><a href="#items" class="button">Table of Items</a></li>
                     <li class="flex-item"><a href="#loc" class="button">Table of Locations</a></li>
@@ -57,6 +72,8 @@
                 <ul class="flex-container">
                     <xsl:for-each select="$morrowindColl//Book">
                         <xsl:sort select="book_title"/>
+                        <!--JJF: This sorts the table of contents in alphabetical order, so that it captures the book_title element 
+                        within the morrowindColl directory.-->
                         <li class="flex-item"><a href="{tokenize(base-uri(), '/')[last()] ! substring-before(., '.')}.html" class="button"><xsl:apply-templates select="book_title"/></a></li>
                     </xsl:for-each>
                     
@@ -66,8 +83,16 @@
                 </section>
               <section id="itemTable"><h2>Table of Items</h2> 
                   <button class="showhide" onclick="toggleitems()">Show/Hide Items</button>
-                <table id="items">
+                <!--JJF: This creates a button with the use of javascript to link directly down
+                to the table of usable items within the librarium.-->
+                  <table id="items">
                     <tr>
+                        <!--JJF: Three columns are created, which use the code
+                        below to help use xsl:for-each and the xsl:sort in order
+                        to go alphabetically down the page, and to count how many instances of that
+                        specific item are refrenced within entire collection. The last column
+                        makes a link to the first instance of that specific ref attribute that
+                        is in the table of contents.-->
                         <th>Items</th>
                         <th>Books with Counts</th>
                         <th>Link to First Mention in Each Book</th>
@@ -223,12 +248,15 @@
       <!--ebb: Set a variable to work out the new output filename for each book --><xsl:variable name="fileName" as="xs:string" select="tokenize(current()/base-uri(), '/')[last()] ! substring-before(., '.')"/>
  
             <xsl:result-document href="../web/librarium/{$fileName}.html" method="xhtml">
-              <html>
+              <!--JJF: This is what goes through and translates all of the xml markup to html.
+             The toekenized functions are used in order to create the filename based on the original
+             title of the xml, and it just changes it to an .html extension.-->
+                <html>
                   <head>
                       <title><xsl:apply-templates select="book_title"/></title>
                       <link rel="stylesheet" type="text/css" href="bookSpine.css"/>
-                      <!--JJF: Let Issac style using CSS and replace using his link.-->
-                      <!--ebb: Replace with your project CSS to style the books -->
+                      <!--JJF: This is what determines the CSS for each html book page.-->
+                   
                   </head>
                   <body>
                       
@@ -237,6 +265,8 @@
                           
                       </div>
                       <div class="nav"><ul>
+                          <!--JJF: This allows the buttons to be used again to navagate around 
+                          the website and go to other pages.-->
                           <li><a class="active" href="../index.html">Home</a></li>
                           <li><a class="active" href="morrowindTables.html">The Libraruim</a></li>
                           <li><a class="active" href="../About.html">About us</a></li>
@@ -250,7 +280,8 @@
                       <ul><xsl:apply-templates select="Acquisition/location"/></ul>
                       
                       <xsl:apply-templates select="contents"/></section>
-                    <section id="svg">
+                    <!--JJF: This code is from the BarGraphElements.xsl  it outputs below the books contents.-->
+                          <section id="svg">
                         <xsl:variable name="locs" select="count(descendant::contents//location)"/>
                         <xsl:variable name="groups" select="count(descendant::contents//group)"/>
                         <xsl:variable name="peeps" select="count(descendant::contents//person)"/>
@@ -328,6 +359,9 @@
     <xsl:template match="p">
         <p><xsl:apply-templates/></p>
     </xsl:template>
+    
+    <!--JJF: Everything below this just makes sure that if the count of a item,location,group, or person is listed as 0
+    then it will not display at all on the tables.-->
     
     <xsl:template match="item">
         <xsl:choose>
