@@ -91,7 +91,23 @@ table, th, td {
 
 
 
-button {
+.button {
+  background-color: #e39339;
+  border: none;
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   
+  
+  cursor: pointer;
+  width: 200px;
+  height: 100px;
+  }
+  
+  button {
   background-color: #e39339;
   border: none;
   color: white;
@@ -110,7 +126,7 @@ button {
   .footer {
   background-color: #f1f1f1;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   background-image: url(../images/books.jpg);
   background-position: center center;
   background-repeat: no-repeat;

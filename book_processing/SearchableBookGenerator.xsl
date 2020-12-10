@@ -30,28 +30,43 @@
             <head>
                 <title>Morrowind Book Information</title>
             <link rel="stylesheet" type="text/css" href="bookTable.css"/>
+            <script type="text/javascript" src="showHideTables.js"></script>
             </head>
             <body>
-                <section id="nav">
-                    <!--JJF: This makes a flexbox-->
-                <h1>Morrowind Book Information</h1>
-                <ul>
+                <div class="header">
+                    <h2>Morrowind Librarium</h2>
+                    
+                </div>
+                <div class="nav"><ul>
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a class="active" href="morrowindTables.html">The Librarium</a></li>
+                    <li><a class="active" href="../About.html">About us</a></li>
+                    
+                </ul></div>
+                
+                <section id="bookTables"><div class="header"><h1>Morrowind Book Tables</h1></div>
+               
+                <ul class="flex-container">
+                    <li class="flex-item"><a href="#items" class="button">Table of Items</a></li>
+                    <li class="flex-item"><a href="#loc" class="button">Table of Locations</a></li>
+                    <li class="flex-item"><a href="#group" class="button">Table of Groups</a></li>
+                    <li class="flex-item"><a href="#persons" class="button">Table of Persons</a></li>
+                </ul></section>
+                
+                <section><h1>Morrowind Book Information</h1>
+                <ul class="flex-container">
                     <xsl:for-each select="$morrowindColl//Book">
                         <xsl:sort select="book_title"/>
-                        <li><a href="{tokenize(base-uri(), '/')[last()] ! substring-before(., '.')}.html"><xsl:apply-templates select="book_title"/></a></li>
+                        <li class="flex-item"><a href="{tokenize(base-uri(), '/')[last()] ! substring-before(., '.')}.html" class="button"><xsl:apply-templates select="book_title"/></a></li>
                     </xsl:for-each>
                     
                 </ul>
                     
-                    <ul>
-                        <li><a href="#items">Table of Items</a></li>
-                        <li><a href="#loc">Table of Locations</a></li>
-                        <li><a href="#group">Table of Groups</a></li>
-                        <li><a href="#persons">Table of Persons</a></li>
-                    </ul>
+                  
                 </section>
-              <h2 id="items">Table of Items</h2> 
-                <table id="item">
+              <section id="itemTable"><h2>Table of Items</h2> 
+                  <button class="showhide" onclick="toggleitems()">Show/Hide Items</button>
+                <table id="items">
                     <tr>
                         <th>Items</th>
                         <th>Books with Counts</th>
@@ -87,10 +102,11 @@
                   </xsl:for-each>
                     
                     
-                </table>
+                </table></section>
              <hr/> <!-- horizontal rule line to separate sections-->
-                <h2 id="loc">Table of locations</h2>
-                <table id="loco">
+                <section><h2>Table of locations</h2>
+                    <button class="showhide" onclick="toggleloc()">Show/Hide Locations</button>
+                <table id="loc">
                     <tr>
                         <th>Locations</th>
                         <th>Books with Counts</th>
@@ -123,11 +139,12 @@
                     </xsl:for-each>   
                     
                     
-                </table>
+                </table></section>
                 
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <h2 id="group">Table of Groups</h2>
-             <table id="factions">
+                <section><h2>Table of Groups</h2>
+                    <button class="showhide" onclick="togglegroup()">Show/Hide Groups</button>
+             <table id="group">
                  <tr>
                      <th>Groups</th>
                      <th>Books with Counts</th>
@@ -160,10 +177,11 @@
                  </xsl:for-each>    
               
                 
-             </table>
+             </table></section>
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <h2 id="persons">Table of Persons</h2>
-                <table id="people">
+                <section><h2>Table of Persons</h2>
+                    <button class="showhide" onclick="togglepersons()">Show/Hide Persons</button>
+                <table id="persons">
                     <tr>
                         <th>Persons</th>
                         <th>Books with Counts</th>
@@ -194,7 +212,7 @@
                             </td>
                         </tr>
                     </xsl:for-each>   
-                </table>
+                </table></section>
             </body>
         </html>
         </xsl:result-document>
@@ -213,13 +231,25 @@
                       <!--ebb: Replace with your project CSS to style the books -->
                   </head>
                   <body>
-                      <h1><xsl:apply-templates select="book_title"/></h1>
+                      
+                      <div class="header">
+                          <h2>Morrowind Librarium</h2>
+                          
+                      </div>
+                      <div class="nav"><ul>
+                          <li><a class="active" href="../index.html">Home</a></li>
+                          <li><a class="active" href="morrowindTables.html">The Libraruim</a></li>
+                          <li><a class="active" href="../About.html">About us</a></li>
+                          
+                      </ul></div>
+                      
+                      <div id="flex"><section id="content"><h1><xsl:apply-templates select="book_title"/></h1>
                        <h2><xsl:apply-templates select="writer"/></h2>
                       
                       <h3>Acquisitions</h3>
                       <ul><xsl:apply-templates select="Acquisition/location"/></ul>
                       
-                      <xsl:apply-templates select="contents"/>
+                      <xsl:apply-templates select="contents"/></section>
                     <section id="svg">
                         <xsl:variable name="locs" select="count(descendant::contents//location)"/>
                         <xsl:variable name="groups" select="count(descendant::contents//group)"/>
@@ -284,7 +314,7 @@
                                 </svg>
                             </xsl:if>
                        
-                    </section> 
+                    </section> </div>
                   </body>
               </html>
           </xsl:result-document>

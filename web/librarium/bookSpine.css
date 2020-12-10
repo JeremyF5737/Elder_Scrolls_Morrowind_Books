@@ -5,3 +5,48 @@ p{
 h1{
     color:green;
 }
+
+
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+ #content{
+    flex: 2;
+ }
+ 
+ #svg {
+     flex: 1;
+ }
+ 
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float:inherit;
+  
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
