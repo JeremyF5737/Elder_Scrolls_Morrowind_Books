@@ -2,7 +2,7 @@
 
 <Book>
     
-    <book_title ref =""></book_title>
+    <book_title ref ="Tal_Marog_Kers_Researches">Tal_Marog_Kers_Researches</book_title>
     <writer who="Tal Marog Ker" listed ="yes">Tal Marog Ker</writer>
     <Acquisition>
         <location ref ="Tel Fyr, Hall of Fyr" visitable ="yes">Tel Fyr, Hall of Fyr</location>

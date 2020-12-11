@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
-    <book_title ref="For my Gods and Emperor"/>
+    <book_title ref="For my Gods and Emperor">For my Gods and Emperor</book_title>
     <writer listed = "yes" who = "Imperial Cult">Imperial Cult</writer>
     <Acquisition>
         <location ref = "Moonmoth Legion Fort Interior" visitable = "yes">Moonmoth Legion Fort Interior</location>

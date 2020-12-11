@@ -68,7 +68,7 @@
                     <li class="flex-item"><a href="#persons" class="button">Table of Persons</a></li>
                 </ul></section>
                 
-                <section><h1>Morrowind Book Information</h1>
+                <section><div class="header"><h1>Morrowind Book Information</h1></div>
                 <ul class="flex-container">
                     <xsl:for-each select="$morrowindColl//Book">
                         <xsl:sort select="book_title"/>
@@ -81,7 +81,7 @@
                     
                   
                 </section>
-              <section id="itemTable"><h2>Table of Items</h2> 
+              <section id="itemTable"><div class="header"><h2>Table of Items</h2></div> 
                   <button class="showhide" onclick="toggleitems()">Show/Hide Items</button>
                 <!--JJF: This creates a button with the use of javascript to link directly down
                 to the table of usable items within the librarium.-->
@@ -129,7 +129,7 @@
                     
                 </table></section>
              <hr/> <!-- horizontal rule line to separate sections-->
-                <section><h2>Table of locations</h2>
+                <section><div class ="header"><h2>Table of locations</h2></div>
                     <button class="showhide" onclick="toggleloc()">Show/Hide Locations</button>
                 <table id="loc">
                     <tr>
@@ -167,7 +167,7 @@
                 </table></section>
                 
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <section><h2>Table of Groups</h2>
+                <section><div class="header"><h2>Table of Groups</h2></div>
                     <button class="showhide" onclick="togglegroup()">Show/Hide Groups</button>
              <table id="group">
                  <tr>
@@ -204,7 +204,7 @@
                 
              </table></section>
                 <hr/> <!-- horizontal rule line to separate sections-->
-                <section><h2>Table of Persons</h2>
+                <section><div class="header"><h2>Table of Persons</h2></div>
                     <button class="showhide" onclick="togglepersons()">Show/Hide Persons</button>
                 <table id="persons">
                     <tr>
@@ -273,11 +273,11 @@
                           
                       </ul></div>
                       
-                      <div id="flex"><section id="content"><h1><xsl:apply-templates select="book_title"/></h1>
-                       <h2><xsl:apply-templates select="writer"/></h2>
+                      <div class="flex"><section class="content"><h1><xsl:apply-templates select="book_title"/></h1>
+                       <h3><xsl:apply-templates select="writer"/></h3>
                       
-                      <h3>Acquisitions</h3>
-                      <ul><xsl:apply-templates select="Acquisition/location"/></ul>
+                      <h4>Acquisitions</h4>
+                      <ul id="acq"><xsl:apply-templates select="Acquisition/location"/></ul>
                       
                       <xsl:apply-templates select="contents"/></section>
                     <!--JJF: This code is from the BarGraphElements.xsl  it outputs below the books contents.-->

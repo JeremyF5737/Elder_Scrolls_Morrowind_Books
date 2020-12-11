@@ -2,7 +2,7 @@
 
 <?xml-model href="morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
-    <book_title ref="buyn_game"> The Buying Game</book_title>
+    <book_title ref="The Buying Game">The Buying Game</book_title>
     <writer who="Ababael Timsar-Dadisun" listed="yes"> Ababael Timsar-Dadisun</writer>
 
     <Acquisition>

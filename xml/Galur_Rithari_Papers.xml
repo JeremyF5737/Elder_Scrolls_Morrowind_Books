@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
-    <book_title ref=""/>
+    <book_title ref="Galur Rithari's Papers">Galur Rithari's Papers</book_title>
     <writer listed="yes" who="Galur Rithari"> Galur Rithari</writer>
     <Acquisition>
         <location ref="Kagrenac's Library" visitable="yes">Kagrenac's Library</location>

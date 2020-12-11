@@ -1,52 +1,106 @@
 p{
     align-content: center;
-    
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 14px;
 }
 h1{
-    color:green;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+h3 {
+    text-align: center;
+  font-size: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+h4 {
+    text-align: left;
+  font-size: 17px;
+  font-family: "Lucida Console", Courier, monospace;
+}
+body {
+    background-color:#F9DB9C;}
+    
+
+
+
+
+section {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;}
+
+
+
+
+ .header {
+  background-color: #FABD4B;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Lucida Console", Courier, monospace;
+  }
+
+
+#acq {
+  
+   list-style: circle;
+  font-size: 12px;
+  font-family: "Lucida Console", Courier, monospace;
+
 }
 
 
 
-#flex {
+.flex {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+     justify-content: flex-end;
     
 }
  #content{
-    flex: 2;
+    flex: 1;
  }
  
  #svg {
-     flex: 1;
+     flex: 10;
+     width: 40%;
+     height: 40%;
  }
  
-ul {
+ .nav  ul{
+      
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
+  font-family: "Lucida Console", Courier, monospace;
   position: sticky;
   top: 0;
-}
 
-li {
+  }
+ 
+.nav li {
   float:inherit;
-  
   border-right: 1px solid #bbb;
-}
-
-li a {
+  }
+  .nav li a{
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-li a:hover {
+  }
+  
+  .nav li a:hover{
   background-color: #111;
+  }
+  
+ 
+  .active {
+  background-color: #E39439;
 }

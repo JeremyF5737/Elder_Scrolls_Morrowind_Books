@@ -1,8 +1,6 @@
 
 
-*{
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: "Lucida Console", Courier, monospace;
@@ -22,6 +20,7 @@ img {
 }
 h1 {
     text-align:center;
+    font-size: 35px;
 }
 h2 {
     text-align:center;
@@ -44,7 +43,7 @@ h2 {
 /* Creates three unequal columns that sit next to each other */
 .column {
   padding: 10px;
-  column-rule-color:#F9DB9C;
+  background-color:#F9DB9C;
 }
 
 /* Left and right column */
