@@ -54,7 +54,7 @@
                     <li><a class="active" href="../index.html">Home</a></li>
                     <li><a class="active" href="morrowindTables.html">The Librarium</a></li>
                     <li><a class="active" href="../About.html">About us</a></li>
-                    
+                    <li><a class="active" href="../projectmethodology.html">Project Methodology</a></li>
                 </ul></div>
                 
                 <section id="bookTables"><div class="header"><h1>Morrowind Book Tables</h1></div>
@@ -270,10 +270,10 @@
                           <li><a class="active" href="../index.html">Home</a></li>
                           <li><a class="active" href="morrowindTables.html">The Libraruim</a></li>
                           <li><a class="active" href="../About.html">About us</a></li>
-                          
+                          <li><a class="active" href="../projectmethodology.html">Project Methodology</a></li>
                       </ul></div>
                       
-                      <div class="flex"><section class="content"><h1><xsl:apply-templates select="book_title"/></h1>
+                      <div class="flex"><section id="content"><h1><xsl:apply-templates select="book_title"/></h1>
                        <h3><xsl:apply-templates select="writer"/></h3>
                       
                       <h4>Acquisitions</h4>

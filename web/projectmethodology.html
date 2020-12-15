@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Morrowind</title>
+        <link rel="stylesheet" type="text/css" href="morrowindlayout.css"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Morrowind Librarium</h2>
+        </div>
+        
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="librarium/morrowindTables.html">The Librarium</a></li>
+            <li><a class="active" href="About.html">About us</a></li>
+            <li><a class="active" href="projectmethodology.html">Project Methodology</a></li>
+        </ul>
+        
+        
+        <h1>Project Methodology</h1>
+        <div class="row">
+            
+            <div class="column side" style="background-color:#ccc;">
+                
+            </div>
+            <div class="column middle" style="background-color:#ccc;">
+                <h2>Project Abstract</h2>
+                <p>“The Elder Scrolls” is a video game series created by Bethesda Softworks which involves modern fantasy tropes such as Elves, Quests, and Dragons. During the course of these games, the player can learn about the background information/lore by reading books gathered in the games. There main problem is that these books need to be acquired before you can read them, they are written in different writing styles, the information is often complex and is out of context unless a book series is complete, and they take away from the pace of the game. 
+                    Our project group decided that this is a serious problem within the game and so much content is being ignored and overshadowed and needed to be organized, recorded, and simplified into a collection that displayed the most important information, and compared it with the other in-game books. Our project’s objective is to compile all of the books exclusively from the third installment of “The Elder Scrolls lll: Morrowind” and display the contents about NPC’s, Factions, in-game Items, and Locations into table that we decided to name Librarium in order to make reaching these topics easier for a player to comprehend. The Librarium also shows how many times the contents are mentioned within the confines of the books. 
+                </p>
+                <h2>Coding Methodology</h2>
+                <p>“The Elder Scrolls” is a video game series created by Bethesda Softworks which involves modern fantasy tropes such as Elves, Quests, and Dragons. During the course of these games, the player can learn about the background information/lore by reading books gathered in the games. There main problem is that these books need to be acquired before you can read them, they are written in different writing styles, the information is often complex and is out of context unless a book series is complete, and they take away from the pace of the game. 
+                    Our project group decided that this is a serious problem within the game and so much content is being ignored and overshadowed and needed to be organized, recorded, and simplified into a collection that displayed the most important information, and compared it with the other in-game books. Our project’s objective is to compile all of the books exclusively from the third installment of “The Elder Scrolls lll: Morrowind” and display the contents about NPC’s, Factions, in-game Items, and Locations into table that we decided to name Librarium in order to make reaching these topics easier for a player to comprehend. The Librarium also shows how many times the contents are mentioned within the confines of the books. 
+                </p>
+                <img src="images/1.png" alt="code" class="method"/>
+                <p>After the schema was created, all of the morrowind exclusive books were captured and were tagged with XML markup, emphasizing the importance of capturing the key elements within the contents such as; people, in-game items, groups, and locations. </p>
+                <img src="images/2.png" alt="code" class="method"/>
+                <p>In order to make our content visible on the website, the previous XML markup had to be converted over to the html format. This conversion was done by using XSLT (eXtensible Stylesheet Language Transformations) by essentially creating a searchable book generator that would convert the filenames of the .xml to those of .html and make the appropriate changes to correspond to the website format. </p>
+                <img src="images/3.png" alt="code" class="method"/>
+                <p> 
+                  The XSLT code then reached into markup and counted how many unique ref values were within a book and counted them in table, and found the first mention of that value within the table of contents. 
+                </p>
+                <p>In order to make the project unique compared to what a wiki would have to offer, the XSLT searched through and displayed how many times an item, location, group, and person was mentioned, and created a bar-graph of how many times those elements would appear in this book compared to the rest. This allowed us to find the book’s that mentioned the most people, mentioned the most items, mentioned the most locations, and mentioned the most groups. The bar graph is technically described as an svg (Scalable Vector Graphics) but was converted and shown at the bottom of the books contents using a separate XSLT code. </p>
+                <h2>Project Results</h2>
+                <p>According to the XSLT the project discovered where the most mentions of the in-game references are available in, all with the use of the xslt count function. The most mentions of locations are from the Guide to Vvardenfell  with 174 mentions of location elements. The most mentions for the most in-game factions comes from the book Great Houses of Morrowind with a count of 49 mentions of groups/factions. The most mentions for the in-game items comes from the book The Alchemists Formulary  with a count of 47 usable in-game items. Finally the most mentions for people within the elder scrolls is in the book The Four Suitors of Benitah  with 58 mentions of people within the book. </p>
+                <h2>Acknowledgements</h2>
+                <p>Our team would like to personally thank Newtfire.org for hosting our project website on the server, for XSLT coding assistance, and feedback regarding our project. Another special thanks to Penn State Erie: The Behrend College Digital Humanities Department for allowing this project to happen.</p>
+                <p>A special thanks to the two wikis and all of the various contributors for giving the information allowing the xml markup to be compiled.</p>
+                <a href="https://elderscrolls.fandom.com/wiki/Books_(Morrowind)#:~:text=Books%20edit%20%7C%20edit%20source%20%20%20,%20%20BookSkill_Restoration4%20%2014%20more%20rows%20"><h2>The Elder Scrolls FANDOM/BOOKS </h2></a>
+                <a href="https://en.uesp.net/wiki/Morrowind:Books"><h2>The Unofficial Elder Scrolls Wiki Morrowind Books</h2></a>
+                <a href="https://www.nexusmods.com/skyrim/mods/46474/"><h2>Footer Image</h2></a>
+                <a href="https://www.teepublic.com/long-sleeve-t-shirt/44041-hypnotoad"><h2>Jeremy Fischer About page Image</h2></a>
+            </div>
+            <div class="column side" style="background-color:#ccc;">
+               
+            </div>
+        </div>
+        
+        <div class="footer">
+            <footer>
+                <h1>Contact Info</h1>
+                <p>Jeremy Fischer - jjf5737@psu.edu</p>
+                <p>Joel Watson -  jrw5970@psu.edu</p>
+                <p>Isaac Esterline - ice5017@psu.edu</p>
+                <h3>Powered by Newtfire</h3>
+            </footer>
+        </div>
+        
+    </body>
+</html>

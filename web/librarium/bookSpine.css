@@ -47,7 +47,7 @@ section {
 
 #acq {
   
-   list-style: circle;
+  list-style: circle; 
   font-size: 12px;
   font-family: "Lucida Console", Courier, monospace;
 
@@ -62,13 +62,12 @@ section {
     
 }
  #content{
-    flex: 1;
+    flex: 2;
  }
  
  #svg {
-     flex: 10;
-     width: 40%;
-     height: 40%;
+     flex: 1;
+     
  }
  
  .nav  ul{
