@@ -1,38 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Book>
     <book_title ref="Brown Book of 3E 426">Brown Book of 3E 426</book_title>
+    <writer listed="yes" ref="House Telvanni">House Telvanni</writer>
 
-    <Acquisition> </Acquisition>
+    <Acquisition>
+        <location ref="Sadrith Mora, Telvanni Council House Entry" visitable="yes">Sadrith Mora,
+            Telvanni Council House Entry</location>
+        <location ref="Tel Aruhn, Tower Entry" visitable="yes">Tel Aruhn, Tower Entry</location>
+        <location ref="Tel Branora, Upper Tower: Therana's Chamber" visitable="yes">Tel Branora,
+            Upper Tower: Therana's Chamber</location>
+        <location ref="Tel Mora, Tower Services" visitable="yes">Tel Mora, Tower Services</location>
+        <location ref="Tel Vos, Services Tower" visitable="yes">Tel Vos, Services Tower</location>
+    </Acquisition>
 
     <contents>
-        Councilors of House Telvanni, Vvardenfell District, Imperial Era 426
-        
-        Archmagister Gothren, Lord High Magus of Telvanni Council, Vvardenfell District, Tower of Tel Aruhn, East Molag Amur,
-        District of Vvardenfell, Province of Morrowind
-        
-        Master Aryon, Mage Lord of Telvanni Council, Vvardenfell District, Tower of Tel Vos, Village of Vos, The Grazelands,
-        District of Vvardenfell, Province of Morrowind
-        
-        Master Neloth, Mage Lord of Telvanni Council, Vvardenfell District, Tower of Tel Naga, Sadrith Mora, District of 
-        Vvardenfell, Province of Morrowind
-        
-        Mistress Dratha, Mage Lord of Telvanni Council, Vvardenfell District, Tower of Tel Mora, The Grazelands, District of
-        Vvardenfell, Province of Morrowind
-        
-        Mistress Therana, Mage Lord of Telvanni Council, Vvardenfell District, Tower of Tel Branora, Azura's Coast, District of 
-        Vvardenfell, Province of Morrowind
-        
-        Councilor Representatives of House Telvanni, Council Hall, Sadrith Mora
-        
-        For Archmagister Gothren: Mouth Mallam Ryon, Mage
-        For Master Aryon: Mouth Arara Uvulas
-        For Master Neloth: Mouth Raven Omayn
-        For Mistress Therana: Felisa Ulessen
-        For Mistress Dratha: Mouth Mallam Ryon
-        Council Actions
-        
-        In response to repeated protests from Duke Dren and representative of the other Great Houses, Telvanni Council reminded them that, according to ancient law and custom, Telvanni Council places no constraint on the ambitions and enterprise of its individual members. If the Empire or other House Councils wish to dispute Telvanni exploration and colonization of the wastes and wildernesses of Vvardenfell, they are welcome to do so, with the Councilors' best wishes, but Telvanni Council will not contribute its resources or authority to such endeavors.
-        
-        The council renews its objection to proposals placed before Duke Dren and the Grand Council concerning slavery and slave trading in Vvardenfell District. The right to own and trade slaves is guaranteed by the terms of the Treaty of the Armistice, and Telvanni Council will not entertain any discussion of abridgements of those rights. 
+        <p>Councilors of <group ref="House Telvanni">House Telvanni</group>, Vvardenfell District,
+            Imperial Era 426</p>
+
+        <p>Archmagister <person ref="Gothren">Gothren</person>, Lord High Magus of Telvanni Council,
+            Vvardenfell District, Tower of <location ref="Tel Aruhn" visitable="yes">Tel
+                Aruhn</location>, East <location ref="Molag Amur" visitable="yes">Molag
+                Amur</location>, District of Vvardenfell, Province of Morrowind</p>
+
+        <p>Master <person ref="Aryon">Aryon</person>, Mage Lord of Telvanni Council, Vvardenfell
+            District, Tower of <location ref="Tel Vos" visitable="yes">Tel Vos</location>, Village
+            of <location ref="Vos" visitable="yes">Vos</location>, The Grazelands, District of
+            Vvardenfell, Province of Morrowind</p>
+
+        <p>Master <person ref="Neloth">Neloth</person>, Mage Lord of Telvanni Council, Vvardenfell
+            District, Tower of <location ref="Tel Naga" visitable="yes">Tel Naga</location>,
+                <location ref="Sadrith Mora" visitable="yes">Sadrith Mora</location>, District of
+            Vvardenfell, Province of Morrowind</p>
+
+        <p><person ref="Mistress Dratha">Mistress Dratha</person>, Mage Lord of Telvanni Council,
+            Vvardenfell District, Tower of <location ref="Tel Mora" visitable="yes">Tel
+                Mora</location>, The Grazelands, District of Vvardenfell, Province of Morrowind</p>
+
+        <p>Mistress <person ref="Therana">Therana</person>, Mage Lord of Telvanni Council,
+            Vvardenfell District, Tower of <location ref="Tel Branora" visitable="yes">Tel
+                Branora</location>, Azura's Coast, District of Vvardenfell, Province of
+            Morrowind</p>
+
+        <p>Councilor Representatives of House Telvanni, Council Hall, <location ref="Sadrith Mora"
+                visitable="yes">Sadrith Mora</location></p>
+
+        <p>For Archmagister <person ref="Gothren">Gothren</person>: Mouth <person ref="Mallam Ryon"
+                >Mallam Ryon</person>, Mage</p>
+        <p>For Master <person ref="Aryon">Aryon</person>: Mouth <person ref="Arara Uvulas">Arara
+                Uvulas</person></p>
+        <p>For Master <person ref="Neloth">Neloth</person>: Mouth <person ref="Raven Omayn">Raven
+                Omayn</person></p>
+        <p>For Mistress <person ref="Therana">Therana</person>: <person ref="Felisa Ulessen">Felisa
+                Ulessen</person></p>
+        <p>For <person ref="Mistress Dratha">Mistress Dratha</person>: Mouth <person
+                ref="Mallam Ryon">Mallam Ryon</person></p>
+        <p>Council Actions</p>
+
+        <p>In response to repeated protests from <person ref="Duke Vedam Dren">Duke Dren</person>
+            and representative of the other Great Houses, Telvanni Council reminded them that,
+            according to ancient law and custom, Telvanni Council places no constraint on the
+            ambitions and enterprise of its individual members. If the Empire or other House
+            Councils wish to dispute Telvanni exploration and colonization of the wastes and
+            wildernesses of Vvardenfell, they are welcome to do so, with the Councilors' best
+            wishes, but Telvanni Council will not contribute its resources or authority to such
+            endeavors.</p>
+
+        <p>The council renews its objection to proposals placed before <person ref="Duke Vedam Dren"
+                >Duke Dren</person> and the Grand Council concerning slavery and slave trading in
+            Vvardenfell District. The right to own and trade slaves is guaranteed by the terms of
+            the Treaty of the Armistice, and Telvanni Council will not entertain any discussion of
+            abridgements of those rights. </p>
     </contents>
 </Book>

@@ -5,7 +5,7 @@
     <writer  listed="no">Anonynous</writer>
     <Acquisition>
         
-        <location ref = "Ald'Ruh" visitable = "yes">Ald'Ruhn</location>, <location ref = "Arobar Manor Bedrooms" visitable = "yes" >Arobar Manor Bedrooms</location>
+        <location ref = "Ald'Ruhn, Arobar Manor Bedrooms" visitable = "yes">Ald'Ruhn, Arobar Manor Bedrooms</location>
 
     </Acquisition>
     <contents>

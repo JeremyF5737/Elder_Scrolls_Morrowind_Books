@@ -3,11 +3,11 @@
 <?xml-model href="../GitHub/Elder_Scrolls/xml/Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
     <book_title ref = "Ashland Hymns">Ashland Hymns</book_title>
-    <writer listed = "no">Anonymous</writer>
+    <writer listed = "yes" ref = "Urshlaku">Urshlaku</writer>
     
     <Acquisition>
-        <location ref = "Vivec" visitable = "yes">Vivec</location>, <location ref = "Hlaalu Records" visitable = "yes">Hlaalu Records</location>
-        <location ref = "Ald'ruhn" visitable = "yes" >Ald'ruhn</location>, <location ref = "Ald Skar Inn" visitable = "yes">Ald Skar Inn</location>
+        <location ref = "Vivec, Hlaalu Records" visitable = "yes">Vivec, Hlaalu Records</location>
+        <location ref = "Ald'ruhn, Ald Skar Inn" visitable = "yes" >Ald'ruhn, Ald Skar Inn</location>
         <person ref = "Codus Callonus">Codus Callonus</person>
     </Acquisition>
 

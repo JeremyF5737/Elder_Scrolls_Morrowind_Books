@@ -5,11 +5,10 @@
     <writer listed = "no" >Anonymous</writer>
     
     <Acquisition>
-        <location ref = "Ald'ruhn" visitable = "yes" >Ald'ruhn</location>, <location ref = "Ald'ruhn, Guls Llervu's House" visitable = "yes" >Guls Llervu's House</location>
-        <location ref = "Ald'ruhn" visitable = "yes" >Ald'ruhn</location>, <location ref = "Ald'ruhn, Ald'ruhn Temple" visitable = "yes" >Ald'ruhn Temple</location>
-        <location ref = "Gnisis" visitable = "yes" >Gnisis</location>, <location ref = "Gnisis, Arvs-Drelen" visitable = "yes" >Arvs-Drelen</location>
-        <location ref = "Gnisis" visitable = "yes" >Gnisis</location>, <location ref = "Gnisis, Gnisis Temple" visitable = "yes" >Gnisis Temple</location>
-        <location ref = "Hanud" visitable = "yes" >Hanud</location>, <location ref = "Hanud Tower" visitable = "yes" >Tower</location>
+        <location ref = "Ald'ruhn, Guls Llervu's House" visitable = "yes" >Ald'ruhn, Guls Llervu's House</location>
+        <location ref = "Ald'ruhn, Ald'ruhn Temple" visitable = "yes" >Ald'ruhn, Ald'ruhn Temple</location>
+        <location ref = "Gnisis, Gnisis Temple" visitable = "yes" >Gnisis, Gnisis Temple</location>
+        <location ref = "Hanud Tower" visitable = "yes" >Hanud Tower</location>
         <location ref = "Holamayan Monastery" visitable = "yes" >Holamayan Monastery</location>
         <location ref = "Mababi" visitable = "yes" >Mababi</location>
         <location ref = "Mawia" visitable = "yes" >Mawia</location>
@@ -17,11 +16,15 @@
         <location ref = "Shara" visitable = "yes" >Shara</location>
         <location ref = "Shishara" visitable = "yes" >Shishara</location>
         <location ref = "Shishi" visitable = "yes" >Shishi</location>
-        <location ref = "Tel Mora" visitable = "yes" >Tel Mora</location>, <location ref = "Tel Mora, Tel Mora Tower Services" visitable = "yes" >Tel Mora Tower Services</location>
-        <location ref = "Tel Uvirith" visitable = "yes" >Tel Uvirith</location>, <location ref = "Tel Uvirith, Seleth's House" visitable = "yes" >Seleth's House</location>
-        <location ref = "Tureynulal" visitable = "yes" >Tureynulal</location>, <location ref = "Tureynulal, Kagrenac's Library" visitable ="yes">Kagrenac's Library</location>
-        <location ref = "Vas" visitable = "yes" >Vas</location>, <location ref = "Vas, Entry Level" visitable = "yes" >Entry Level</location>
-        <location ref = "Vivec City" visitable = "yes" >Vivec City</location>: <location ref = "Vivec City, High Fane" visitable = "yes" >High Fane</location>, <location ref = "" visitable = "yes" >Hlaalu Records</location>, <location ref = "" visitable = "yes" >Justice Offices</location>, <location ref = "" visitable = "yes" >Redoran Records</location>
+        <location ref = "Tel Mora, Tel Mora Tower Services" visitable = "yes" >Tel Mora, Tel Mora Tower Services</location>
+        <location ref = "Tel Uvirith, Seleth's House" visitable = "yes" >Tel Uvirith, Seleth's House</location>
+        <location ref = "Tureynulal, Kagrenac's Library" visitable = "yes" >Tureynulal, Kagrenac's Library</location>
+        <location ref = "Vas, Entry Level" visitable = "yes" >Vas, Entry Level</location>
+        <location ref = "Vivec City, High Fane" visitable = "yes" >Vivec City, High Fane</location>
+        <location ref = "Vivec City, Hlaalu Records" visitable = "yes" >Vivec City, Hlaalu Records</location>
+        <location ref = "Vivec City, Justice Offices" visitable = "yes" >Vivec City, Justice Offices</location>
+        <location ref = "Vivec City, Redoran Records" visitable = "yes" >Vivec City, Redoran Records</location>
+
     </Acquisition>
     
     <contents>

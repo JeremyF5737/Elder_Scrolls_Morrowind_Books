@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="Schema/morrowindBookSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <Book>
     <book_title ref="Legions of the Dead">Legions of the Dead</book_title>
     <writer who="Anonymous" listed="no">Anonymous</writer>
     <Acquisition>
         <location ref="Ghostgate" visitable="yes">Ghostgate</location>, Tower of Dawn Lower Level
-            <location ref="Maelkashishi" visitable="yes">Maelkashishi</location>
+        <location ref="Maelkashishi" visitable="yes">Maelkashishi</location>
         <location ref="Mawia">Mawia</location>
         <location ref="Odirniran" visitable="yes">Odirniran</location>
         <location ref="Tureynulal" visitable="yes">Tureynulal</location>
